@@ -34,19 +34,74 @@
     margin-bottom: 10px;
   }
 
-  .offcanvas-body ul li a {
-    color: #5e5d5d;
-    text-decoration: none;
-    font-family: "Lato", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-weight: bold;
-    transition: color 0.3s ease-in-out;
-  }
 
-  .offcanvas-body ul li a:hover {
-    color: #007bff;
-  }
+
+.offcanvas-body ul li a {
+  position: relative; 
+  color: #5e5d5d;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: bold;
+  padding: 10px;
+  overflow: hidden; 
+}
+
+.offcanvas-body ul li a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: chocolate;
+  z-index: -1;
+  transition: width 0.5s ease-in-out; 
+}
+
+.offcanvas-body ul li a:hover::before {
+  width: 100%;
+}
+
+.offcanvas-body ul li a:hover {
+  color: #fff;
+}
+
+.offcanvas-body ul li.parent:hover .submenu {
+  visibility: visible;
+  opacity: 1;
+}
+
+.submenu {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 100%;
+  padding: 10px;
+  height: 100vh;
+  background-color: #ddd6d6;
+  width: 300px;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+  white-space: nowrap;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.submenu li {
+  margin-top: 5px;
+}
+
+.submenu li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.submenu li a:hover {
+  color: #ccc;
+}
 
   .navbar-brand img {
     max-height: 40px;
