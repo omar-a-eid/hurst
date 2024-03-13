@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
     menu.appendChild(parent);
   });
 
-  var parents = document.querySelectorAll('.parent');
+  var parents = document.querySelectorAll('.parent a');
   parents.forEach(function(parent) {
     parent.addEventListener('mouseover', function() {
       var submenu = this.querySelector('.submenu');
