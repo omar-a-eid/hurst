@@ -89,13 +89,13 @@
       </div>
     </div>
 
-    <div class="container landing">
+    <div class="container landing mb-5">
       <div class="row">
         <div class="col-lg-3 col-md-6 col-sm-12 d-lg-block d-md-flex order-lg-0 order-md-1 order-1 position-relative">
           <div class="image-container position-relative col-md-12 ">
             <img
               src="images/1 (1).webp"
-              class="img-fluid pt-3 w-100 me-md-3 me-sm-3 me-0"
+              class="img-fluid w-100 me-md-3 me-sm-3 me-0"
               alt=""
               srcset="" />
 
@@ -110,7 +110,7 @@
           <div class="image-container ms-lg-0 ms-md-3 ms-0 col-md-12">
             <img
               src="images/2 (1).webp"
-              class="img-fluid pt-3 w-100 me-md-3 me-sm-3 me-0"
+              class="img-fluid mt-3 w-100 me-md-3 me-sm-3 me-0"
               alt=""
               srcset="" />
 
@@ -228,9 +228,16 @@
 
         <div
           class="col-lg-1 d-flex flex-column justify-content-center align-items-center icons">
-          <i class="fa-solid fa-magnifying-glass pt-lg-0 pt-4"></i>
+          <i class="fa-solid fa-magnifying-glass pt-lg-0 pt-4 search-icon" id="search-icon"></i>
           <i class="fa-solid fa-heart pt-4"></i>
           <i class="fa-regular fa-user pt-4"></i>
+        </div>
+        <div class=" search-form d-none" id="search-form">
+          <i class="fa-solid fa-xmark position-absolute top-0 right-0 mt-2 mb-2"></i>
+          <form action="" class="d-flex">
+            <input type="text" class="form-control" placeholder="Search" id="search-input" />
+            <button type="submit" class="btn ms-2"><i class="fa-solid fa-magnifying-glass"></i></button>
+          </form>
         </div>
       </div>
     </div>

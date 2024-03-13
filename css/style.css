@@ -4,8 +4,12 @@ body{
   font-style: normal;
 }
 .offcanvas {
-    transition: transform 0.3s ease-in-out;
-  }
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+}
 
   .offcanvas-start {
     transform: translateX(-100%);
@@ -15,11 +19,7 @@ body{
   }
 
   .navbar-toggler span {
-    transition: transform 0.5s ease-in-out;
-    -webkit-transition: transform 0.5s ease-in-out;
-    -moz-transition: transform 0.5s ease-in-out;
-    -ms-transition: transform 0.5s ease-in-out;
-    -o-transition: transform 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
   .navbar-toggler.collapsed span:first-child {
@@ -124,10 +124,9 @@ body{
     right: 0;
     z-index: 1000;
     background-color: #fff;
-    transition: box-shadow 0.3s ease-in-out;
     box-shadow: none;
     height: 130px;
-  }
+}
 
   .scroll-down {
     height: 80px;
@@ -215,6 +214,7 @@ body{
 
 .image-container {
   position: relative;
+  transition: all 0.5s ease-in-out;
 }
 
 .image-data {
@@ -289,4 +289,47 @@ body{
   position: absolute;
   bottom: 10px;
   right: 10px;;
+}
+
+.image-container:hover{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  transform: translateY(-10px);
+}
+
+
+.search-hover{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+.search-form{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 500px;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  z-index:999;
+}
+i{
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+i:hover{
+color:#c8a165;
 }
