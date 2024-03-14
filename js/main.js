@@ -105,6 +105,8 @@ document.querySelector('.fa-xmark').addEventListener('click', function () {
 async function fetchData() {
   const response = await fetch('../data/data.json');
   const data = await response.json();
+  localStorage.setItem('featuredProduct', JSON.stringify(data.featuredProduct));
+  localStorage.setItem('Product', JSON.stringify(data.products));
   return data;
 }
 
@@ -113,7 +115,7 @@ async function fetchAndDisplayProducts() {
     const fetchedData = await fetchData();
     displayProducts(fetchedData.featuredProduct);
     initializeCarousel();
-    initializeAddToFavButtons();
+    // initializeAddToFavButtons();
   } catch (error) {
     console.error('Error fetching or displaying products:', error);
   }
@@ -132,20 +134,23 @@ function displayProducts(products) {
           <div class="card-body">
             <div class="row">
               <div class="col-md-6">
-                <p class="card-title" style="font-size: 1.5rem;">${product.productName}</p>
-                <p class="card-text" style="font-size: 1rem;">${product.price}</p>
+                <p class="card-title">${product.productName}</p>
+                <p class="card-text" >${product.price}$</p>
               </div>
-              <div class="col-md-4 offset-2">
-                <i class="fa-solid fa-cart-plus ms-3" aria-hidden="true"></i>
-                <i class="fa-solid fa-heart-circle-plus ms-3 addToFav" aria-hidden="true" onclick="addedToFavourite(${product.id})"></i>
-                <div class="d-flex mt-3">
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
-                  <i class="fa-solid fa-star"></i>
+              <div class="col-md-4 mt-lg-0 mt-3>
+                <div class="col-12 mt-lg-0 mt-3>
+                    <i class="fa-solid fa-cart-plus ms-3" aria-hidden="true"></i>
+                    <i class="fa-solid fa-heart-circle-plus ms-3 addToFav" aria-hidden="true" data-id="${product.id}" onclick="addedToFavourite(${product.id})"></i>
+                </div>
+                <div class="col-12 >
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
                 </div>
               </div>
+
             </div>
           </div>
         </div>
@@ -185,14 +190,53 @@ function initializeCarousel() {
   }
 }
 
-function initializeAddToFavButtons() {
-  let favBtns = document.querySelectorAll('.addToFav');
-  favBtns.forEach(function (btn) {
-    btn.addEventListener('click', function (e) {
-      e.classList.toggle('fav-btn-active');
-      // console.log(e);
-    });
-  });
-}
+// function initializeAddToFavButtons() {
+//   let favBtns = document.querySelectorAll('.addToFav');
+//   favBtns.forEach(function (btn) {
+//     btn.addEventListener('click', function (e) {
+//       e.classList.toggle('fav-btn-active');
+//       // console.log(e);
+//     });
+//   });
+// }
 
 document.addEventListener('DOMContentLoaded', fetchAndDisplayProducts);
+
+async function addedToFavourite(id) {
+  try {
+    const data = JSON.parse(localStorage.getItem('featuredProduct')) || JSON.parse(localStorage.getItem('products'));
+
+    let favProduct = data.find(product => product.id === id);
+
+    if (favProduct) {
+      let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+
+      const isFavorite = favorites.some(product => product.id === id);
+
+      if (!isFavorite) {
+        favorites.push(favProduct);
+        localStorage.setItem('favorites', JSON.stringify(favorites));
+        console.log(favProduct);
+
+        const icon = document.querySelector(`.addToFav[data-id="${id}"]`);
+        if (icon) {
+          icon.classList.add('fav-btn-active');
+          icon.style.color = 'red';
+        }
+
+      } else {
+        favorites = favorites.filter(product => product.id !== id);
+        localStorage.setItem('favorites', JSON.stringify(favorites));
+        console.log(favProduct);
+
+        const icon = document.querySelector(`.addToFav[data-id="${id}"]`);
+        if (icon) {
+          icon.classList.remove('fav-btn-active');
+          icon.style.color = 'black';
+        }
+      }
+    }
+  } catch (error) {
+    console.error('Error adding product to favorites:', error);
+  }
+}
