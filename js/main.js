@@ -54,7 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
     menu.appendChild(parent);
   });
 
-  var parents = document.querySelectorAll('.parent a');
+  var parents = document.querySelectorAll('.parent');
   parents.forEach(function(parent) {
     parent.addEventListener('mouseover', function() {
       var submenu = this.querySelector('.submenu');
@@ -97,3 +97,102 @@ document.querySelector('.fa-xmark').addEventListener('click', function () {
   document.getElementById('search-icon').classList.remove('search-hover');
   document.getElementById('search-form').classList.add('d-none');
 });
+
+
+/* -------------------------------------------------------------------------- */
+/*                     fetch Data from json file                              */
+/* -------------------------------------------------------------------------- */
+async function fetchData() {
+  const response = await fetch('../data/data.json');
+  const data = await response.json();
+  return data;
+}
+
+async function fetchAndDisplayProducts() {
+  try {
+    const fetchedData = await fetchData();
+    displayProducts(fetchedData.featuredProduct);
+    initializeCarousel();
+    initializeAddToFavButtons();
+  } catch (error) {
+    console.error('Error fetching or displaying products:', error);
+  }
+}
+
+function displayProducts(products) {
+  let result = '';
+  const featuredProducts = document.getElementById('featuredProducts');
+
+  products.forEach((product, index) => {
+    const activeClass = index === 0 ? 'active' : '';
+    result += `
+      <div class="carousel-item ${activeClass} second-carousel-item">
+        <div class="card">
+          <div class="img-wrapper mt-3"><img src="images/${product.image}" class="w-100" alt=""></div>
+          <div class="card-body">
+            <div class="row">
+              <div class="col-md-6">
+                <p class="card-title" style="font-size: 1.5rem;">${product.productName}</p>
+                <p class="card-text" style="font-size: 1rem;">${product.price}</p>
+              </div>
+              <div class="col-md-4 offset-2">
+                <i class="fa-solid fa-cart-plus ms-3" aria-hidden="true"></i>
+                <i class="fa-solid fa-heart-circle-plus ms-3 addToFav" aria-hidden="true" onclick="addedToFavourite(${product.id})"></i>
+                <div class="d-flex mt-3">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    `;
+  });
+
+  featuredProducts.innerHTML = result;
+}
+
+function initializeCarousel() {
+  let multipleCardCarousel = document.querySelector("#carouselExampleControls2");
+
+  if (window.matchMedia("(min-width: 768px)").matches) {
+    let carouselContainer = document.querySelector(".second-carousel");
+    let cardWidth = document.querySelector(".second-carousel-item").offsetWidth;
+    let visibleCards = Math.floor(carouselContainer.clientWidth / cardWidth);
+    let totalCards = document.querySelectorAll(".second-carousel-item").length;
+    let maxScrollPosition = cardWidth * (totalCards - visibleCards);
+    let scrollPosition = 0;
+
+    document.querySelector("#carouselExampleControls2 .btn-second-carousel-next").addEventListener("click", function () {
+      if (scrollPosition < maxScrollPosition) {
+        scrollPosition += cardWidth;
+        carouselContainer.scroll({ left: scrollPosition, behavior: 'smooth' });
+      }
+    });
+
+    document.querySelector("#carouselExampleControls2 .btn-second-carousel-prev").addEventListener("click", function () {
+      if (scrollPosition > 0) {
+        scrollPosition -= cardWidth;
+        carouselContainer.scroll({ left: scrollPosition, behavior: 'smooth' });
+      }
+    });
+  } else {
+    multipleCardCarousel.classList.add("slide");
+  }
+}
+
+function initializeAddToFavButtons() {
+  let favBtns = document.querySelectorAll('.addToFav');
+  favBtns.forEach(function (btn) {
+    btn.addEventListener('click', function (e) {
+      e.classList.toggle('fav-btn-active');
+      // console.log(e);
+    });
+  });
+}
+
+document.addEventListener('DOMContentLoaded', fetchAndDisplayProducts);

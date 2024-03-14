@@ -5,34 +5,7 @@ body{
 }
 .offcanvas {
     transition: all 0.3s ease-in-out;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
 }
-
-  .offcanvas-start {
-    transform: translateX(-100%);
-    width: 150px;
-    background-color: #fff;
-    padding: 20px;
-  }
-
-  .navbar-toggler span {
-    transition: all 0.5s ease-in-out;
-}
-
-  .navbar-toggler.collapsed span:first-child {
-    transform: rotate(45deg) translate(4px, 4px);
-  }
-
-  .navbar-toggler.collapsed span:nth-child(2) {
-    opacity: 0;
-  }
-
-  .navbar-toggler.collapsed span:last-child {
-    transform: rotate(-45deg) translate(0, -3px);
-  }
 
   .offcanvas-body ul {
     list-style: none;
@@ -43,16 +16,10 @@ body{
     margin-bottom: 10px;
   }
 
-
-
 .offcanvas-body ul li a {
   position: relative; 
   color: #5e5d5d;
   text-decoration: none;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-weight: bold;
   padding: 10px;
   overflow: hidden; 
 }
@@ -75,11 +42,6 @@ body{
 
 .offcanvas-body ul li a:hover {
   color: #fff;
-}
-
-.offcanvas-body ul li.parent:hover .submenu {
-  visibility: visible;
-  opacity: 1;
 }
 
 .submenu {
@@ -171,10 +133,6 @@ body{
   width: 100%;
 }
 
-@media (max-width: 768px) {
-  
-}
-
 .btn{
   border:1px solid  #c8a165;
 }
@@ -185,11 +143,11 @@ body{
 
 @media (max-width: 992px) {
   .carousel-text p{
-    font-size: 16px;
+    font-size: 13px;
   }
 
   .carousel-text p:nth-child(2){
-    font-size: 30px !important;
+    font-size: 20px !important;
   }
   .carousel-text {
     top: 0;
@@ -221,13 +179,9 @@ body{
   position: absolute;
   bottom: 0;
   right: 0;
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 15px;
   transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
 }
 
 
@@ -293,7 +247,6 @@ body{
 
 .image-container:hover{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
   transform: translateY(-10px);
 }
 
@@ -307,10 +260,7 @@ body{
   background-color: rgba(0, 0, 0, 0.5);
   color: #fff;
   transition: all 0.5s ease-in-out;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
+
 }
 
 .search-form{
@@ -326,10 +276,96 @@ body{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   z-index:999;
 }
+
 i{
   cursor: pointer;
   transition: all 0.5s ease-in-out;
 }
+
 i:hover{
 color:#c8a165;
+}
+
+/* Featured Products */
+.second-carousel {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.card {
+  margin: 0 0.5em;
+  box-shadow: 0px 2px 4px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+}
+.btn-second-carousel-prev,
+.btn-second-carousel-next {
+  background-color: #e1e1e1;
+  width: 6vh;
+  height: 20vh;
+  top: 40%;
+  transform: translateY(-50%);
+  color: black;
+  display: block !important;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+@media (min-width: 768px) {
+  .second-carousel-item {
+    margin-right: 0;
+    flex: 0 0 33.333333%;
+    display: block;
+  }
+  .second-carousel {
+    display: flex;
+  }
+}
+.card .img-wrapper {
+    max-width: 100%;
+    height: 13em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card img {
+    max-height: 100%;
+}
+@media (max-width: 767px) {
+  .card .img-wrapper {
+    height: 17em;
+  }
+}
+
+.text-header{
+  font-size: 30px;
+  font-weight: bold;
+  color: #666666;
+
+}
+
+.text-header::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #c8a165;
+  margin: 10px auto;
+}
+
+.card:hover{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transform: translateY(-10px);
+}
+
+
+.fav-btn-active{
+  color: rgb(178, 35, 35);
+}
+
+.icons a{
+  text-decoration: none;
+  color: #000000;
+
 }
