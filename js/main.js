@@ -121,12 +121,21 @@ async function fetchAndDisplayProducts() {
   }
 }
 
+function getFavorites() {
+  const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
+  return favorites;
+}
+
 function displayProducts(products) {
   let result = '';
   const featuredProducts = document.getElementById('featuredProducts');
 
   products.forEach((product, index) => {
     const activeClass = index === 0 ? 'active' : '';
+
+    const isFavorite = getFavorites().some(favorite => favorite.id === product.id);
+    const favIconClass = isFavorite ? 'fav-btn-active' : '';
+
     result += `
       <div class="carousel-item ${activeClass} second-carousel-item">
         <div class="card">
@@ -137,20 +146,19 @@ function displayProducts(products) {
                 <p class="card-title">${product.productName}</p>
                 <p class="card-text" >${product.price}$</p>
               </div>
-              <div class="col-md-4 mt-lg-0 mt-3>
-                <div class="col-12 mt-lg-0 mt-3>
+              <div class="col-md-4 mt-lg-0 mt-3">
+                <div class="col-12 mt-lg-0 mt-3">
                     <i class="fa-solid fa-cart-plus ms-3" aria-hidden="true"></i>
-                    <i class="fa-solid fa-heart-circle-plus ms-3 addToFav" aria-hidden="true" data-id="${product.id}" onclick="addedToFavourite(${product.id})"></i>
+                    <i class="fa-solid fa-heart-circle-plus ms-3 addToFav ${favIconClass}" aria-hidden="true" data-id="${product.id}" onclick="addedToFavourite(${product.id})"></i>
                 </div>
-                <div class="col-12 >
-                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-                <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                <div class="col-12">
+                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
+                  <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
                 </div>
               </div>
-
             </div>
           </div>
         </div>
@@ -221,7 +229,6 @@ async function addedToFavourite(id) {
         const icon = document.querySelector(`.addToFav[data-id="${id}"]`);
         if (icon) {
           icon.classList.add('fav-btn-active');
-          icon.style.color = 'red';
         }
 
       } else {
@@ -232,7 +239,6 @@ async function addedToFavourite(id) {
         const icon = document.querySelector(`.addToFav[data-id="${id}"]`);
         if (icon) {
           icon.classList.remove('fav-btn-active');
-          icon.style.color = 'black';
         }
       }
     }
