@@ -13,6 +13,13 @@ document.addEventListener('click', function(e) {
         const id = e.target.dataset.id;
         addedToFavourite(id);
     }
+
+    if (e.target.id === 'search-icon') {
+        const searchIcon = document.getElementById('search-icon');
+        if (searchIcon) {
+            initSearch(searchIcon);
+        }
+    }
 });
 
 document.addEventListener('DOMContentLoaded', function() {
