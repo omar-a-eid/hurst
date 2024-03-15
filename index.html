@@ -35,6 +35,7 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@300&family=Orbitron&display=swap"
       rel="stylesheet" />
+
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary">
@@ -283,29 +284,66 @@
         </button>
       </div>
 
-      <div class="discount m-auto">
-
-        <div class="row">
-          <div class="col-lg-6 col-md-12 col-sm-12">
-            <img
-              src="images/4.webp"
-              class="img-fluid w-100"
-              alt=""
-              srcset="" />
-          </div>
-          <div class="col-lg-6 col-md-12 col-sm-12">
-            <div class="discount-text">
-              <h1 class="text-center mt-3">Discount 50%</h1>
-              <p class="lead">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed does eiusmodes tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venim, quis nostrud exercitation ullamco laboris.
-              </p>
-              <button class="btn mt-5">Shop Now</button>
+        <!-- Discount section -->
+        <div class="carousel discount mt-5">
+          <ul class="slides">
+            <input type="radio" name="radio-buttons" id="img-1" checked />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img src="images/discount.webp" alt="...">
+                  <div class="discount-text">
+                    <h1 class="text-start mt-3 mb-3">Discount 50%</h1>
+                    <p class="lead">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed does eiusmodes tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venim, quis nostrud exercitation ullamco laboris.
+                    </p>
+                    <button class="btn mt-5">Shop Now</button>
+                  </div>
+                  <div class="onsale">
+                    <span class="onsale-text">On Sale</span>
+                  </div>
+              </div>
+              
+            </li>
+            <input type="radio" name="radio-buttons" id="img-2" />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img src="images/discount2.webp" alt="..">
+                <div class="discount-text">
+                  <h1 class="text-start mt-3 mb-3">Discount 50%</h1>
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed does eiusmodes tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venim, quis nostrud exercitation ullamco laboris.
+                  </p>
+                  <button class="btn mt-5">Shop Now</button>
+                </div>
+                <div class="onsale">
+                  <span class="onsale-text">On Sale</span>
+                </div>
+              </div>
+            
+            </li>
+            <input type="radio" name="radio-buttons" id="img-3" />
+            <li class="slide-container">
+              <div class="slide-image">
+                <img src="images/discount.webp" alt="...">
+                <div class="discount-text">
+                  <h1 class="text-start mt-3 mb-3">Discount 50%</h1>
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed does eiusmodes tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim venim, quis nostrud exercitation ullamco laboris.
+                  </p>
+                  <button class="btn mt-5">Shop Now</button>
+                </div>
+                <div class="onsale">
+                    <span class="onsale-text">On Sale</span>
+                  </div>
+              </div>
+            </li>
+            <div class="carousel-dots">
+              <label for="img-1" class="carousel-dot" id="img-dot-1"></label>
+              <label for="img-2" class="carousel-dot" id="img-dot-2"></label>
+              <label for="img-3" class="carousel-dot" id="img-dot-3"></label>
             </div>
-          </div>
+          </ul>
         </div>
-
-      </div>
-
     </div>
 
     <script
