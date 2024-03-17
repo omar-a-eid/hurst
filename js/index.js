@@ -1,12 +1,10 @@
-import { initNavbarAnimation } from './navbarAnimation.js';
+import { initNavbarAnimation,displayNav } from './navbar.js';
 import { initMenu } from './menu.js';
 import { initSearch } from './search.js';
 import { fetchAndDisplayProducts } from './fetchData.js';
 import { displayFav, addedToFavourite } from './favorites.js';
 
-initNavbarAnimation();
-initMenu();
-fetchAndDisplayProducts();
+
 
 document.addEventListener('click', function(e) {
     if (e.target.classList.contains('addToFav')) {
@@ -23,6 +21,10 @@ document.addEventListener('click', function(e) {
 });
 
 document.addEventListener('DOMContentLoaded', function() {
+    displayNav();
+    initNavbarAnimation();
+    initMenu();
+    fetchAndDisplayProducts();
     const favItems = document.getElementById('favItems');
     if (favItems) {
         displayFav();
@@ -32,4 +34,5 @@ document.addEventListener('DOMContentLoaded', function() {
     if (searchInput) {
         initSearch(searchInput);
     }
+
 });
