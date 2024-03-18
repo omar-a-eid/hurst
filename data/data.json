@@ -563,25 +563,25 @@
   ],
   "featuredProduct": [
     {
-      "id": 1,
+      "id": 11,
       "image": "1.webp",
       "price": 18.99,
       "productName": "Featured Product"
     },
     {
-      "id": 2,
+      "id": 12,
       "image": "2.webp",
       "price": 39.99,
       "productName": "Featured Product"
     },
     {
-      "id": 3,
+      "id": 13,
       "image": "1.webp",
       "price": 59.99,
       "productName": "Featured Product"
     },
     {
-      "id": 4,
+      "id": 14,
       "image": "2.webp",
       "price": 519.99,
       "productName": "Featured Product"

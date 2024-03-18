@@ -5,7 +5,7 @@ export async function addedToFavourite(prodId) {
       const id = parseInt(prodId);
 
       const data = await fetchData();
-      const featuredProducts = data.featuredProducts;
+      const featuredProducts = data.featuredProduct;
       const fetchedProducts =  data.products;
 
       let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
@@ -15,7 +15,7 @@ export async function addedToFavourite(prodId) {
           favorites = favorites.filter((product) => product.id !== id);
       } else {
           const favProductForData = featuredProducts.find((product) => product.id === id);
-          const favProductForFetchedData = fetchedProducts.products.find((product) => product.id === id);
+          const favProductForFetchedData = fetchedProducts.find((product) => product.id === id);
           if (favProductForData) {
               favorites.push(favProductForData);
           } else if (favProductForFetchedData) {
