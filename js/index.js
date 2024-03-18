@@ -12,13 +12,15 @@ document.addEventListener('click', function(e) {
         addedToFavourite(id);
     }
 
-    if (e.target.id === 'search-icon') {
-        const searchIcon = document.getElementById('search-icon');
-        if (searchIcon) {
-            initSearch(searchIcon);
-        }
-    }
 });
+
+const searchInput = document.getElementById('search-input');
+if (searchInput) {
+    searchInput.addEventListener('keyup', function() {
+        initSearch(searchInput.value);
+        
+    });
+}
 
 document.addEventListener('DOMContentLoaded', function() {
     displayNav();

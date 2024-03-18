@@ -3,7 +3,6 @@ import { displayProducts, initializeCarousel } from "./carousel.js";
 export async function fetchData() {
   const response = await fetch("../data/data.json");
   const data = await response.json();
-  localStorage.setItem("featuredProduct", JSON.stringify(data.featuredProduct));
   return data;
 }
 

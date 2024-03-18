@@ -1,40 +1,43 @@
+import { fetchData } from "../js/fetchData.js";
+
 export async function addedToFavourite(prodId) {
-  let id =parseInt(prodId);
   try {
-    const data = JSON.parse(localStorage.getItem('featuredProduct'));
+      const id = parseInt(prodId);
 
-   
-    let favProduct = data.find((product) => product.id === id);
+      const data = await fetchData();
+      const featuredProducts = data.featuredProducts;
+      const fetchedProducts =  data.products;
 
-    if (favProduct) {
       let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
-
       const isFavorite = favorites.some((product) => product.id === id);
 
-      if (!isFavorite) {
-        favorites.push(favProduct);
-        localStorage.setItem('favorites', JSON.stringify(favorites));
-        console.log(favProduct);
-
-        const icon = document.querySelector(`.addToFav[data-id="${id}"]`);
-        if (icon) {
-          icon.classList.add('fav-btn-active');
-        }
+      if (isFavorite) {
+          favorites = favorites.filter((product) => product.id !== id);
       } else {
-        favorites = favorites.filter((product) => product.id !== id);
-        localStorage.setItem('favorites', JSON.stringify(favorites));
-        console.log(favProduct);
-
-        const icon = document.querySelector(`.addToFav[data-id="${id}"]`);
-        if (icon) {
-          icon.classList.remove('fav-btn-active');
-        }
+          const favProductForData = featuredProducts.find((product) => product.id === id);
+          const favProductForFetchedData = fetchedProducts.products.find((product) => product.id === id);
+          if (favProductForData) {
+              favorites.push(favProductForData);
+          } else if (favProductForFetchedData) {
+              favorites.push(favProductForFetchedData);
+          } else {
+              console.log('Product not found');
+              return;
+          }
       }
-    } else {
-      console.log('Product not found');
-    }
+
+      localStorage.setItem('favorites', JSON.stringify(favorites));
+
+      const icon = document.querySelector(`.addToFav[data-id="${id}"]`);
+      if (icon) {
+          if (isFavorite) {
+              icon.classList.remove('fav-btn-active');
+          } else {
+              icon.classList.add('fav-btn-active');
+          }
+      }
   } catch (error) {
-    console.error('Error adding product to favorites:', error);
+      console.error(error);
   }
 }
 

@@ -1,4 +1,4 @@
-import {getFavorites,addedToFavourite} from './favorites.js';
+import {getFavorites} from './favorites.js';
 
 
 export function displayProducts(products) {

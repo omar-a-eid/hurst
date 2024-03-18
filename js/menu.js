@@ -1,5 +1,5 @@
 export function initMenu() {
-  document.addEventListener('DOMContentLoaded', function () {
+  
     var menu = document.getElementById('menu');
     var submenuItems = {
       Home: ['Home 1', 'Home 2', 'Home 3'],
@@ -54,5 +54,5 @@ export function initMenu() {
         }
       });
     });
-  });
+
 }

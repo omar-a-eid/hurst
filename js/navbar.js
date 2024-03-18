@@ -36,9 +36,27 @@ export function displayNav(){
     </div>
   </div>
 </div>
-`;
+`
+    let offcanvas = document.getElementById('offcanvasExample');
+    let offcanvasHtml=` 
+    <div class="offcanvas-header">
+    <button
+      type="button"
+      class="btn-close"
+      data-bs-dismiss="offcanvas"
+      aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <ul id="menu">
+    
+    </ul>
+  </div>
+  `
+  ;
 
   nav.innerHTML = result;
+  offcanvas.innerHTML =offcanvasHtml;
+
 
 }
 

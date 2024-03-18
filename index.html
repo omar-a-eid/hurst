@@ -39,7 +39,7 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary" id="navbar">
-     
+
     </nav>
 
     <!-- Offcanvas -->
@@ -48,16 +48,7 @@
       tabindex="-1"
       id="offcanvasExample"
       aria-labelledby="offcanvasExampleLabel">
-      <div class="offcanvas-header">
-        <button
-          type="button"
-          class="btn-close"
-          data-bs-dismiss="offcanvas"
-          aria-label="Close"></button>
-      </div>
-      <div class="offcanvas-body">
-        <ul id="menu"></ul>
-      </div>
+
     </div>
 
     <div class="container landing mb-5">
@@ -198,31 +189,36 @@
         </div>
 
         <div class="col-lg-1 d-flex flex-column justify-content-center align-items-center icons">
+          
+          <!-- Button trigger modal -->
           <i
             class="fa-solid fa-magnifying-glass pt-lg-0 pt-4 search-icon"
-            id="search-icon"></i>
+            id="search-icon" data-bs-toggle="modal" data-bs-target="#exampleModal"></i>
+
+        <!-- Modal -->
+          <div class="modal fade w-100" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-body">
+                  <div>
+                  
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Search"
+                        id="search-input" />
+
+                    <div id="searchResult">
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <a href="./Pages/favourites.html"><i class="fa-solid fa-heart pt-4"></i> </a>
           <i class="fa-regular fa-user pt-4"></i>
-        </div>
-        <div
-          class="search-form d-none"
-          id="search-form">
-          <i
-            class="fa-solid fa-xmark position-absolute top-0 right-0 mt-2 mb-2"></i>
-          <form
-            action=""
-            class="d-flex">
-            <input
-              type="text"
-              class="form-control"
-              placeholder="Search"
-              id="search-input" />
-            <button
-              type="submit"
-              class="btn ms-2">
-              <i class="fa-solid fa-magnifying-glass"></i>
-            </button>
-          </form>
         </div>
       </div>
 
