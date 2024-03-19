@@ -1,0 +1,1832 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "category": "table",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "category": "table",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "category": "table",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "category": "table",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "category": "table",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "category": "table",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "category": "holder",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "category": "holder",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "category": "holder",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    }
+  ],
+  "furniture": [
+    {
+      "id": 1,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "category": "chair",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "category": "table",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "category": "table",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "category": "table",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "category": "table",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "category": "table",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "category": "table",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "category": "holder",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "category": "holder",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "category": "holder",
+      "productName": "Dummy Product Name",
+      "price": 56.2,
+      "rating": 4.5,
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "colors": [
+        "#ffa07a",
+        "#e9967a",
+        "#c38b4b",
+        "#fe5858",
+        "#00b2ee"
+      ],
+      "sizes": [
+        "m",
+        "s",
+        "l",
+        "sl",
+        "xl"
+      ],
+      "amount": 10,
+      "image": "1.webp",
+      "images": [
+        "1.webp",
+        "2.webp",
+        "3.webp",
+        "4.webp"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "reviews": [
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Gerald Barnes",
+          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    }
+  ],
+  "featuredProduct": [
+    {
+      "id": 1,
+      "image": "1.webp",
+      "price": 18.99,
+      "productName": "Featured Product"
+    },
+    {
+      "id": 2,
+      "image": "2.webp",
+      "price": 39.99,
+      "productName": "Featured Product"
+    },
+    {
+      "id": 3,
+      "image": "1.webp",
+      "price": 59.99,
+      "productName": "Featured Product"
+    },
+    {
+      "id": 4,
+      "image": "2.webp",
+      "price": 519.99,
+      "productName": "Featured Product"
+    }
+  ]
+}
