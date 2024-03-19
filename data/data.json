@@ -4,7 +4,7 @@
       "id": 1,
       "category": "chair",
       "productName": "Dummy Product Name",
-      "price": 56.2,
+      "price": 55.2,
       "rating": 4.5,
       "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
       "colors": ["#ffa07a", "#e9967a", "#c38b4b", "#fe5858", "#00b2ee"],
