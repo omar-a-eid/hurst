@@ -160,232 +160,257 @@
       top: 0;
       left: 0;
     }
+
+    .background-card-color {
+      background-color: #FFFFFF;
+    }
+    .card{
+      border-radius: 0px;
+    }
+
+    body {
+      background-color: #F6F6F6;
+    }
+
+    .bg-color {
+      background-color: white;
+    }
   </style>
 </head>
 
 <body>
   <div class="container" id="shop"> <!-- whole container  -->
     <div class="row"> <!-- row 1 : navbar  -->
-      <div class="col-12">
+      <div class="col-12 bg-color mt-4 p-2">
         <nav class="nav">
-          <li class="nav-item col-1">
-            <div class="dropdown">
-              <button class="black nav-link dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Categories
-              </button>
-              <ul class="dropdown-menu d-block" aria-labelledby="dropdownMenuButton">
-                <li>
-                  <div class="accordion" id="accordionExample">
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Chair
-                        </button>
-                      </h2>
-                      <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body d-inline-grid">
-                          <a href="?products&chair">T-shirt</a>
-                          <a href="?products&table">Strip Shirt</a>
-                          <a href="#">Half Shirts</a>
-                          <a href="#">Formal Shirts</a>
-                          <a href="#">Bilazers</a>
+          <li class="nav-item">
+            <div class="col-3 d-sm-block col-md-3 col-lg-2">
+              <div class="dropdown">
+                <button class="black nav-link dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Categories
+                </button>
+                <ul class="dropdown-menu d-block" aria-labelledby="dropdownMenuButton">
+                  <li>
+                    <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            Chair
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show"
+                          data-bs-parent="#accordionExample">
+                          <div class="accordion-body d-inline-grid">
+                            <a href="?products&chair">T-shirt</a>
+                            <a href="?products&table">Strip Shirt</a>
+                            <a href="#">Half Shirts</a>
+                            <a href="#">Formal Shirts</a>
+                            <a href="#">Bilazers</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Furniture
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body d-inline-grid">
+                            <a href="?furniture&chair">Men Bag</a>
+                            <a href="?furniture&table">shoes</a>
+                            <a href="#">Watch</a>
+                            <a href="#">T-Shirt</a>
+                            <a href="#">Shirts</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Accessories
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body d-inline-grid">
+                            <a href="#">T-shirt</a>
+                            <a href="#">Strip Shirt</a>
+                            <a href="#">Half Shirts</a>
+                            <a href="#">Formal Shirts</a>
+                            <a href="#">Bilazers</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Top-Brand
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body d-inline-grid">
+                            <a href="#">T-shirt</a>
+                            <a href="#">Strip Shirt</a>
+                            <a href="#">Half Shirts</a>
+                            <a href="#">Formal Shirts</a>
+                            <a href="#">Bilazers</a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            Jewelry
+                          </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                          <div class="accordion-body d-inline-grid">
+                            <a href="#">T-shirt</a>
+                            <a href="#">Strip Shirt</a>
+                            <a href="#">Half Shirts</a>
+                            <a href="#">Formal Shirts</a>
+                            <a href="#">Bilazers</a>
+                          </div>
                         </div>
                       </div>
                     </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                          Furniture
-                        </button>
-                      </h2>
-                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body d-inline-grid">
-                          <a href="?furniture&chair">Men Bag</a>
-                          <a href="?furniture&table">shoes</a>
-                          <a href="#">Watch</a>
-                          <a href="#">T-Shirt</a>
-                          <a href="#">Shirts</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                          Accessories
-                        </button>
-                      </h2>
-                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body d-inline-grid">
-                          <a href="#">T-shirt</a>
-                          <a href="#">Strip Shirt</a>
-                          <a href="#">Half Shirts</a>
-                          <a href="#">Formal Shirts</a>
-                          <a href="#">Bilazers</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                          data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                          Top-Brand
-                        </button>
-                      </h2>
-                      <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body d-inline-grid">
-                          <a href="#">T-shirt</a>
-                          <a href="#">Strip Shirt</a>
-                          <a href="#">Half Shirts</a>
-                          <a href="#">Formal Shirts</a>
-                          <a href="#">Bilazers</a>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="accordion-item">
-                      <h2 class="accordion-header">
-                        <button class="accordion-button collapsed " type="button" data-bs-toggle="collapse"
-                          data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                          Jewelry
-                        </button>
-                      </h2>
-                      <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body d-inline-grid">
-                          <a href="#">T-shirt</a>
-                          <a href="#">Strip Shirt</a>
-                          <a href="#">Half Shirts</a>
-                          <a href="#">Formal Shirts</a>
-                          <a href="#">Bilazers</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </li>
-              </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
           </li>
-          <li class="nav-item col-1 ms-4">
-            <div class="dropdown">
-              <button class="black nav-link dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Price
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li>
-                  <div class="container">
-                    <h3>Price</h3>
-                    <div class="line"></div>
-                    <form>
-                      <div class="mb-3">
-                        <label for="priceRange" class="form-label">You Range:</label>
-                        <output id="priceOutput">$50 - $2000</output>
-                      </div>
-                      <div class="mb-3">
-                        <input type="range" class="form-range" min="0" max="1950" value="0" step="1" id="priceRange">
-                      </div>
-                    </form>
-                  </div>
-                </li>
-              </ul>
+          <li class="nav-item ms-4">
+            <div class="d-block col-sm-3 col-md-3 col-lg-2">
+              <div class="dropdown">
+                <button class="black nav-link dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Price
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li>
+                    <div class="container">
+                      <h3>Price</h3>
+                      <div class="line"></div>
+                      <form>
+                        <div class="mb-3">
+                          <label for="priceRange" class="form-label">You Range:</label>
+                          <output id="priceOutput">$50 - $2000</output>
+                        </div>
+                        <div class="mb-3">
+                          <input type="range" class="form-range" min="0" max="1950" value="0" step="1" id="priceRange">
+                        </div>
+                      </form>
+                    </div>
+                  </li>
+                </ul>
+              </div>
             </div>
           </li>
-          <li class="nav-item col-1">
-            <div class="dropdown">
-              <button class="black nav-link dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Color
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li class="d-flex justify-content-between">
-                  <div>
-                    <div class="color-box" style="background-color: lightsalmon;"></div>
-                  </div>
-                  <div>lightsalmon</div>
-                  <div>12</div>
-                </li>
-                <li class="d-flex justify-content-between">
-                  <div>
-                    <div class="color-box" style="background-color: darksalmon;"></div>
-                  </div>
-                  <div>darksalmon</div>
-                  <div>20</div>
-                </li>
-                <li class="d-flex justify-content-between">
-                  <div>
-                    <div class="color-box" style="background-color: tomato;"></div>
-                  </div>
-                  <div>tomato</div>
-                  <div>59</div>
-                </li>
-                <li class="d-flex justify-content-between">
-                  <div>
-                    <div class="color-box" style="background-color: deepskyblue;"></div>
-                  </div>
-                  <div>deepskyblue</div>
-                  <div>45</div>
-                </li>
-                <li class="d-flex justify-content-between">
-                  <div>
-                    <div class="color-box" style="background-color: purple;"></div>
-                  </div>
-                  <div>purple</div>
-                  <div>78</div>
-                </li>
-                <li class="d-flex justify-content-between">
-                  <div>
-                    <div class="color-box" style="background-color: antiquewhite;"></div>
-                  </div>
-                  <div>antiquewhite</div>
-                  <div>10</div>
-                </li>
-                <li class="d-flex justify-content-between">
-                  <div>
-                    <div class="color-box" style="background-color: orange;"></div>
-                  </div>
-                  <div>Orange</div>
-                  <div>5</div>
-                </li>
-              </ul>
+          <li class="nav-item">
+            <div class="d-block col-sm-3 col-md-3 col-lg-2">
+              <div class="dropdown">
+                <button class="black nav-link dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Color
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li class="d-flex justify-content-between">
+                    <div>
+                      <div class="color-box" style="background-color: lightsalmon;"></div>
+                    </div>
+                    <div>lightsalmon</div>
+                    <div>12</div>
+                  </li>
+                  <li class="d-flex justify-content-between">
+                    <div>
+                      <div class="color-box" style="background-color: darksalmon;"></div>
+                    </div>
+                    <div>darksalmon</div>
+                    <div>20</div>
+                  </li>
+                  <li class="d-flex justify-content-between">
+                    <div>
+                      <div class="color-box" style="background-color: tomato;"></div>
+                    </div>
+                    <div>tomato</div>
+                    <div>59</div>
+                  </li>
+                  <li class="d-flex justify-content-between">
+                    <div>
+                      <div class="color-box" style="background-color: deepskyblue;"></div>
+                    </div>
+                    <div>deepskyblue</div>
+                    <div>45</div>
+                  </li>
+                  <li class="d-flex justify-content-between">
+                    <div>
+                      <div class="color-box" style="background-color: purple;"></div>
+                    </div>
+                    <div>purple</div>
+                    <div>78</div>
+                  </li>
+                  <li class="d-flex justify-content-between">
+                    <div>
+                      <div class="color-box" style="background-color: antiquewhite;"></div>
+                    </div>
+                    <div>antiquewhite</div>
+                    <div>10</div>
+                  </li>
+                  <li class="d-flex justify-content-between">
+                    <div>
+                      <div class="color-box" style="background-color: orange;"></div>
+                    </div>
+                    <div>Orange</div>
+                    <div>5</div>
+                  </li>
+                </ul>
+              </div>
             </div>
           </li>
-          <li class="nav-item col-1">
-            <div class="dropdown">
-              <button class="black  nav-link dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown"
-                aria-expanded="false">
-                Sizes
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                <li>
-                  <div class="container">
-                    <h1 class="size-heading">Sizes</h1>
-                    <div class="line"></div>
-                    <div class="d-flex">
-                      <div>
-                        <div class="size-box size-clickable w-" data-size="S">S</div>
-                      </div>
-                      <div>
-                        <div class="size-box size-clickable" data-size="M">M</div>
-                      </div>
-                      <div>
-                        <div class="size-box size-clickable" data-size="L">L</div>
-                      </div>
-                      <div>
-                        <div class="size-box size-clickable" data-size="SL">SL</div>
-                      </div>
-                      <div>
-                        <div class="size-box size-clickable" data-size="XL">XL</div>
+          <li class="nav-item ">
+            <div class="d-block col-sm-3 col-md-3 col-lg-2">
+              <div class="dropdown">
+                <button class="black nav-link dropdown-toggle" id="dropdownMenuButton" data-bs-toggle="dropdown"
+                  aria-expanded="false">
+                  Sizes
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <li>
+                    <div class="container">
+                      <h1 class="size-heading">Sizes</h1>
+                      <div class="line"></div>
+                      <div class="d-flex">
+                        <div>
+                          <div class="size-box size-clickable w-" data-size="S">S</div>
+                        </div>
+                        <div>
+                          <div class="size-box size-clickable" data-size="M">M</div>
+                        </div>
+                        <div>
+                          <div class="size-box size-clickable" data-size="L">L</div>
+                        </div>
+                        <div>
+                          <div class="size-box size-clickable" data-size="SL">SL</div>
+                        </div>
+                        <div>
+                          <div class="size-box size-clickable" data-size="XL">XL</div>
+                        </div>
                       </div>
                     </div>
-                  </div>
-                </li>
-              </ul>
+                  </li>
+                </ul>
+              </div>
             </div>
           </li>
-          <li class="nav ms-auto">
-            <a class="black  nav-link col-"> Showing 01-09 of 17 Results </a>
+          <li class="nav ms-auto ">
+            <a class="col-12 d-none d-sm-none d-md-none d-lg-block black  nav-link col-"> Showing 01-09 of 17 Results
+            </a>
           </li>
         </nav>
       </div>
@@ -396,7 +421,7 @@
     </div>
 
 
-    <div class="container mt-5">
+    <div class="d-flex col-12 justify-content-center justify mt-5 mb-1 bg-color p-1">
       <div class="pagination-arrows">
         <a href="#"><i class="fa-solid fa-arrow-left"></i></a>
         <ul class="page-numbers">
@@ -464,7 +489,7 @@
     let cards = document.getElementById("cards");
     function getData(category, type) {
       cards.innerHTML = "";
-      fetch("data.json").then((res) => {
+      fetch("../data/data.json").then((res) => {
         // to 
         if (!res.ok) {
           throw new Error("File can't load");
@@ -495,42 +520,42 @@
             div = document.getElementById(random);
           }
           let str = `
-          <div class="card col-2">
-          <a  href="/Productdetails.html?id=${obj.id}"><img src="${obj.image}" class="card-img-top w-100" alt="table"></a><!-- product image -->
-          <div class="card-body text-center">
-            <h5 class="card-title">${obj.productName}</h5><!-- product name -->
-            <ul class="nav justify-content-center"><!-- Stars -->
-              <li class="nav-item">
-                <a class="star star1 fa-solid fa-star" href="#"></a>
+          <div class="d-flex card col-12  col-lg-2 col-xl-2 col-xxl-2 bg-color p-3">
+          <a  href="productdetails.html?id=${obj.id}"><img  src="../images/${obj.image}" class="card-img-top w-100" alt="table"></a><!-- product image -->
+          <div class="col-12 card-body text-center">
+            <h5 class="d-flex col-12 card-title justify-content-center">${obj.productName}</h5><!-- product name -->
+            <ul class="d-flex col-12 nav justify-content-center "><!-- Stars -->
+              <li class=" nav-item">
+                <a class=" star star1 fa-solid fa-star" href="#"></a>
               </li>
-              <li class="nav-item">
-                <a class="star star1 fa-solid fa-star" href="#"></a>
+              <li class=" nav-item">
+                <a class=" star star1 fa-solid fa-star justify-conten" href="#"></a>
               </li>
-              <li class="nav-item">
-                <a class="star star1 fa-solid fa-star" href="#"></a>
+              <li class=" nav-item">
+                <a class=" star star1 fa-solid fa-star" href="#"></a>
               </li>
-              <li class="nav-item">
-                <a class="star star1 fa-solid fa-star-half-stroke" href="#"></a>
+              <li class=" nav-item">
+                <a class=" star star1 fa-solid fa-star-half-stroke" href="#"></a>
               </li>
-              <li class="nav-item">
-                <a class="star star1 fa-regular fa-star" href="#"></a>
+              <li class=" nav-item">
+                <a class=" star star1 fa-regular fa-star" href="#"></a>
               </li>
             </ul>
-            <ul class=" kmz nav justify-content-between mt-3"> <!-- Favourite , Search , refresh , cart -->
+            <ul class="col-12 col-xs-2 col-sm-12 kmz nav justify-content-between mt-3 px-2"> <!-- Favourite , Search , refresh , cart -->
               <li class="nav-item">
-                <a class="nav-link link star black fa-regular fa-heart" href="#"></a>
+                <a class="nav-link link star black fa-regular fa-heart " href="#"></a>
               </li>
               <div class="counter-line"></div>
               <li class="nav-item">
-                <a class="nav-link link star black fa-solid fa-magnifying-glass-plus" href="#"></a>
+                <a class="nav-link link star black fa-solid fa-magnifying-glass-plus " href="#"></a>
               </li>
               <div class="counter-line"></div>
               <li class="nav-item">
-                <a class="nav-link link star black fa-solid fa-rotate" href="#"></a>
+                <a class="nav-link link star black fa-solid fa-rotate " href="#"></a>
               </li>
               <div class="counter-line"></div>
               <li class="nav-item">
-                <a class="nav-link link star black fa-solid fa-cart-arrow-down" href="#"></a>
+                <a class="nav-link link star black fa-solid fa-cart-arrow-down " href="#"></a>
               </li>
             </ul>
           </div>
