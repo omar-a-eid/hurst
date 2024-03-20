@@ -32,7 +32,7 @@ export function displaySearchResult(searchResult) {
   
         return searchResultContainer.innerHTML +=
         `
-        <div class="card">
+        <div class="card card-home">
           <div class="img-wrapper mt-3"><img src="images/${res.image}" class="w-100" alt=""></div>
           <div class="card-body">
               <div class="row">

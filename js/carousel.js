@@ -17,7 +17,7 @@ export function displayProducts(products) {
   
       result += `
       <div class="carousel-item ${activeClass} second-carousel-item">
-      <div class="card">
+      <div class="card card-home">
           <div class="img-wrapper mt-3"><img src="images/${product.image}" class="w-100" alt=""></div>
           <div class="card-body">
               <div class="row">

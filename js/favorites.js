@@ -32,6 +32,7 @@ export async function addedToFavourite(prodId) {
       if (icon) {
           if (isFavorite) {
               icon.classList.remove('fav-btn-active');
+              displayFav();
           } else {
               icon.classList.add('fav-btn-active');
           }
@@ -61,7 +62,7 @@ export function displayFav() {
 
     result += `
             <div class="col-lg-4 col-md-6 mb-4">
-                <div class="card h-100">
+                <div class="card card-home h-100">
                     <img src="../images/${product.image}" class="card-img-top" alt="...">
                     <div class="card-body">
                         <h5 class="card-title">${product.productName}</h5>
