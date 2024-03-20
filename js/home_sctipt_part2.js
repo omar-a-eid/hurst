@@ -24,7 +24,7 @@ Links.forEach(link => {
 async function fetchData() 
 {
     try {
-        let response = await fetch('data.json');
+        let response = await fetch('data/data.json');
         // console.log(response);
         let data = await response.json();
         // console.log(data);
@@ -73,13 +73,13 @@ function displayProducts(products) {
         <div class="col-3 mb-3 card-parent">
             <div class="h-100 card-content p-2">
                 <div class="card border-0 w-100 h-100">
-                    <img src="./new_imgs/${product.image}" alt="${product.productName}">
+                    <img src="./images/${product.image}" alt="${product.productName}">
                     <div class="product-action bg-light w-75 d-flex justify-content-around">
                         <a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Wishlist">
                             <h4 class="bi bi-heart product-icons"></h4>
                         </a>
                         <span class="glyphicon glyphicon-option-vertical"></span>
-                        <a type="button" data-bs-toggle="modal" data-bs-target="#exampleModal" data-product='${JSON.stringify(product)}' title="Quick View">
+                        <a type="button" data-bs-toggle="modal" data-bs-target="#detailsModal" data-product='${JSON.stringify(product)}' title="Quick View">
                             <h4 class="bi bi-search product-icons "></h4>
                         </a>
 
