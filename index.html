@@ -36,6 +36,17 @@
       href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:wght@300&family=Orbitron&display=swap"
       rel="stylesheet" />
 
+
+      <!----------------------------------------------------- Gharabawy ----------------------------------------------------->
+
+      <!----------------------- cdd ---------------------------->
+      <link rel="stylesheet" href="css/home_page_part2_style.css">
+
+      <!------------------- icons and modal -------------------->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+      <script src="css/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-body-tertiary" id="navbar">
@@ -310,6 +321,148 @@
           </ul>
         </div>
     </div>
+
+    <!--------------------------------------------------- Gharabawy's paart ------------------------------------------------------>
+
+    <div class="container mt-5">
+      <div class="row text-center">            
+          <div class="col-12 d-flex flex-column align-items-center">
+              <h1><b>Purchase Online on Hurst</b></h1>
+
+              <hr class="new4">
+              <ul class="tab-menu nav w-100 d-flex justify-content-center" role="tablist">
+                  <li>
+                      <a class="active m-4" href="#new-arrivals" data-bs-toggle="tab" aria-selected="true" role="tab">
+                          New Arrivals
+                          <hr class="new5">
+                      </a>
+                  </li>
+
+                  <li>
+                      <a class="m-4" href="#best-seller" data-bs-toggle="tab" aria-selected="true" role="tab">Best Seller</a>
+                  </li>
+
+                  <li>
+                      <a class="m-4" href="#most-view" data-bs-toggle="tab" aria-selected="true" role="tab">Most View </a>
+                  </li>
+
+                  <li>
+                      <a class="m-4" href="#discounts" data-bs-toggle="tab" aria-selected="true" role="tab">Discounts</a>
+                  </li>
+              </ul>
+          </div>
+          
+      </div>
+
+      <!----------------------------------------------- Filter products Form ------------------------------------------>
+
+      <div class="container d-flex flex-column align-items-start">
+          <div class="row w-25 mx-3 ">
+              <button class="w-25 d-flex btn btn-light border-0 justify-content-between w-100"
+               id="filter-btn" title="Filter Product">
+                  Filter
+                  <i class="bi bi-filter"></i>
+              </button>
+          </div>
+
+          <div class="container px-3 mt-0" id="myDIV">
+            <div class="row w-50">
+                <div class="col-xl-8">
+                    <div class="card mb-4">
+                        <div class="card-header">Account Details</div>
+                        <div class="card-body">
+                            <form id="filterForm">
+                                <div class="row gx-3 mb-3">
+                                    <div class="col-md-6">
+                                        <label class="small mb-1">Price Range:</label>
+                                        <input class="form-control" id="minPrice" type="number" placeholder="Min">
+                                    </div>
+                                </div>
+                                <div class="row gx-3 mb-3">
+                                    <div class="col-md-6">
+                                        <input class="form-control" id="maxPrice" type="number" placeholder="Max">
+                                    </div>
+                                </div>
+                                <div class="row gx-3 mb-3">
+                                    <div class="col-md-6">
+                                        <label class="small mb-1">Product Type:</label>
+                                        <select class="form-control" id="productType">
+                                            <option value="">All</option>
+                                            <option value="Furniture">Furniture</option>
+                                            <option value="chair">chair</option>
+                                            <option value="table">table</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <button class="btn btn-primary" type="submit">Apply Filter</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+
+      <!-------------------------------------------------------- Products ---------------------------------------------------->
+
+      <div class="container mt-4 mb-5">
+
+        <div class="row items" id="new-arrivals"></div>
+
+        <!------------------------------------------------------------------------------------------------------------>
+
+        <div class="row items d-none" id="best-seller"></div>
+
+        <!------------------------------------------------------------------------------------------------------------>
+
+        <div class="row items d-none" id="most-view"></div>
+
+        <!------------------------------------------------------------------------------------------------------------>
+
+        <div class="row items d-none" id="discounts"></div>
+
+        <!--------------------------------------------------------------------------------------------------------------------->
+
+        <div class="row" id="no_product_message">
+            <h1>No products found</h1>
+        </div>  
+        
+        </div>
+        
+
+
+        <div class="row text-center mt-5">
+            <div class="col-12 d-flex flex-column align-items-center">
+                <h1><b>From The Blog</b></h1>
+                <hr class="new4">
+            </div>
+        </div>
+    </div>
+    <!--------------------------------------- End of products ------------------------------------------>
+
+    <!------------- Details Modal --------------->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-body" id="my-content">
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/home_sctipt_part2.js"></script>
+    <script src="js/footer.js"></script>
+    <script src="css/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+
+    <!---------------------------------------------------------- End of Gharabawy's part ------------------------------------------------------->
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
