@@ -1,0 +1,57 @@
+.overlay-bg {
+  position: relative;
+}
+
+.heading-banner-area {
+  background: rgba(0, 0, 0, 0) url(../images/banner.webp) no-repeat scroll
+    center center/cover;
+  margin-top: 10em;
+}
+
+.heading-banner-title h2 {
+  position: relative;
+  color: #fff;
+  font-size: 45px;
+  font-weight: 900;
+  line-height: 33px;
+  margin-bottom: 0;
+  padding: 134px 0 101px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.overlay-bg::before {
+  background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.breadcumbs ul {
+  overflow: hidden;
+  list-style: outside none none;
+  margin: 0;
+  padding: 0;
+}
+.breadcumbs li:first-child {
+  margin-left: 0;
+}
+.breadcumbs li,
+.breadcumbs li a {
+  color: #eee;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 700;
+  margin-left: 38px;
+  position: relative;
+  text-transform: uppercase;
+}
+.breadcumbs li::after {
+  color: #fff;
+  content: "/";
+  left: -22px;
+  position: absolute;
+  top: 0;
+}
