@@ -1,3 +1,5 @@
+import { getFavorites } from "../js/favorites.js";
+
 /************************************* links activation ***********************************/
 
 let Links = document.querySelectorAll('.tab-menu a');
@@ -64,6 +66,9 @@ function displayProducts(products) {
 
     products.forEach(product => {
 
+        const isFavorite = getFavorites().some(favorite => favorite.id === product.id);
+        const favIconClass = isFavorite ? 'fav-btn-active' : '';
+
         let ratings = getSavedRatings(product.id);
         let totalRating = ratings.length > 0 ? ratings.reduce((a, b) => a + b) : 0;
         let averageRating = ratings.length > 0 ? (totalRating / ratings.length).toFixed(1) : 0;
@@ -75,16 +80,14 @@ function displayProducts(products) {
                 <div class="card border-0 w-100 h-100">
                     <img src="./images/${product.image}" alt="${product.productName}">
                     <div class="product-action bg-light w-75 d-flex justify-content-around">
-                        <a href="wishlist.html" data-bs-toggle="tooltip" data-placement="top" title="Wishlist">
-                            <h4 class="bi bi-heart product-icons"></h4>
-                        </a>
+                            <i class="fa-solid fa-heart-circle-plus ms-3 addToFav ${favIconClass}" aria-hidden="true" data-id="${product.id}"></i> 
                         <span class="glyphicon glyphicon-option-vertical"></span>
                         <a type="button" data-bs-toggle="modal" data-bs-target="#detailsModal" data-product='${JSON.stringify(product)}' title="Quick View">
                             <h4 class="bi bi-search product-icons "></h4>
                         </a>
 
                         <span class="glyphicon glyphicon-option-vertical"></span>
-                            <h4 class="bi bi-cart-fill product-icons product-add-cart" data-id="${product.id}"></h4>
+                            <i class="fa-solid fa-cart-plus product-add-cart ms-3" aria-hidden="true" id="cart" data-id="${product.id}"></i>
                     </div>
         
                     <div class="details d-flex justify-content-between mt-3 p-0">
@@ -232,12 +235,12 @@ displayFilter()
 let myModal = document.getElementById('my-content');
 
 function displayProductDetails(product) {
-    // console.log(product);
+    console.log(product);
     let modalBody = document.getElementById('my-content');
     modalBody.innerHTML = `
         <div class="row">
             <div class="col-6 p-3">
-                <img src="./new_imgs/${product.image}" class="w-100 h-100" alt="${product.productName}">
+                <img src="./images/${product.image}" class="w-100 h-100" alt="${product.productName}">
             </div>
             <div class="col-6 d-flex align-items-center justify-content-center">
 
@@ -263,7 +266,7 @@ function displayProductDetails(product) {
                             <input class="form-control" id="quantity" type="number" value="0">
                         </div>
                         <div class="col-9 add-cart-btn p-0">
-                            <a href="#" class="btn w-75 text-light add-cart-btn w-100" type="submit">Add to cart</a>
+                            <a class="btn w-75 data text-light add-cart-btn product-add-cart w-100" data-id="${product.id}" type="submit">Add to cart</a>
                         </div>
                     </div>
                     <hr>
@@ -280,11 +283,13 @@ function displayProductDetails(product) {
 }
 
 /************************ Display product details modal ***********************/
-$('#exampleModal').on('show.bs.modal', function (event) 
+$('#detailsModal').on('show.bs.modal', function (event) 
 {
     let button = $(event.relatedTarget);
     let product = button.data('product'); 
     // console.log(product);
     displayProductDetails(product);
 });
+
+/*****************************************************************************/
 

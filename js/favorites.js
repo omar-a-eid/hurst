@@ -1,12 +1,25 @@
 import { fetchData } from "../js/fetchData.js";
 
+
+
+function findProductById(id, ...productArrays) 
+{
+    for (const products of productArrays) {
+        const foundProduct = products.find(product => product.id === id);
+        if (foundProduct) {
+            return foundProduct;
+        }
+    }
+    return null;
+}
+
 export async function addedToFavourite(prodId) {
   try {
       const id = parseInt(prodId);
 
       const data = await fetchData();
-      const featuredProducts = data.featuredProduct;
-      const fetchedProducts =  data.products;
+    //   const featuredProducts = data.featuredProduct;
+    //   const fetchedProducts =  data.products;
 
       let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
       const isFavorite = favorites.some((product) => product.id === id);
@@ -14,16 +27,24 @@ export async function addedToFavourite(prodId) {
       if (isFavorite) {
           favorites = favorites.filter((product) => product.id !== id);
       } else {
-          const favProductForData = featuredProducts.find((product) => product.id === id);
-          const favProductForFetchedData = fetchedProducts.find((product) => product.id === id);
-          if (favProductForData) {
-              favorites.push(favProductForData);
-          } else if (favProductForFetchedData) {
-              favorites.push(favProductForFetchedData);
-          } else {
-              console.log('Product not found');
-              return;
-          }
+        //   const favProductForData = featuredProducts.find((product) => product.id === id);
+        //   const favProductForFetchedData = fetchedProducts.find((product) => product.id === id);
+        let product = findProductById(id, data.featuredProduct, data.products, data["new-arrivals"], data["best-seller"], data["most-view"], data["discounts"]);
+        //   if (favProductForData) {
+        //       favorites.push(favProductForData);
+        //   } else if (favProductForFetchedData) {
+        //       favorites.push(favProductForFetchedData);
+        //   } else {
+        //       console.log('Product not found');
+        //       return;
+        //   }
+
+        if (product) {
+            favorites.push(product);
+        } else {
+            console.log('Product not found');
+            return;
+        }
       }
 
       localStorage.setItem('favorites', JSON.stringify(favorites));

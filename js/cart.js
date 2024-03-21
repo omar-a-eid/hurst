@@ -53,7 +53,7 @@ export async function addToCart(prodId, qty = 1) {
   try {
     const data = await fetchData();
     const products = data.products;
-    product = findProductById(id, data.featuredProduct, products, data["new-arrivals"], data["best-seller"], data["most-view"]);
+    product = findProductById(id, data.featuredProduct, products, data["new-arrivals"], data["best-seller"], data["most-view"], data["discounts"]);
   } catch (error) {
     console.log(error);
   }
@@ -61,6 +61,7 @@ export async function addToCart(prodId, qty = 1) {
     const existingItem = cartItems.find((item) => item.id === id);
     if (existingItem) {
       existingItem.qty += qty;
+      alert("Item already exists")
     } else {
       cartItems.push({
         id: id,
@@ -70,6 +71,8 @@ export async function addToCart(prodId, qty = 1) {
         image: product.image,
         stock: product.amount,
       });
+
+      alert("Product added successfully")
     }
     localStorage.setItem("cart", JSON.stringify(cartItems));
     if (window.location.pathname === "/pages/checkout.html") {
