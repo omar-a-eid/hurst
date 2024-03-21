@@ -50,11 +50,11 @@ hr.new5
   padding: 2px 16px;
 }
 
-.details h3:hover{
+.details h4:hover{
   color: #d3b484;
 }
 
-.price h4{
+.product_price h4{
   color: #c87065;
 }
 
@@ -161,4 +161,11 @@ hr.new5
 
 #no_product_message h1:hover{
   color: #d3b484;
+}
+
+
+@media (max-width: 576px) {
+  .tab-menu li hr.new5 {
+      display: none;
+  }
 }

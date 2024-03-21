@@ -94,11 +94,11 @@ function displayProducts(products) {
                     </div>
 
                     <div class="details d-flex justify-content-between mt-3 p-0">
-                        <h3><b>${product.productName}</b></h3>
+                        <h4><b>${product.productName}</b></h4>
                         <p>${product.type}</p>
                     </div>
 
-                    <div class="d-inline-block justify-content-between align-items-center">
+                    <div class="product_price d-inline-block justify-content-between align-items-center">
                         <h4><b>$${product.price}</b></h4>
                         <div class="rating">
                             ${starRatingHTML}
@@ -184,7 +184,7 @@ document.getElementById('filterForm').addEventListener('submit', function(event)
     let productsFound = false; 
 
     allProducts.forEach(product => {
-        let price = parseFloat(product.querySelector('.price h4').textContent.replace('$', ''));
+        let price = parseFloat(product.querySelector('.product_price h4').textContent.replace('$', ''));
         let type = product.querySelector('.details p').textContent.trim();
 
         let meetsPriceCriteria = isNaN(minPrice) || isNaN(maxPrice) || (price >= minPrice && price <= maxPrice);
