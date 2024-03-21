@@ -203,11 +203,10 @@
                         <div id="collapseOne" class="accordion-collapse collapse show"
                           data-bs-parent="#accordionExample">
                           <div class="accordion-body d-inline-grid">
-                            <a href="?products&chair">T-shirt</a>
-                            <a href="?products&table">Strip Shirt</a>
-                            <a href="#">Half Shirts</a>
-                            <a href="#">Formal Shirts</a>
-                            <a href="#">Bilazers</a>
+                            <a href="?products&chair">Chair</a>
+                            <a href="?products&woodenchair">Wooden</a>
+                            <a href="?products&gamingchair">Gaming</a>
+                            <a href="?products&armedchair">Armed</a>
                           </div>
                         </div>
                       </div>
@@ -220,11 +219,10 @@
                         </h2>
                         <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                           <div class="accordion-body d-inline-grid">
-                            <a href="?furniture&chair">Men Bag</a>
-                            <a href="?furniture&table">shoes</a>
-                            <a href="#">Watch</a>
-                            <a href="#">T-Shirt</a>
-                            <a href="#">Shirts</a>
+                            <a href="?furniture&desks">Desk</a>
+                            <a href="?furniture&sofa">Sofa</a>
+                            <a href="?furniture&bed">Bed</a>
+                            <a href="?furniture&cupboard">CupBoard</a>
                           </div>
                         </div>
                       </div>
@@ -237,7 +235,7 @@
                         </h2>
                         <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
                           <div class="accordion-body d-inline-grid">
-                            <a href="#">T-shirt</a>
+                            <a href="?Accessories&hat">Hat</a>
                             <a href="#">Strip Shirt</a>
                             <a href="#">Half Shirts</a>
                             <a href="#">Formal Shirts</a>
@@ -504,6 +502,9 @@
           case "furniture":
             res_chair = res.furniture.filter(pro => pro.category == category);
             break;
+          case "Accessories":
+            res_chair = res.Accessories.filter(pro => pro.category == category);
+            break;
         }
         console.log(res_chair);
         let count = 0;
@@ -521,7 +522,7 @@
           }
           let str = `
           <div class="d-flex card col-12  col-lg-2 col-xl-2 col-xxl-2 bg-color p-3">
-          <a  href="productdetails.html?id=${obj.id}"><img  src="../images/${obj.image}" class="card-img-top w-100" alt="table"></a><!-- product image -->
+          <a  href="productdetails.html?id=${obj.id}"><img  src="../images/${obj.image}" class="card-img-top w-100" alt="image"></a><!-- product image -->
           <div class="col-12 card-body text-center">
             <h5 class="d-flex col-12 card-title justify-content-center">${obj.productName}</h5><!-- product name -->
             <ul class="d-flex col-12 nav justify-content-center "><!-- Stars -->

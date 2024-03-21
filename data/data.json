@@ -3,360 +3,335 @@
     {
       "id": 1,
       "category": "chair",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "productName": "Eames Lounge Chair and Ottoman",
+      "price": 5695,
+      "rating": 4.9,
+      "smallDesc": "Iconic mid-century modern design for ultimate comfort.",
       "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
+        "#7D7D7D",
+        "#FFFFFF",
+        "#A9A9A9"
       ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
+      "sizes": ["m", "s", "l", "sl", "xl"],
       "amount": 10,
       "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Eames Lounge Chair and Ottoman, designed by Charles and Ray Eames, is a timeless classic. Crafted with the highest quality materials, this chair features molded plywood shells and premium leather upholstery for unmatched comfort and style.",
+      "info": "Dimensions: Chair - 32.75\"W x 32.75\"D x 32\"H, Ottoman - 26\"W x 21.5\"D x 17.25\"H. Material: Molded plywood, premium leather upholstery.",
+      "tags": [
+        "eames",
+        "lounge chair",
+        "mid-century modern",
+        "furniture"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      
       "reviews": [
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "Jennifer",
+          "review": "Absolutely stunning chair! It's a masterpiece of design and comfort. Worth every penny.",
+          "image": "5.webp"
         },
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "Michael",
+          "review": "This chair is an investment piece, but it's worth every cent. It's incredibly comfortable and looks beautiful in my living room.",
+          "image": "5.webp"
         }
       ]
     },
     {
       "id": 2,
       "category": "chair",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "productName": "Herman Miller Aeron Chair",
+      "price": 1475,
+      "rating": 4.8,
+      "smallDesc": "Ergonomic office chair for superior support and comfort.",
       "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
+        "#000000",
+        "#2A2A2A",
+        "#7D7D7D"
       ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 15,
       "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Herman Miller Aeron Chair is the gold standard in ergonomic office seating. It features innovative design and advanced ergonomic features such as adjustable lumbar support, tilt limiter, and breathable mesh upholstery to provide unmatched comfort and support throughout the workday.",
+      "info": "Dimensions: Size A - 25.75\"W x 16\"-18.5\"D x 38.5\"-43\"H, Size B - 27\"W x 16.75\"-18.5\"D x 41\"-45\"H, Size C - 28.25\"W x 18.5\"-20.5\"D x 43\"-45\"H. Material: Breathable mesh, aluminum frame.",
+      "tags": [
+        "herman miller",
+        "aeron chair",
+        "ergonomic",
+        "office chair"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
       "reviews": [
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "Alex",
+          "review": "Best office chair I've ever owned! It's incredibly comfortable and provides excellent support for long hours of sitting.",
+          "image": "user3.jpg"
         },
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "Jessica",
+          "review": "I was hesitant to spend so much on a chair, but this one is worth every penny. It's made a huge difference in my comfort and productivity at work.",
+          "image": "user4.jpg"
         }
       ]
     },
     {
       "id": 3,
       "category": "chair",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "productName": "IKEA Poäng Armchair",
+      "price": 199,
+      "rating": 4.6,
+      "smallDesc": "Classic and affordable armchair for cozy relaxation.",
       "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
+        "#FFFFFF",
+        "#333333",
+        "#BEBEBE"
       ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 20,
       "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The IKEA Poäng Armchair is a timeless favorite for its simple yet stylish design and unbeatable comfort. With its curved frame and cushioned seat, it's perfect for lounging, reading, or enjoying a cup of coffee.",
+      "info": "Dimensions: 26.75\"W x 32.25\"D x 39.38\"H. Material: Layer-glued bent oak veneer frame, high resilience foam cushion, polyester blend upholstery.",
+      "tags": [
+        "ikea",
+        "poäng armchair",
+        "affordable",
+        "furniture"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
       "reviews": [
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "David",
+          "review": "Love this chair! It's comfortable, affordable, and looks great in my living room. Highly recommend!",
+          "image": "user5.jpg"
         },
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "Sarah",
+          "review": "This chair exceeded my expectations. It's comfortable, sturdy, and stylish. A great value for the price.",
+          "image": "user6.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "chair",
+      "productName": "Leather Recliner Chair",
+      "price": 549.99,
+      "rating": 4.6,
+      "smallDesc": "Luxurious leather recliner chair with ergonomic design.",
+      "colors": [
+        "#FFFFFF",
+        "#D3D3D3",
+        "#FF5733"
+      ],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 8,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "Our Leather Recliner Chair combines comfort and style for the ultimate lounging experience. With its plush cushions and ergonomic design, it's perfect for relaxing after a long day.",
+      "info": "Dimensions: 36\"W x 40\"D x 42\"H. Material: Leather upholstery, metal frame.",
+      "tags": [
+        "chair",
+        "recliner chair",
+        "leather",
+        "furniture"
+      ],
+      "reviews": [
+        {
+          "customerName": "Ethan Harris",
+          "review": "I absolutely love this recliner chair! It's incredibly comfortable and provides excellent lumbar support.",
+          "image": "ethan.jpg"
+        },
+        {
+          "customerName": "Ava Martin",
+          "review": "This chair is fantastic. It's well-made, stylish, and the reclining feature is a game-changer.",
+          "image": "ava.jpg"
         }
       ]
     },
     {
       "id": 4,
       "category": "chair",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "productName": "Rustic Wooden Chair",
+      "price": 129.99,
+      "rating": 4.4,
+      "smallDesc": "Simple yet sturdy design crafted from reclaimed wood.",
       "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
+        "#8B4513",
+        "#A0522D",
+        "#D2B48C"
       ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 25,
       "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "Our Rustic Wooden Chair brings warmth and character to any space. Handcrafted from reclaimed wood, each chair is unique and showcases the natural beauty of the materials.",
+      "info": "Dimensions: 18\"W x 18\"D x 35\"H. Material: Reclaimed wood.",
+      "tags": [
+        "chair",
+        "wooden chair",
+        "rustic",
+        "furniture"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
       "reviews": [
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "Emma Thompson",
+          "review": "I love the rustic look of this chair! It's sturdy and well-made, and it adds a charming touch to my dining room.",
+          "image": "emma.jpg"
         },
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "James Anderson",
+          "review": "This chair exceeded my expectations. It's solid, comfortable, and looks fantastic in my kitchen.",
+          "image": "james.jpg"
         }
       ]
     },
     {
       "id": 5,
       "category": "chair",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "productName": "Vintage Leather Armchair",
+      "price": 899.99,
+      "rating": 4.7,
+      "smallDesc": "Timeless elegance with supple leather upholstery.",
       "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
+        "#2F4F4F",
+        "#B0C4DE",
+        "#BC8F8F"
       ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 18,
       "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "Our Vintage Leather Armchair evokes classic charm and sophistication. Upholstered in supple leather and featuring elegant detailing, it's the perfect statement piece for any living room or study.",
+      "info": "Dimensions: 38\"W x 36\"D x 35\"H. Material: Leather upholstery, wood frame.",
+      "tags": [
+        "chair",
+        "armchair",
+        "vintage",
+        "leather",
+        "furniture"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
       "reviews": [
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "Benjamin Roberts",
+          "review": "This armchair is absolutely stunning! The leather is soft and luxurious, and the craftsmanship is impeccable.",
+          "image": "benjamin.jpg"
         },
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "Evelyn Clark",
+          "review": "I'm thrilled with this purchase. The armchair is comfortable, elegant, and adds a touch of vintage flair to my living room.",
+          "image": "evelyn.jpg"
         }
       ]
     },
     {
       "id": 6,
       "category": "chair",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "productName": "Eames Lounge Chair",
+      "price": 899.99,
+      "rating": 4.9,
+      "smallDesc": "Iconic and comfortable lounge chair with ottoman.",
       "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
+        "#FFFFFF",
+        "#000000",
+        "#FF5733"
       ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 8,
       "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Eames Lounge Chair is a modern classic, known for its timeless design and exceptional comfort. With its leather upholstery and molded plywood shell, it's the perfect piece for relaxation and style.",
+      "info": "Dimensions: 33\"W x 33\"D x 33\"H. Material: Leather, molded plywood.",
+      "tags": [
+        "chair",
+        "lounge chair",
+        "eames",
+        "furniture"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
       "reviews": [
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "Alexandra Lee",
+          "review": "This lounge chair is amazing! It's incredibly comfortable and adds a touch of sophistication to my living room.",
+          "image": "alexandra.jpg"
         },
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "Matthew Davis",
+          "review": "I couldn't be happier with this purchase. The chair is well-made, stylish, and provides excellent support.",
+          "image": "matthew.jpg"
         }
       ]
     },
     {
       "id": 7,
       "category": "chair",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "productName": "Mid-Century Modern Armchair",
+      "price": 249.99,
+      "rating": 4.7,
+      "smallDesc": "Stylish armchair with a mid-century modern design.",
       "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
+        "#FFFFFF",
+        "#F5F5F5",
+        "#D3D3D3"
       ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 15,
       "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "Our Mid-Century Modern Armchair combines style and comfort for the perfect seating solution. With its sleek lines and cushioned seat, it's ideal for lounging and entertaining.",
+      "info": "Dimensions: 30\"W x 30\"D x 33\"H. Material: Fabric upholstery, wood frame.",
+      "tags": [
+        "chair",
+        "armchair",
+        "mid-century modern",
+        "furniture"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
       "reviews": [
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "Oliver White",
+          "review": "This armchair is fantastic! It's comfortable, stylish, and fits perfectly in my living room.",
+          "image": "oliver.jpg"
         },
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "Emma Taylor",
+          "review": "I love this chair! It's well-made, easy to assemble, and adds a touch of retro charm to my home.",
+          "image": "emma.jpg"
         }
       ]
     },
     {
       "id": 8,
       "category": "chair",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "productName": "Wingback Accent Chair",
+      "price": 329.99,
+      "rating": 4.8,
+      "smallDesc": "Classic wingback chair with elegant tufted upholstery.",
       "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
+        "#FFFFFF",
+        "#000000",
+        "#FF5733"
       ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
+      "sizes": ["m", "s", "l", "sl", "xl"],
       "amount": 10,
       "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "Our Wingback Accent Chair adds sophistication and style to any room. With its classic design and tufted upholstery, it's perfect for reading nooks, living rooms, and bedrooms.",
+      "info": "Dimensions: 28\"W x 32\"D x 42\"H. Material: Fabric upholstery, wood frame.",
+      "tags": [
+        "chair",
+        "wingback chair",
+        "accent chair",
+        "furniture"
       ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
       "reviews": [
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "Sophia Clark",
+          "review": "I'm in love with this chair! It's elegant, comfortable, and adds a touch of luxury to my living room.",
+          "image": "sophia.jpg"
         },
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "Lucas Turner",
+          "review": "This chair exceeded my expectations. It's well-made, stylish, and provides excellent support.",
+          "image": "lucas.jpg"
         }
       ]
     },
@@ -374,21 +349,10 @@
         "#fe5858",
         "#00b2ee"
       ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
+      "sizes": ["m", "s", "l", "sl", "xl"],
       "amount": 10,
       "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
       "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
@@ -419,21 +383,10 @@
         "#fe5858",
         "#00b2ee"
       ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
+      "sizes": ["m", "s", "l", "sl", "xl"],
       "amount": 10,
       "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
       "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
@@ -452,7 +405,7 @@
     },
     {
       "id": 11,
-      "category": "chair",
+      "category": "table",
       "productName": "Dummy Product Name",
       "price": 56.2,
       "rating": 4.5,
@@ -464,21 +417,10 @@
         "#fe5858",
         "#00b2ee"
       ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
+      "sizes": ["m", "s", "l", "sl", "xl"],
       "amount": 10,
       "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
       "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
@@ -509,21 +451,10 @@
         "#fe5858",
         "#00b2ee"
       ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
+      "sizes": ["m", "s", "l", "sl", "xl"],
       "amount": 10,
       "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
       "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
@@ -542,33 +473,22 @@
     },
     {
       "id": 13,
-      "category": "table",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "category": "woodenchair",
+      "productName": "Oakwood Classic",
+      "price": 241.0,
+      "rating": 3.5,
+      "smallDesc": "Enjoy timeless elegance with our Oakwood Classic Chair. Crafted from sturdy oak, this chair boasts a classic design that fits seamlessly into any decor. Perfect for dining rooms or study areas, it offers both comfort and style.",
       "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
+        "#3B2F2F",
+        "#B22222",
+        "#008000",
+        "#F0E68C",
         "#00b2ee"
       ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
+      "sizes": ["m", "s", "l", "sl", "xl"],
       "amount": 10,
       "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
       "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
@@ -587,1221 +507,990 @@
     },
     {
       "id": 14,
-      "category": "table",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
+      "category": "woodenchair",
+      "productName": "Vintage Walnut Armchair",
+      "price": 279.99,
       "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
-      "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "smallDesc": "Introducing our Vintage Walnut Armchair, a timeless piece that exudes elegance and sophistication. Crafted from premium walnut wood, this chair adds a touch of luxury to any space.",
+      "colors": ["#654321", "#8B4513", "#A0522D", "#CD853F", "#D2691E"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 12,
+      "image": "2.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "Elevate your living space with the Vintage Walnut Armchair. Its classic design and rich walnut finish make it a standout piece in any room.",
+      "info": "Designed for both style and comfort, this armchair features a curved backrest and armrests for optimal support. Whether used as a lounge chair or accent piece, it adds sophistication to your home.",
+      "tags": "vintage, walnut, armchair, wooden, furniture",
       "reviews": [
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "Sophia Clark",
+          "review": "Absolutely stunning armchair! The walnut wood finish is gorgeous, and it's surprisingly comfortable to sit in.",
+          "image": "reviewer3.webp"
         },
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "David Wilson",
+          "review": "I'm impressed with the quality of this armchair. It arrived promptly and was well-packaged. Looks even better in person!",
+          "image": "reviewer4.webp"
         }
       ]
     },
     {
       "id": 15,
-      "category": "table",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
-      "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "category": "woodenchair",
+      "productName": "Elegant Cherry Wood Chair",
+      "price": 319.99,
+      "rating": 4.8,
+      "smallDesc": "Indulge in luxury with our Elegant Cherry Wood Chair. Crafted from premium cherry wood, this chair showcases exquisite craftsmanship and attention to detail. A true masterpiece for your home.",
+      "colors": ["#8B0000", "#FF0000", "#B22222", "#DC143C", "#CD5C5C"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 8,
+      "image": "3.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "Experience the epitome of elegance with our Elegant Cherry Wood Chair. Its rich cherry wood finish and sophisticated design elevate any room's ambiance.",
+      "info": "Handcrafted with precision, this chair features intricately carved details and a refined silhouette. Whether placed in a study or living room, it exudes opulence and style.",
+      "tags": "elegant, cherry wood, chair, wooden, luxury",
       "reviews": [
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "customerName": "Olivia Martinez",
+          "review": "This chair exceeded my expectations! The cherry wood finish is stunning, and it's surprisingly comfortable to sit in for long periods.",
           "image": "reviewer1.webp"
         },
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "customerName": "Daniel White",
+          "review": "I'm thrilled with my purchase. The chair arrived in perfect condition, and the craftsmanship is superb. Highly recommend!",
           "image": "reviewer1.webp"
         }
       ]
     },
     {
       "id": 16,
-      "category": "table",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
-      "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "category": "woodenchair",
+      "productName": "Vintage Birch Chair",
+      "price": 189.0,
+      "rating": 4.2,
+      "smallDesc": "Experience the charm of the past with our Vintage Birch Chair. Made from solid birch wood, this chair exudes timeless appeal with its elegant design. Whether used as a standalone piece or part of a set, it adds sophistication to any space.",
+      "colors": ["#8B4513", "#CD853F", "#A0522D", "#D2691E", "#B8860B"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 15,
+      "image": "5.webp",
+      "images": ["5.webp", "6.webp", "7.webp", "8.webp"],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
       "reviews": [
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "customerName": "Emily Johnson",
+          "review": "I absolutely love this chair! It's beautifully crafted and adds a touch of elegance to my dining room.",
           "image": "reviewer1.webp"
         },
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "customerName": "Mark Thompson",
+          "review": "This chair exceeded my expectations. It's sturdy, comfortable, and looks fantastic in my study.",
           "image": "reviewer1.webp"
         }
       ]
     },
     {
       "id": 17,
-      "category": "table",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
+      "category": "woodenchair",
+      "productName": "Mahogany Dining Chair",
+      "price": 279.0,
       "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
-      "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "smallDesc": "Elevate your dining experience with our Mahogany Dining Chair. Constructed from premium mahogany wood, this chair combines elegance with durability. Its timeless design and comfortable seating make it a perfect addition to any dining setting.",
+      "colors": ["#8B4513", "#CD853F", "#A0522D", "#D2691E", "#B8860B"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 18,
+      "image": "13.webp",
+      "images": ["13.webp", "14.webp", "15.webp", "16.webp"],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
       "reviews": [
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "customerName": "Sophia Brown",
+          "review": "I purchased these chairs for my dining room, and they are absolutely stunning! The quality is exceptional, and they are very comfortable to sit in for long periods.",
           "image": "reviewer1.webp"
         },
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "customerName": "David Wilson",
+          "review": "These chairs are well-made and sturdy. They arrived quickly and were easy to assemble. I'm very pleased with my purchase.",
           "image": "reviewer1.webp"
         }
       ]
     },
     {
       "id": 18,
-      "category": "holder",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
+      "category": "gamingchair",
+      "productName": "Ergonomic Racing Chair",
+      "price": 249.99,
+      "rating": 4.7,
+      "smallDesc": "Step up your gaming experience with our Ergonomic Racing Chair. Designed for comfort and performance, this chair features a sleek racing-inspired design and adjustable features for a personalized fit.",
+      "colors": ["#FF0000", "#0000FF", "#00FF00", "#FFFF00", "#FFA500"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 30,
       "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Ergonomic Racing Chair is engineered for long gaming sessions. Its ergonomic design and high-quality materials ensure optimal support and comfort, so you can stay focused on the game.",
+      "info": "Equipped with adjustable armrests, lumbar support, and a reclining feature, this chair offers customizable comfort for every gamer. Whether racing or battling, it provides the ultimate gaming experience.",
+      "tags": "ergonomic, racing, chair, gaming, furniture",
       "reviews": [
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "customerName": "Alex Johnson",
+          "review": "Love this chair! It's super comfortable and looks great in my gaming setup.",
           "image": "reviewer1.webp"
         },
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "customerName": "Jessica Parker",
+          "review": "Best gaming chair I've ever had! The adjustable features are fantastic, and it's very sturdy.",
           "image": "reviewer1.webp"
         }
       ]
     },
     {
       "id": 19,
-      "category": "holder",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
+      "category": "gamingchair",
+      "productName": "High Back Gaming Chair",
+      "price": 199.99,
+      "rating": 4.6,
+      "smallDesc": "Experience superior comfort with our High Back Gaming Chair. Designed with gamers in mind, this chair features a high backrest, lumbar support, and adjustable armrests for an ergonomic gaming experience.",
+      "colors": ["#008000", "#FF6347", "#4B0082", "#8A2BE2", "#FF4500"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 25,
       "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The High Back Gaming Chair offers unparalleled support and comfort during intense gaming sessions. Its ergonomic design promotes proper posture and reduces fatigue, allowing you to focus on winning.",
+      "info": "With adjustable features and premium padding, this chair adapts to your body for a customized fit. Whether gaming, working, or relaxing, it provides the support you need for long hours of use.",
+      "tags": "high back, gaming, chair, ergonomic, furniture",
       "reviews": [
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "customerName": "Ryan Lee",
+          "review": "Fantastic chair! It's comfortable, sturdy, and looks awesome in my gaming room.",
           "image": "reviewer1.webp"
         },
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "customerName": "Sophie Evans",
+          "review": "Great gaming chair! Love the lumbar support and adjustable armrests. Highly recommend it.",
           "image": "reviewer1.webp"
         }
       ]
     },
     {
       "id": 20,
-      "category": "holder",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
+      "category": "gamingchair",
+      "productName": "Pro Series Gaming Chair",
+      "price": 279.99,
+      "rating": 4.8,
+      "smallDesc": "Dominate the competition with our Pro Series Gaming Chair. Engineered for performance and durability, this chair features a sleek design, premium materials, and ergonomic features for a competitive edge.",
+      "colors": ["#4169E1", "#FF1493", "#32CD32", "#FFFF00", "#FFD700"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 20,
       "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Pro Series Gaming Chair is built to withstand even the most intense gaming sessions. Its reinforced frame, high-density foam, and premium upholstery ensure long-lasting comfort and support.",
+      "info": "Designed with esports professionals in mind, this chair offers superior performance and adjustability. Whether streaming, practicing, or competing, it helps you stay focused and comfortable.",
+      "tags": "pro series, gaming, chair, esports, furniture",
       "reviews": [
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "customerName": "Daniel Harris",
+          "review": "Amazing chair! It's incredibly comfortable and supportive, even during long gaming marathons.",
           "image": "reviewer1.webp"
         },
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "customerName": "Megan Cooper",
+          "review": "Absolutely love this chair! It's super stylish and comfortable, and the adjustable features are a game-changer.",
           "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "category": "gamingchair",
+      "productName": "Executive Gaming Chair",
+      "price": 299.99,
+      "rating": 4.9,
+      "smallDesc": "Upgrade your gaming setup with our Executive Gaming Chair. Designed for style and comfort, this chair features a luxurious faux leather exterior, high-density foam padding, and adjustable features for maximum support.",
+      "colors": ["#800080", "#4682B4", "#FF7F50", "#7B68EE", "#20B2AA"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 15,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Executive Gaming Chair combines sophistication with performance. Its sleek design and premium materials create a professional gaming environment, whether streaming, working, or relaxing.",
+      "info": "Equipped with a reclining feature, adjustable armrests, and lumbar support, this chair offers customizable comfort for long hours of use. Whether gaming or conducting business, it's designed to elevate your experience.",
+      "tags": "executive, gaming, chair, faux leather, furniture",
+      "reviews": [
+        {
+          "customerName": "Ethan Carter",
+          "review": "Love this chair! It's so comfortable and looks incredibly stylish. Definitely worth the investment.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Sophia Garcia",
+          "review": "Best gaming chair I've ever owned! The faux leather is high-quality, and the adjustable features are fantastic.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "category": "gamingchair",
+      "productName": "Lumbar Support Gaming Chair",
+      "price": 169.99,
+      "rating": 4.5,
+      "smallDesc": "Experience superior support with our Lumbar Support Gaming Chair. Designed to alleviate back strain during long gaming sessions, this chair features built-in lumbar support, adjustable features, and plush cushioning for maximum comfort.",
+      "colors": ["#4B0082", "#8A2BE2", "#6B8E23", "#800000", "#808080"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 20,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Lumbar Support Gaming Chair is designed to prioritize your comfort and well-being. Its ergonomic design promotes proper posture and reduces strain on your back, so you can focus on your game.",
+      "info": "With adjustable lumbar support, padded armrests, and a reclining feature, this chair offers customizable comfort for every gamer. Whether battling enemies or working from home, it provides the support you need.",
+      "tags": "lumbar support, gaming, chair, ergonomic, furniture",
+      "reviews": [
+        {
+          "customerName": "Aiden Smith",
+          "review": "Excellent chair! The lumbar support is a game-changer for me. I no longer experience back pain during long gaming sessions.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Isabella Martinez",
+          "review": "Love this chair! It's incredibly comfortable, and the lumbar support is fantastic. Highly recommend it to fellow gamers.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "category": "armedchair",
+      "productName": "Vintage Leather Armchair",
+      "price": 349.99,
+      "rating": 4.5,
+      "smallDesc": "Experience luxury with our Vintage Leather Armchair. Crafted from premium leather and sturdy wood, this armchair offers both comfort and sophistication.",
+      "colors": ["#8B4513", "#A0522D", "#CD853F", "#D2691E", "#BC8F8F"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 20,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "Indulge in the classic elegance of our Vintage Leather Armchair. Its timeless design and rich leather upholstery make it a statement piece for any living space.",
+      "info": "Handcrafted with precision, this armchair is built to last. Whether placed in a cozy corner or a formal sitting area, it exudes charm and sophistication.",
+      "tags": "vintage, leather, armchair, luxury, furniture",
+      "reviews": [
+        {
+          "customerName": "Sophia Adams",
+          "review": "Absolutely love this armchair! The leather feels luxurious, and it's so comfortable to sit on. Perfect addition to my living room.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "David Miller",
+          "review": "High-quality craftsmanship and elegant design. This armchair exceeded my expectations. Highly recommend it to anyone looking for a stylish addition to their home.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "category": "armedchair",
+      "productName": "Modern Velvet Armchair",
+      "price": 279.99,
+      "rating": 4.3,
+      "smallDesc": "Add a touch of modern elegance with our Modern Velvet Armchair. Featuring plush velvet upholstery and sleek metal accents, it's sure to elevate any space.",
+      "colors": ["#483D8B", "#8A2BE2", "#6A5ACD", "#483D8B", "#4B0082"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 15,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "Embrace contemporary style with our Modern Velvet Armchair. Its soft velvet fabric and minimalist design make it a versatile piece for modern interiors.",
+      "info": "Designed for both comfort and style, this armchair is perfect for lounging or reading. The sturdy construction ensures durability without compromising on aesthetics.",
+      "tags": "modern, velvet, armchair, contemporary, furniture",
+      "reviews": [
+        {
+          "customerName": "Olivia Wilson",
+          "review": "This armchair is stunning! The velvet fabric is so soft, and the color is exactly as pictured. It's become my favorite spot in the house.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Daniel White",
+          "review": "I'm impressed by the quality and comfort of this armchair. It's a perfect blend of style and functionality. Highly recommended!",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "category": "armedchair",
+      "productName": "Classic Tufted Armchair",
+      "price": 319.99,
+      "rating": 4.4,
+      "smallDesc": "Create a cozy reading nook with our Classic Tufted Armchair. Featuring elegant tufted upholstery and a sturdy wooden frame, it's an inviting addition to any home.",
+      "colors": ["#800000", "#8B0000", "#A52A2A", "#B22222", "#DC143C"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 18,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "Enjoy classic comfort with our Tufted Armchair. Its timeless design and plush cushioning create a cozy spot for relaxation and leisurely reading.",
+      "info": "Crafted with attention to detail, this armchair combines style and durability. Whether placed in a living room or bedroom, it adds a touch of sophistication.",
+      "tags": "classic, tufted, armchair, cozy, furniture",
+      "reviews": [
+        {
+          "customerName": "Sophie Roberts",
+          "review": "Love, love, love this armchair! It's so comfortable and looks beautiful in my reading corner. The tufted design adds a touch of elegance.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Matthew Brown",
+          "review": "This armchair exceeded my expectations. The quality is top-notch, and it's incredibly comfortable to sit on. Couldn't be happier with my purchase!",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "category": "armedchair",
+      "productName": "Mid-Century Modern Armchair",
+      "price": 329.99,
+      "rating": 4.8,
+      "smallDesc": "Add a touch of retro charm with our Mid-Century Modern Armchair. Featuring iconic design elements and premium upholstery, it's a statement piece for any mid-century inspired space.",
+      "colors": ["#DAA520", "#B8860B", "#D2B48C", "#FFD700", "#BDB76B"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 17,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "Step back in time with our Mid-Century Modern Armchair. Its sleek lines and tapered legs capture the essence of mid-century design, while the plush cushioning offers modern comfort.",
+      "info": "Crafted with attention to detail, this armchair is a tribute to the iconic designs of the past. Whether placed in a living room or office, it adds a touch of vintage flair.",
+      "tags": "mid-century, modern, armchair, retro, furniture",
+      "reviews": [
+        {
+          "customerName": "Ethan Harris",
+          "review": "This armchair is a gem! It's beautifully designed and incredibly comfortable. The color is perfect, and it complements my mid-century decor.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Ava Martinez",
+          "review": "I'm in love with this armchair! It's stylish, comfortable, and adds a retro vibe to my living room. Couldn't be happier with my purchase.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "category": "armedchair",
+      "productName": "Scandinavian Inspired Armchair",
+      "price": 299.99,
+      "rating": 4.7,
+      "smallDesc": "Bring Nordic charm to your home with our Scandinavian Inspired Armchair. Featuring clean lines and natural materials, it's a timeless addition to any modern interior.",
+      "colors": ["#778899", "#4682B4", "#5F9EA0", "#B0C4DE", "#87CEEB"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 19,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "Embrace Scandinavian design with our Inspired Armchair. Its minimalist aesthetic and ergonomic shape create a comfortable seating experience that's perfect for relaxation.",
+      "info": "Crafted from sustainable materials, this armchair is as eco-friendly as it is stylish. Whether placed in a living room or reading corner, it adds a touch of Nordic elegance.",
+      "tags": "scandinavian, inspired, armchair, nordic, furniture",
+      "reviews": [
+        {
+          "customerName": "Liam Turner",
+          "review": "I'm impressed by the quality and comfort of this armchair. It's a perfect addition to my Scandinavian-inspired living room. Highly recommend it!",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Isabella Scott",
+          "review": "Absolutely love this armchair! It's sleek, comfortable, and blends seamlessly with my modern decor. Couldn't be happier with my purchase.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    } 
+  ],
+  
+  "furniture": [
+    {
+      "id": 1,
+      "category": "desks",
+      "productName": "Vintage Oak Desk",
+      "price": 349.99,
+      "rating": 4.5,
+      "smallDesc": "Add a touch of vintage charm to your workspace with our Vintage Oak Desk. Crafted from solid oak wood, this desk features a classic design with ample storage space. Perfect for home offices or study areas.",
+      "colors": ["#8B4513", "#A0522D", "#CD853F", "#D2691E", "#BC8F8F"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 20,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Vintage Oak Desk combines functionality with elegance. Its sturdy construction and timeless appeal make it an ideal choice for any traditional or rustic-themed workspace.",
+      "info": "Featuring multiple drawers and compartments, this desk provides ample storage for your office essentials. The smooth surface offers a comfortable workspace for writing, computing, or studying.",
+      "tags": "vintage, oak, desk, furniture, home office",
+      "reviews": [
+        {
+          "customerName": "Sarah Miller",
+          "review": "Absolutely love my Vintage Oak Desk! It's beautifully crafted and fits perfectly in my home office.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "John Smith",
+          "review": "Great desk! Solid build quality and easy to assemble. Highly recommended for anyone looking for a stylish workspace solution.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "desks",
+      "productName": "Modern Industrial Desk",
+      "price": 449.99,
+      "rating": 4.8,
+      "smallDesc": "Achieve a sleek and contemporary look with our Modern Industrial Desk. Featuring a metal frame and reclaimed wood top, this desk exudes urban charm. Perfect for modern workspaces or loft apartments.",
+      "colors": ["#2F4F4F", "#4682B4", "#696969", "#778899", "#708090"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 15,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Modern Industrial Desk offers a perfect blend of style and functionality. Its minimalist design and durable materials make it an ideal choice for contemporary interiors.",
+      "info": "Featuring a spacious tabletop and sturdy metal legs, this desk provides a stable and ergonomic workspace. Whether used for work or study, it adds a touch of industrial chic to any room.",
+      "tags": "modern, industrial, desk, reclaimed wood, loft",
+      "reviews": [
+        {
+          "customerName": "Emma Wilson",
+          "review": "I'm impressed with the quality of the Modern Industrial Desk! It's stylish, sturdy, and enhances the overall look of my workspace.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Alex Johnson",
+          "review": "Excellent desk! Easy to assemble and looks even better in person. Highly recommend it to anyone in need of a stylish and functional workspace solution.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "desks",
+      "productName": "Contemporary Glass Desk",
+      "price": 299.99,
+      "rating": 4.3,
+      "smallDesc": "Elevate your office space with our Contemporary Glass Desk. Featuring a sleek glass top and chrome legs, this desk adds a touch of sophistication to any modern setting. Perfect for minimalist interiors.",
+      "colors": ["#4682B4", "#696969", "#778899", "#708090", "#2F4F4F"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 18,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Contemporary Glass Desk offers a perfect combination of style and functionality. Its sleek design and transparent surface create an airy and open feel in any workspace.",
+      "info": "Crafted with tempered glass and chrome-plated legs, this desk is built to last. Its minimalist silhouette makes it an ideal choice for modern offices or home workstations.",
+      "tags": "contemporary, glass, desk, chrome, minimalist",
+      "reviews": [
+        {
+          "customerName": "Sophia Lee",
+          "review": "I absolutely love my Contemporary Glass Desk! It's elegant, spacious, and complements my modern office decor perfectly.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Daniel Brown",
+          "review": "The Contemporary Glass Desk exceeded my expectations! It's sleek, sturdy, and adds a touch of class to my workspace. Highly recommended.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "desks",
+      "productName": "Vintage Oak Writing Desk",
+      "price": 299.99,
+      "rating": 4.7,
+      "smallDesc": "Add a touch of vintage charm to your workspace with our Vintage Oak Writing Desk. Crafted from solid oak wood, this desk features exquisite detailing and a rich, warm finish. Ideal for traditional or eclectic interiors.",
+      "colors": ["#8B4513", "#A0522D", "#CD853F", "#D2691E", "#BC8F8F"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 20,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Vintage Oak Writing Desk exudes old-world charm and elegance. Its intricate carvings and antique-inspired design make it a standout piece in any room.",
+      "info": "Handcrafted with attention to detail, this desk is built to last for generations. Whether used as a writing desk or a decorative accent, it adds a sense of history and character to your home.",
+      "tags": "vintage, oak, writing desk, traditional, antique",
+      "reviews": [
+        {
+          "customerName": "Sophia Lewis",
+          "review": "I'm absolutely in love with my Vintage Oak Writing Desk! It's beautifully crafted and adds so much character to my home office.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Benjamin Clark",
+          "review": "Fantastic desk! The vintage design is exactly what I was looking for, and the quality is exceptional. Highly recommend it!",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "desks",
+      "productName": "Industrial Metal Desk",
+      "price": 179.99,
+      "rating": 4.5,
+      "smallDesc": "Create an urban-inspired workspace with our Industrial Metal Desk. Featuring a sturdy metal frame and a rustic wood tabletop, this desk combines style and functionality. Perfect for loft apartments or modern offices.",
+      "colors": ["#2F4F4F", "#696969", "#708090", "#778899", "#A9A9A9"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 30,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Industrial Metal Desk offers a blend of industrial aesthetics and practicality. Its robust construction and minimalist design make it a versatile addition to any workspace.",
+      "info": "Designed for modern living, this desk provides ample space for work or study while adding an edgy vibe to your room. Whether used in a home office or a creative studio, it enhances the industrial charm of your space.",
+      "tags": "industrial, metal, desk, rustic, urban",
+      "reviews": [
+        {
+          "customerName": "Oliver Wilson",
+          "review": "I'm thrilled with my Industrial Metal Desk! It's sturdy, stylish, and fits perfectly in my loft apartment.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Sophie Brown",
+          "review": "Great desk! The industrial look is exactly what I wanted, and it's surprisingly spacious. Definitely recommend it to anyone looking for a stylish workspace solution.",
+          "image": "reviewer1.webp"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "sofa",
+      "productName": "Comfy Fabric Sofa",
+      "price": 499.99,
+      "rating": 4.5,
+      "smallDesc": "Sink into comfort with our Comfy Fabric Sofa. Upholstered in soft fabric with plush cushions, this sofa is perfect for cozy nights in or casual gatherings with friends.",
+      "colors": ["#6A5ACD", "#FF6347", "#32CD32", "#FFA500", "#8A2BE2"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 20,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "Our Comfy Fabric Sofa combines style and comfort effortlessly. Its contemporary design and quality construction make it a versatile addition to any living space.",
+      "info": "Designed with relaxation in mind, this sofa features deep seats and plush cushions to ensure maximum comfort. Whether lounging with family or entertaining guests, it's the perfect seating solution.",
+      "tags": "sofa, fabric, comfortable, living room, furniture",
+      "reviews": [
+        {
+          "customerName": "Sophia Johnson",
+          "review": "I love this sofa! It's so comfortable and looks amazing in my living room.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "David Miller",
+          "review": "Excellent sofa! The fabric is soft, and the cushions are just the right amount of firmness. Highly recommend!",
+          "image": "reviewer2.webp"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "sofa",
+      "productName": "Modern Leather Sofa",
+      "price": 799.99,
+      "rating": 4.8,
+      "smallDesc": "Elevate your living space with our Modern Leather Sofa. Sleek and sophisticated, this sofa exudes luxury and style. Perfect for contemporary interiors.",
+      "colors": ["#008080", "#4682B4", "#D2B48C", "#FA8072", "#556B2F"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 15,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "Our Modern Leather Sofa is the epitome of elegance. Crafted with premium leather and sleek lines, it adds a touch of sophistication to any room.",
+      "info": "Designed for both style and comfort, this sofa features plush cushions and a sturdy frame. Whether relaxing alone or entertaining guests, it provides the perfect seating solution.",
+      "tags": "sofa, leather, modern, luxury, furniture",
+      "reviews": [
+        {
+          "customerName": "Emma White",
+          "review": "Absolutely stunning sofa! The leather is of excellent quality, and it's so comfortable to sit on. Couldn't be happier with my purchase.",
+          "image": "reviewer3.webp"
+        },
+        {
+          "customerName": "James Wilson",
+          "review": "This sofa exceeded my expectations! The design is sleek, and the leather feels luxurious. Highly recommend this to anyone looking for a modern touch to their living room.",
+          "image": "reviewer4.webp"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "category": "sofa",
+      "productName": "Cozy Sectional Sofa",
+      "price": 899.99,
+      "rating": 4.7,
+      "smallDesc": "Create the perfect lounge area with our Cozy Sectional Sofa. Designed for ultimate relaxation, this sofa features a spacious chaise and plush cushions.",
+      "colors": ["#2F4F4F", "#FFD700", "#FF4500", "#556B2F", "#800000"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 10,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "Our Cozy Sectional Sofa is perfect for lounging and entertaining. Its modular design allows for flexibility, while the soft cushions provide unparalleled comfort.",
+      "info": "Crafted with attention to detail, this sectional sofa offers ample seating space without compromising on style. Whether hosting a movie night or curling up with a book, it's the ultimate relaxation spot.",
+      "tags": "sofa, sectional, cozy, lounge, furniture",
+      "reviews": [
+        {
+          "customerName": "Olivia Martinez",
+          "review": "Love, love, love this sectional sofa! It's so cozy and spacious, perfect for movie nights with the family.",
+          "image": "reviewer5.webp"
+        },
+        {
+          "customerName": "Daniel Brown",
+          "review": "This sectional sofa is fantastic! The cushions are incredibly comfortable, and the design fits perfectly in my living room. Highly recommended.",
+          "image": "reviewer6.webp"
+        }
+      ]
+    },{
+      "id": 9,
+      "category": "bed",
+      "productName": "Luxury Upholstered Bed",
+      "price": 799.99,
+      "rating": 4.5,
+      "smallDesc": "Indulge in the ultimate comfort with our Luxury Upholstered Bed. Featuring a plush headboard and premium fabric upholstery, this bed adds a touch of sophistication to any bedroom.",
+      "colors": ["#483D8B", "#8A2BE2", "#4169E1", "#00BFFF", "#87CEEB"],
+      "sizes": ["queen", "king", "full", "twin"],
+      "amount": 20,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Luxury Upholstered Bed offers both style and functionality. Its sturdy construction and elegant design make it a focal point in any bedroom. Treat yourself to luxury and relaxation with this exquisite bed.",
+      "info": "Crafted with premium materials, this bed ensures long-lasting durability and comfort. Its versatile design complements various decor styles, making it a perfect addition to your home.",
+      "tags": ["luxury", "upholstered", "bed", "plush", "comfort"],
+      "reviews": [
+        {
+          "customerName": "Jessica Smith",
+          "review": "Absolutely stunning bed! The quality is exceptional, and it looks even better in person. I'm thrilled with my purchase!",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "David Johnson",
+          "review": "This bed exceeded my expectations! It's incredibly comfortable and well-made. Highly recommend it to anyone looking for a luxurious bed.",
+          "image": "reviewer2.webp"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "category": "bed",
+      "productName": "Modern Platform Bed",
+      "price": 549.99,
+      "rating": 4.0,
+      "smallDesc": "Create a contemporary retreat with our Modern Platform Bed. Its sleek design and clean lines bring a minimalist aesthetic to your bedroom, while its sturdy construction ensures durability.",
+      "colors": ["#2F4F4F", "#696969", "#708090", "#778899", "#A9A9A9"],
+      "sizes": ["queen", "king", "full", "twin"],
+      "amount": 25,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Modern Platform Bed combines style and functionality. Its low-profile frame and minimalist design make it ideal for modern living spaces. Upgrade your bedroom with this sleek and versatile bed.",
+      "info": "Constructed with high-quality materials, this platform bed offers stability and support for a restful night's sleep. Its simple yet sophisticated appearance adds elegance to any room.",
+      "tags": ["modern", "platform", "bed", "contemporary", "minimalist"],
+      "reviews": [
+        {
+          "customerName": "Sophia Martinez",
+          "review": "Love this bed! It's stylish and comfortable. The assembly was straightforward, and it feels very sturdy. Highly recommend!",
+          "image": "reviewer3.webp"
+        },
+        {
+          "customerName": "Daniel Brown",
+          "review": "Great bed for the price! Sleek design and easy to assemble. It's exactly what I was looking for in a modern platform bed.",
+          "image": "reviewer4.webp"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "category": "bed",
+      "productName": "Classic Sleigh Bed",
+      "price": 699.99,
+      "rating": 4.3,
+      "smallDesc": "Add a touch of elegance to your bedroom with our Classic Sleigh Bed. Featuring a curved headboard and footboard, this timeless bed exudes sophistication and charm.",
+      "colors": ["#8B4513", "#A0522D", "#CD853F", "#D2691E", "#BC8F8F"],
+      "sizes": ["queen", "king", "full", "twin"],
+      "amount": 15,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Classic Sleigh Bed is a statement piece that enhances any bedroom decor. Its graceful curves and sturdy construction make it a lasting addition to your home.",
+      "info": "Crafted from high-quality materials, this sleigh bed offers both style and durability. Transform your bedroom into a cozy retreat with this elegant and timeless piece of furniture.",
+      "tags": ["classic", "sleigh", "bed", "elegant", "timeless"],
+      "reviews": [
+        {
+          "customerName": "Matthew Wilson",
+          "review": "Beautiful bed! The craftsmanship is excellent, and it looks stunning in my bedroom. Very pleased with this purchase.",
+          "image": "reviewer5.webp"
+        },
+        {
+          "customerName": "Olivia Clark",
+          "review": "I'm impressed with the quality of this sleigh bed! It's sturdy, well-made, and adds a touch of sophistication to my room. Highly recommend!",
+          "image": "reviewer6.webp"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "category": "bed",
+      "productName": "Minimalist Platform Bed",
+      "price": 399.99,
+      "rating": 4.0,
+      "smallDesc": "Achieve simplicity and style with our Minimalist Platform Bed. Featuring clean lines and a low-profile design, this bed offers a modern aesthetic for your bedroom.",
+      "colors": ["#696969", "#708090", "#778899", "#A9A9A9", "#C0C0C0"],
+      "sizes": ["queen", "king", "full", "twin"],
+      "amount": 30,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Minimalist Platform Bed is perfect for those seeking simplicity and sophistication. Its sleek frame and versatile design make it an ideal choice for contemporary living spaces.",
+      "info": "Crafted with high-quality materials, this platform bed offers stability and durability for years to come. Enhance your bedroom decor with this stylish and functional piece of furniture.",
+      "tags": ["minimalist", "platform", "bed", "modern", "simplicity"],
+      "reviews": [
+        {
+          "customerName": "Sophie Evans",
+          "review": "Love this platform bed! It's sleek, sturdy, and easy to assemble. Adds a modern touch to my bedroom.",
+          "image": "reviewer8.webp"
+        },
+        {
+          "customerName": "Alexander Harris",
+          "review": "Great purchase! The bed arrived on time and was well-packaged. It looks fantastic in my room and feels very sturdy.",
+          "image": "reviewer9.webp"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "category": "bed",
+      "productName": "Industrial Metal Bed",
+      "price": 449.99,
+      "rating": 4.3,
+      "smallDesc": "Embrace industrial style with our Industrial Metal Bed. Featuring a robust metal frame and rugged details, this bed adds a bold statement to your bedroom decor.",
+      "colors": ["#708090", "#778899", "#A9A9A9", "#C0C0C0", "#D3D3D3"],
+      "sizes": ["queen", "king", "full", "twin"],
+      "amount": 25,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Industrial Metal Bed combines durability with industrial charm. Its raw aesthetics and sturdy construction make it a standout piece in any modern home.",
+      "info": "Crafted with industrial-grade materials, this bed offers both style and functionality. Transform your bedroom into an urban retreat with this striking piece of furniture.",
+      "tags": ["industrial", "metal", "bed", "rugged", "bold"],
+      "reviews": [
+        {
+          "customerName": "Nathan Phillips",
+          "review": "This bed is awesome! It's solidly built and looks amazing in my loft. Adds a cool industrial vibe to the room.",
+          "image": "reviewer10.webp"
+        },
+        {
+          "customerName": "Sophia Anderson",
+          "review": "Absolutely love this industrial bed! It's exactly what I was looking for. The quality is excellent, and it arrived sooner than expected.",
+          "image": "reviewer11.webp"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "category": "cupboard",
+      "productName": "Vintage Wooden Cupboard",
+      "price": 499.99,
+      "rating": 4.5,
+      "smallDesc": "Add vintage charm to your home with our Vintage Wooden Cupboard. Crafted from solid wood, this cupboard offers ample storage space while enhancing your decor.",
+      "colors": ["#8B4513", "#A0522D", "#CD853F", "#D2691E", "#BC8F8F"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 20,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Vintage Wooden Cupboard exudes elegance with its intricate design and rich wood finish. It's perfect for storing linens, dinnerware, or any other household items.",
+      "info": "Made with high-quality materials, this cupboard is built to last. Its timeless appeal makes it a versatile addition to any room.",
+      "tags": "vintage, wooden, cupboard, storage, furniture",
+      "reviews": [
+        {
+          "customerName": "Samantha Brown",
+          "review": "Absolutely love this cupboard! It's beautiful and spacious, perfect for storing all my kitchen essentials.",
+          "image": "reviewer1.webp"
+        },
+        {
+          "customerName": "Daniel Miller",
+          "review": "Great quality and craftsmanship. The Vintage Wooden Cupboard adds a touch of sophistication to my dining area.",
+          "image": "reviewer2.webp"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "category": "cupboard",
+      "productName": "Rustic Farmhouse Cupboard",
+      "price": 549.99,
+      "rating": 4.3,
+      "smallDesc": "Bring rustic elegance into your home with our Rustic Farmhouse Cupboard. Crafted from reclaimed wood, this cupboard blends traditional charm with modern functionality.",
+      "colors": ["#2E8B57", "#556B2F", "#228B22", "#3CB371", "#32CD32"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 15,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Rustic Farmhouse Cupboard features a distressed finish and ornate hardware, giving it a unique character. It's ideal for organizing dishes, glassware, and more.",
+      "info": "Handcrafted with attention to detail, this cupboard adds warmth and charm to any room. Its versatile design complements both traditional and contemporary decor styles.",
+      "tags": "rustic, farmhouse, cupboard, reclaimed wood, furniture",
+      "reviews": [
+        {
+          "customerName": "Sophie Evans",
+          "review": "I'm thrilled with my Rustic Farmhouse Cupboard! It's exactly what I was looking for to complete my farmhouse-style kitchen.",
+          "image": "reviewer3.webp"
+        },
+        {
+          "customerName": "Jacob Clark",
+          "review": "Excellent craftsmanship and sturdy construction. The Rustic Farmhouse Cupboard exceeded my expectations.",
+          "image": "reviewer4.webp"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "category": "cupboard",
+      "productName": "Modern White Cupboard",
+      "price": 399.99,
+      "rating": 4.7,
+      "smallDesc": "Add a touch of modern sophistication to your space with our Modern White Cupboard. Its sleek design and ample storage make it a stylish and practical choice.",
+      "colors": ["#F0F8FF", "#E6E6FA", "#D8BFD8", "#DDA0DD", "#EE82EE"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 25,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Modern White Cupboard features clean lines and a glossy finish, adding a contemporary flair to any room. It's perfect for storing household essentials in style.",
+      "info": "Constructed with high-quality materials, this cupboard is built to withstand daily use while maintaining its elegant appearance. Its versatile design complements any decor.",
+      "tags": "modern, white, cupboard, storage, furniture",
+      "reviews": [
+        {
+          "customerName": "Emma Garcia",
+          "review": "Love the sleek design of this cupboard! It looks perfect in my living room and provides ample storage space.",
+          "image": "reviewer5.webp"
+        },
+        {
+          "customerName": "Noah Martinez",
+          "review": "The Modern White Cupboard is a great addition to my home office. It's both stylish and functional.",
+          "image": "reviewer6.webp"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "category": "cupboard",
+      "productName": "Classic Cherry Cupboard",
+      "price": 459.99,
+      "rating": 4.4,
+      "smallDesc": "Enhance the elegance of your home with our Classic Cherry Cupboard. Featuring a rich cherry finish and timeless design, this cupboard adds sophistication to any room.",
+      "colors": ["#800000", "#8B0000", "#A52A2A", "#B22222", "#DC143C"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 18,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Classic Cherry Cupboard exudes traditional charm with its intricate detailing and warm wood tones. It's perfect for storing linens, clothing, or other essentials.",
+      "info": "Crafted with precision and attention to detail, this cupboard is designed to stand the test of time. Its classic design complements a variety of decor styles.",
+      "tags": "classic, cherry, cupboard, storage, furniture",
+      "reviews": [
+        {
+          "customerName": "Olivia Wilson",
+          "review": "Beautiful craftsmanship and excellent quality! The Classic Cherry Cupboard exceeded my expectations.",
+          "image": "reviewer7.webp"
+        },
+        {
+          "customerName": "Ethan Scott",
+          "review": "I'm very happy with my purchase. The Classic Cherry Cupboard adds a touch of elegance to my bedroom.",
+          "image": "reviewer8.webp"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "category": "bed",
+      "productName": "Coastal Storage Bed",
+      "price": 699.99,
+      "rating": 4.7,
+      "smallDesc": "Maximize space and style with our Coastal Storage Bed. Featuring built-in drawers and a coastal-inspired design, this bed offers both functionality and charm.",
+      "colors": ["#2F4F4F", "#696969", "#708090", "#778899", "#A9A9A9"],
+      "sizes": ["queen", "king", "full", "twin"],
+      "amount": 20,
+      "image": "1.webp",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Coastal Storage Bed is perfect for beach-inspired decor. Its clean lines and practical storage solutions make it a must-have for any coastal retreat.",
+      "info": "Crafted with coastal living in mind, this bed offers ample storage without compromising on style. Organize your bedroom and create a serene oasis with this beautiful storage bed.",
+      "tags": ["coastal", "storage", "bed", "drawers", "beach"],
+      "reviews": [
+        {
+          "customerName": "Liam Stewart",
+          "review": "Great storage bed! The drawers are very spacious, and the bed itself looks fantastic. Adds a beachy vibe to my room.",
+          "image": "reviewer12.webp"
+        },
+        {
+          "customerName": "Ava White",
+          "review": "I'm impressed with the quality of this storage bed! It's sturdy and well-made. The drawers are a lifesaver for keeping my room organized.",
+          "image": "reviewer13.webp"
         }
       ]
     }
   ],
-  "furniture": [
+  "Accessories": [
     {
       "id": 1,
-      "category": "chair",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
+      "category": "hat",
+      "productName": "Vintage Fedora",
+      "price": 49.99,
       "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
+      "smallDesc": "Add a touch of classic style to your wardrobe with our Vintage Fedora. Made from high-quality materials, this hat is perfect for any occasion.",
+      "colors": ["#000000", "#6B8E23", "#D2B48C", "#800000", "#4682B4"],
+      "sizes": ["m", "s", "l", "xl"],
+      "amount": 20,
       "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Vintage Fedora features a timeless design with a wide brim and a stylish band. It's comfortable to wear and adds a touch of sophistication to any outfit.",
+      "info": "Crafted with attention to detail, this hat is suitable for both casual and formal occasions. Whether you're attending a wedding or going for a leisurely stroll, it's the perfect accessory.",
+      "tags": "vintage, fedora, hat, fashion, accessory",
       "reviews": [
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "customerName": "Sophia Anderson",
+          "review": "Love this hat! It's well-made and looks great with any outfit.",
           "image": "reviewer1.webp"
         },
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "Daniel Smith",
+          "review": "Excellent quality and fast shipping. Highly recommend!",
+          "image": "reviewer2.webp"
         }
       ]
     },
     {
       "id": 2,
-      "category": "chair",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
+      "category": "hat",
+      "productName": "Wide Brim Sun Hat",
+      "price": 39.99,
+      "rating": 4.3,
+      "smallDesc": "Stay stylish and protected from the sun with our Wide Brim Sun Hat. Made from breathable materials, it's perfect for sunny days at the beach or picnics in the park.",
+      "colors": ["#FFFFFF", "#FFD700", "#008080", "#8B008B", "#800080"],
+      "sizes": ["m", "s", "l", "xl"],
+      "amount": 15,
       "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Wide Brim Sun Hat features a classic design with a wide brim for maximum sun protection. It's lightweight and comfortable to wear, making it ideal for outdoor activities.",
+      "info": "With its adjustable chin strap, this hat stays securely in place even on windy days. It's packable and easy to carry, making it a must-have for your summer wardrobe.",
+      "tags": "wide brim, sun hat, beach, summer, accessory",
       "reviews": [
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "customerName": "Olivia Johnson",
+          "review": "Perfect sun hat for beach days! It provides great coverage and looks stylish too.",
           "image": "reviewer1.webp"
         },
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "Ethan Brown",
+          "review": "Great quality hat! The wide brim is perfect for keeping the sun off my face.",
+          "image": "reviewer2.webp"
         }
       ]
     },
     {
       "id": 3,
-      "category": "chair",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
+      "category": "hat",
+      "productName": "Classic Baseball Cap",
+      "price": 29.99,
+      "rating": 4.0,
+      "smallDesc": "Complete your casual look with our Classic Baseball Cap. Made from durable materials, it's comfortable to wear and adds a sporty touch to any outfit.",
+      "colors": ["#FF0000", "#FF8C00", "#FFFF00", "#008000", "#0000FF"],
+      "sizes": ["m", "s", "l", "xl"],
+      "amount": 25,
       "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "description": "The Classic Baseball Cap features a structured design with a pre-curved visor and an adjustable strap for a custom fit. It's perfect for everyday wear and outdoor activities.",
+      "info": "With its timeless design and versatile colors, this cap pairs well with jeans, shorts, or athleisure wear. Whether you're running errands or hitting the gym, it's the perfect accessory.",
+      "tags": "baseball cap, sporty, casual, accessory",
       "reviews": [
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+          "customerName": "William Lee",
+          "review": "Comfortable and stylish cap! I wear it for workouts and casual outings.",
           "image": "reviewer1.webp"
         },
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "category": "chair",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
-      "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "reviews": [
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "category": "chair",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
-      "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "reviews": [
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        }
-      ]
-    },
-    {
-      "id": 6,
-      "category": "chair",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
-      "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "reviews": [
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        }
-      ]
-    },
-    {
-      "id": 7,
-      "category": "chair",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
-      "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "reviews": [
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        }
-      ]
-    },
-    {
-      "id": 8,
-      "category": "chair",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
-      "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "reviews": [
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        }
-      ]
-    },
-    {
-      "id": 9,
-      "category": "chair",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
-      "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "reviews": [
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "category": "chair",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
-      "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "reviews": [
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "category": "chair",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
-      "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "reviews": [
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "category": "table",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
-      "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "reviews": [
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        }
-      ]
-    },
-    {
-      "id": 13,
-      "category": "table",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
-      "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "reviews": [
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        }
-      ]
-    },
-    {
-      "id": 14,
-      "category": "table",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
-      "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "reviews": [
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        }
-      ]
-    },
-    {
-      "id": 15,
-      "category": "table",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
-      "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "reviews": [
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        }
-      ]
-    },
-    {
-      "id": 16,
-      "category": "table",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
-      "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "reviews": [
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        }
-      ]
-    },
-    {
-      "id": 17,
-      "category": "table",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
-      "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "reviews": [
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        }
-      ]
-    },
-    {
-      "id": 18,
-      "category": "holder",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
-      "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "reviews": [
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        }
-      ]
-    },
-    {
-      "id": 19,
-      "category": "holder",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
-      "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "reviews": [
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        }
-      ]
-    },
-    {
-      "id": 20,
-      "category": "holder",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": [
-        "m",
-        "s",
-        "l",
-        "sl",
-        "xl"
-      ],
-      "amount": 10,
-      "image": "1.webp",
-      "images": [
-        "1.webp",
-        "2.webp",
-        "3.webp",
-        "4.webp"
-      ],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "reviews": [
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "Sophia Garcia",
+          "review": "Love this baseball cap! It's well-made and fits perfectly.",
+          "image": "reviewer2.webp"
         }
       ]
     }
+  ],
+  "Top-Brand": [
   ],
   "featuredProduct": [
     {

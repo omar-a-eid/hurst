@@ -1,0 +1,33 @@
+{
+    "id": 13,
+    "category": "woodenchair",
+    "productName": "Rustic Oak Chair",
+    "price": 199.99,
+    "rating": 4.2,
+    "smallDesc": "Experience rustic charm with our Rustic Oak Chair. Handcrafted from solid oak wood, this chair features a timeless design with intricate detailing. Perfect for adding warmth to your dining space or study corner.",
+    "colors": ["#8B4513", "#A0522D", "#CD853F", "#D2691E", "#BC8F8F"],
+    "sizes": ["m", "s", "l", "sl", "xl"],
+    "amount": 15,
+    "image": "1.webp",
+    "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+    "description": "The Rustic Oak Chair embodies traditional craftsmanship and durability. Its sturdy construction and rich finish make it a perfect addition to any rustic-themed interior.",
+    "info": "Crafted with care, this chair is designed to withstand daily use while maintaining its elegant appearance. Whether used as a dining chair or accent piece, it adds character to any room.",
+    "tags": "rustic, oak, chair, wooden, furniture",
+    "reviews": [
+      {
+        "customerName": "Emily Johnson",
+        "review": "I absolutely love my Rustic Oak Chair! It's beautifully crafted and adds so much character to my dining room.",
+        "image": "reviewer1.webp"
+      },
+      {
+        "customerName": "Michael Thompson",
+        "review": "Great chair! Solid build quality and comfortable to sit on. Highly recommended.",
+        "image": "reviewer2.webp"
+      }
+    ]
+  }
+  do you see this pattern
+
+
+  i want you to create 5 real data with the previous pattern but donot change the images and sizes and the colors should be 5 colors in hexa and there should be 2 review each one has as customer name  and review message  and an image should be same like this "image": "1.webp",
+  "images": ["1.webp", "2.webp", "3.webp", "4.webp"] also the category should be woodenchair  and in the images in a json file format
