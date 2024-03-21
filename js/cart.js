@@ -61,7 +61,21 @@ export async function addToCart(prodId, qty = 1) {
     const existingItem = cartItems.find((item) => item.id === id);
     if (existingItem) {
       existingItem.qty += qty;
-      alert("Item already exists")
+
+      let alertMessage = `
+        <div class="alert alert-danger" 
+          role="alert"
+          style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%); z-index: 9999;">
+          <strong>Attention!</strong> Product already exists at the cart!
+        </div>
+      `;
+
+      document.body.insertAdjacentHTML("afterbegin", alertMessage);
+
+      setTimeout(function () {
+        document.querySelector(".alert").remove();
+      }, 3000);
+
     } else {
       cartItems.push({
         id: id,
@@ -72,7 +86,19 @@ export async function addToCart(prodId, qty = 1) {
         stock: product.amount,
       });
 
-      alert("Product added successfully")
+
+      let alertMessage = `
+        <div class="alert alert-success" role="alert" style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%); z-index: 9999;">
+          <strong>Success!</strong> Product added to cart successfully!
+        </div>
+      `;
+
+      document.body.insertAdjacentHTML("afterbegin", alertMessage);
+
+      setTimeout(function () {
+        document.querySelector(".alert").remove();
+      }, 3000);
+
     }
     localStorage.setItem("cart", JSON.stringify(cartItems));
     if (window.location.pathname === "/pages/checkout.html") {

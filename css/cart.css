@@ -444,3 +444,8 @@ textarea {
 .payment-accordion-toggle.active::after {
   content: "\2212";
 }
+
+
+/************************** add to cart message *******************************/
+
+@import "compass/css3";

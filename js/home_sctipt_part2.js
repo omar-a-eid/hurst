@@ -79,11 +79,11 @@ function displayProducts(products) {
             <div class="h-100 card-content p-2">
                 <div class="card border-0 w-100 h-100">
                     <img src="./images/${product.image}" alt="${product.productName}">
-                    <div class="product-action bg-light w-75 d-flex justify-content-around">
+                    <div class="product-action bg-light w-75 d-flex align-items-center justify-content-around">
                             <i class="fa-solid fa-heart-circle-plus ms-3 addToFav ${favIconClass}" aria-hidden="true" data-id="${product.id}"></i> 
                         <span class="glyphicon glyphicon-option-vertical"></span>
                         <a type="button" data-bs-toggle="modal" data-bs-target="#detailsModal" data-product='${JSON.stringify(product)}' title="Quick View">
-                            <h4 class="bi bi-search product-icons "></h4>
+                            <i class="fa-solid fa-search product-icons"></i>
                         </a>
 
                         <span class="glyphicon glyphicon-option-vertical"></span>
@@ -206,15 +206,35 @@ document.getElementById('filterForm').addEventListener('submit', function(event)
 
 });
 
+/************************************ Handling filter btn and div style *******************************/
 let filterBtn = document.getElementById('filter-btn');
 
-filterBtn.addEventListener('click', function() {
-    if (filterDiv.style.display === "none") {
-        filterDiv.style.display = "block";
-    } else {
+filterBtn.addEventListener('mouseenter', function() 
+{
+    filterDiv.style.display = "block";
+});
+
+filterBtn.addEventListener('mouseleave', function(event) 
+{
+    if (!event.relatedTarget || !filterDiv.contains(event.relatedTarget)) 
+    {
         filterDiv.style.display = "none";
     }
-})
+});
+
+
+filterDiv.addEventListener('mouseenter', function() 
+{
+    filterDiv.style.display = "block";
+});
+
+filterDiv.addEventListener('mouseleave', function(event) 
+{
+    if (!event.relatedTarget || event.relatedTarget !== filterBtn)
+     {
+        filterDiv.style.display = "none";
+    }
+});
 
 /************************************ display filter products div ******************************************/
 
@@ -231,8 +251,6 @@ displayFilter()
 
 
 /************************************** Display Product Details in Modal *********************************************/
-
-let myModal = document.getElementById('my-content');
 
 function displayProductDetails(product) {
     console.log(product);

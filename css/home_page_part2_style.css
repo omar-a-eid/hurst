@@ -106,7 +106,6 @@ hr.new5
 
 
 .product-icons {
-  color: grey; 
   transition: color 0.3s ease;
 }
 
@@ -143,4 +142,23 @@ hr.new5
 
 .add-cart-btn:hover{
   background-color: #d3b484;
+}
+
+
+.card-header{
+  background-color: #d3b484;
+}
+
+#filter-btn:hover{
+  background-color: #d3b484;
+  border: 1px solid #d3b484;
+}
+
+#filter-btn{
+  border: 1px solid #d3b484;
+  border-bottom-left-radius: 0;
+}
+
+#no_product_message h1:hover{
+  color: #d3b484;
 }

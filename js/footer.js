@@ -23,7 +23,7 @@ function drawFooter() {
                     id="search">
                 </div>
                 <div class="col-2">
-                    <button class="subscribe btn btn-success">SUBSCRIBE</button>
+                    <button class="subscribe btn">SUBSCRIBE</button>
                 </div>
             </div>
         </div>

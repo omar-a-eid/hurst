@@ -109,3 +109,15 @@ hr.new5
     top: 0;
     visibility: visible
   }
+
+  .subscribe{
+    background-color: rgba(204, 19, 19, 0.697);
+    border-radius: 3px;
+    color: white;
+  }
+
+  .subscribe:hover{
+    color: white;
+    background-color: #c8a165;
+    border: 1px solid #c8a165;
+  }
