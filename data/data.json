@@ -3,7 +3,7 @@
     {
       "id": 1,
       "category": "chair",
-      "productName": "Eames Lounge Chair and Ottoman",
+      "productName": "Lounge Chair",
       "price": 5695,
       "rating": 4.9,
       "smallDesc": "Iconic mid-century modern design for ultimate comfort.",
@@ -14,8 +14,8 @@
       ],
       "sizes": ["m", "s", "l", "sl", "xl"],
       "amount": 10,
-      "image": "1.webp",
-      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
+      "image": "chair1.jpg",
+      "images": ["chair1.jpg", "chair3.jpeg", "chair4.jpeg", "chair5.jpeg"],
       "description": "The Eames Lounge Chair and Ottoman, designed by Charles and Ray Eames, is a timeless classic. Crafted with the highest quality materials, this chair features molded plywood shells and premium leather upholstery for unmatched comfort and style.",
       "info": "Dimensions: Chair - 32.75\"W x 32.75\"D x 32\"H, Ottoman - 26\"W x 21.5\"D x 17.25\"H. Material: Molded plywood, premium leather upholstery.",
       "tags": [
@@ -29,19 +29,19 @@
         {
           "customerName": "Jennifer",
           "review": "Absolutely stunning chair! It's a masterpiece of design and comfort. Worth every penny.",
-          "image": "5.webp"
+          "image": "reviewer1.jpeg"
         },
         {
           "customerName": "Michael",
           "review": "This chair is an investment piece, but it's worth every cent. It's incredibly comfortable and looks beautiful in my living room.",
-          "image": "5.webp"
+          "image": "reviewer2.jpeg"
         }
       ]
     },
     {
       "id": 2,
       "category": "chair",
-      "productName": "Herman Miller Aeron Chair",
+      "productName": "Miller Chair ",
       "price": 1475,
       "rating": 4.8,
       "smallDesc": "Ergonomic office chair for superior support and comfort.",
@@ -66,19 +66,19 @@
         {
           "customerName": "Alex",
           "review": "Best office chair I've ever owned! It's incredibly comfortable and provides excellent support for long hours of sitting.",
-          "image": "user3.jpg"
+          "image": "reviewer2.jpeg"
         },
         {
           "customerName": "Jessica",
           "review": "I was hesitant to spend so much on a chair, but this one is worth every penny. It's made a huge difference in my comfort and productivity at work.",
-          "image": "user4.jpg"
+          "image": "reviewer3.jpeg"
         }
       ]
     },
     {
       "id": 3,
       "category": "chair",
-      "productName": "IKEA Poäng Armchair",
+      "productName": "IKEA Chair",
       "price": 199,
       "rating": 4.6,
       "smallDesc": "Classic and affordable armchair for cozy relaxation.",
@@ -103,19 +103,19 @@
         {
           "customerName": "David",
           "review": "Love this chair! It's comfortable, affordable, and looks great in my living room. Highly recommend!",
-          "image": "user5.jpg"
+          "image": "reviewer1.jpeg"
         },
         {
           "customerName": "Sarah",
           "review": "This chair exceeded my expectations. It's comfortable, sturdy, and stylish. A great value for the price.",
-          "image": "user6.jpg"
+          "image": "reviewer3.jpeg"
         }
       ]
     },
     {
       "id": 3,
       "category": "chair",
-      "productName": "Leather Recliner Chair",
+      "productName": "Leather Chair",
       "price": 549.99,
       "rating": 4.6,
       "smallDesc": "Luxurious leather recliner chair with ergonomic design.",
@@ -140,19 +140,19 @@
         {
           "customerName": "Ethan Harris",
           "review": "I absolutely love this recliner chair! It's incredibly comfortable and provides excellent lumbar support.",
-          "image": "ethan.jpg"
+          "image": "reviewer1.jpeg"
         },
         {
           "customerName": "Ava Martin",
           "review": "This chair is fantastic. It's well-made, stylish, and the reclining feature is a game-changer.",
-          "image": "ava.jpg"
+          "image": "reviewer2.jpeg"
         }
       ]
     },
     {
       "id": 4,
       "category": "chair",
-      "productName": "Rustic Wooden Chair",
+      "productName": "Rustic Chair",
       "price": 129.99,
       "rating": 4.4,
       "smallDesc": "Simple yet sturdy design crafted from reclaimed wood.",
@@ -177,19 +177,19 @@
         {
           "customerName": "Emma Thompson",
           "review": "I love the rustic look of this chair! It's sturdy and well-made, and it adds a charming touch to my dining room.",
-          "image": "emma.jpg"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "James Anderson",
           "review": "This chair exceeded my expectations. It's solid, comfortable, and looks fantastic in my kitchen.",
-          "image": "james.jpg"
+          "image": "reviewer1.jpeg"
         }
       ]
     },
     {
       "id": 5,
       "category": "chair",
-      "productName": "Vintage Leather Armchair",
+      "productName": "Leather Armchair",
       "price": 899.99,
       "rating": 4.7,
       "smallDesc": "Timeless elegance with supple leather upholstery.",
@@ -215,19 +215,19 @@
         {
           "customerName": "Benjamin Roberts",
           "review": "This armchair is absolutely stunning! The leather is soft and luxurious, and the craftsmanship is impeccable.",
-          "image": "benjamin.jpg"
+          "image": "reviewer1.jpeg"
         },
         {
           "customerName": "Evelyn Clark",
           "review": "I'm thrilled with this purchase. The armchair is comfortable, elegant, and adds a touch of vintage flair to my living room.",
-          "image": "evelyn.jpg"
+          "image": "reviewer3.jpeg"
         }
       ]
     },
     {
       "id": 6,
       "category": "chair",
-      "productName": "Eames Lounge Chair",
+      "productName": "Lounge-2 Chair",
       "price": 899.99,
       "rating": 4.9,
       "smallDesc": "Iconic and comfortable lounge chair with ottoman.",
@@ -252,19 +252,19 @@
         {
           "customerName": "Alexandra Lee",
           "review": "This lounge chair is amazing! It's incredibly comfortable and adds a touch of sophistication to my living room.",
-          "image": "alexandra.jpg"
+          "image": "reviewer1.jpeg"
         },
         {
           "customerName": "Matthew Davis",
           "review": "I couldn't be happier with this purchase. The chair is well-made, stylish, and provides excellent support.",
-          "image": "matthew.jpg"
+          "image": "reviewer2.jpeg"
         }
       ]
     },
     {
       "id": 7,
       "category": "chair",
-      "productName": "Mid-Century Modern Armchair",
+      "productName": "Modern Chair",
       "price": 249.99,
       "rating": 4.7,
       "smallDesc": "Stylish armchair with a mid-century modern design.",
@@ -289,19 +289,19 @@
         {
           "customerName": "Oliver White",
           "review": "This armchair is fantastic! It's comfortable, stylish, and fits perfectly in my living room.",
-          "image": "oliver.jpg"
+          "image": "reviewer1.jpeg"
         },
         {
           "customerName": "Emma Taylor",
           "review": "I love this chair! It's well-made, easy to assemble, and adds a touch of retro charm to my home.",
-          "image": "emma.jpg"
+          "image": "reviewer3.jpeg"
         }
       ]
     },
     {
       "id": 8,
       "category": "chair",
-      "productName": "Wingback Accent Chair",
+      "productName": "Accent Chair",
       "price": 329.99,
       "rating": 4.8,
       "smallDesc": "Classic wingback chair with elegant tufted upholstery.",
@@ -326,153 +326,17 @@
         {
           "customerName": "Sophia Clark",
           "review": "I'm in love with this chair! It's elegant, comfortable, and adds a touch of luxury to my living room.",
-          "image": "sophia.jpg"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "Lucas Turner",
           "review": "This chair exceeded my expectations. It's well-made, stylish, and provides excellent support.",
-          "image": "lucas.jpg"
+          "image": "reviewer2.jpeg"
         }
       ]
     },
     {
       "id": 9,
-      "category": "chair",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": ["m", "s", "l", "sl", "xl"],
-      "amount": 10,
-      "image": "1.webp",
-      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "reviews": [
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        }
-      ]
-    },
-    {
-      "id": 10,
-      "category": "chair",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": ["m", "s", "l", "sl", "xl"],
-      "amount": 10,
-      "image": "1.webp",
-      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "reviews": [
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        }
-      ]
-    },
-    {
-      "id": 11,
-      "category": "table",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": ["m", "s", "l", "sl", "xl"],
-      "amount": 10,
-      "image": "1.webp",
-      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "reviews": [
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        }
-      ]
-    },
-    {
-      "id": 12,
-      "category": "table",
-      "productName": "Dummy Product Name",
-      "price": 56.2,
-      "rating": 4.5,
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "colors": [
-        "#ffa07a",
-        "#e9967a",
-        "#c38b4b",
-        "#fe5858",
-        "#00b2ee"
-      ],
-      "sizes": ["m", "s", "l", "sl", "xl"],
-      "amount": 10,
-      "image": "1.webp",
-      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "reviews": [
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
-        }
-      ]
-    },
-    {
-      "id": 13,
       "category": "woodenchair",
       "productName": "Oakwood Classic",
       "price": 241.0,
@@ -489,24 +353,29 @@
       "amount": 10,
       "image": "1.webp",
       "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
+      "description": "Our Wingback Accent Chair adds sophistication and style to any room. With its classic design and tufted upholstery, it's perfect for reading nooks, living rooms, and bedrooms.",
+      "info": "Dimensions: 28\"W x 32\"D x 42\"H. Material: Fabric upholstery, wood frame.",
+      "tags": [
+        "chair",
+        "wingback chair",
+        "accent chair",
+        "furniture"
+      ],
       "reviews": [
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "Andria addison",
+          "review": "i am fasinated with the product of your website",
+          "image": "reviewer3.jpeg"
         },
         {
-          "customerName": "Gerald Barnes",
-          "review": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer accumsan egestas elese ifend. Phasellus a felis at est bibendum feugiat ut eget eni Praesent et messages in con sectetur posuere dolor non.",
-          "image": "reviewer1.webp"
+          "customerName": "Ahmad Barnes",
+          "review": "I'm impressed with the quality of this armchair. It arrived promptly and was well-packaged. Looks even better in person!",
+          "image": "reviewer1.jpeg"
         }
       ]
     },
     {
-      "id": 14,
+      "id": 10,
       "category": "woodenchair",
       "productName": "Vintage Walnut Armchair",
       "price": 279.99,
@@ -524,19 +393,19 @@
         {
           "customerName": "Sophia Clark",
           "review": "Absolutely stunning armchair! The walnut wood finish is gorgeous, and it's surprisingly comfortable to sit in.",
-          "image": "reviewer3.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "David Wilson",
           "review": "I'm impressed with the quality of this armchair. It arrived promptly and was well-packaged. Looks even better in person!",
-          "image": "reviewer4.webp"
+          "image": "reviewer1.jpeg"
         }
       ]
     },
     {
-      "id": 15,
+      "id": 11,
       "category": "woodenchair",
-      "productName": "Elegant Cherry Wood Chair",
+      "productName": "Elegant Chair",
       "price": 319.99,
       "rating": 4.8,
       "smallDesc": "Indulge in luxury with our Elegant Cherry Wood Chair. Crafted from premium cherry wood, this chair showcases exquisite craftsmanship and attention to detail. A true masterpiece for your home.",
@@ -552,19 +421,19 @@
         {
           "customerName": "Olivia Martinez",
           "review": "This chair exceeded my expectations! The cherry wood finish is stunning, and it's surprisingly comfortable to sit in for long periods.",
-          "image": "reviewer1.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "Daniel White",
           "review": "I'm thrilled with my purchase. The chair arrived in perfect condition, and the craftsmanship is superb. Highly recommend!",
-          "image": "reviewer1.webp"
+          "image": "reviewer2.jpeg"
         }
       ]
     },
     {
-      "id": 16,
+      "id": 12,
       "category": "woodenchair",
-      "productName": "Vintage Birch Chair",
+      "productName": "Vintage Chair",
       "price": 189.0,
       "rating": 4.2,
       "smallDesc": "Experience the charm of the past with our Vintage Birch Chair. Made from solid birch wood, this chair exudes timeless appeal with its elegant design. Whether used as a standalone piece or part of a set, it adds sophistication to any space.",
@@ -580,19 +449,19 @@
         {
           "customerName": "Emily Johnson",
           "review": "I absolutely love this chair! It's beautifully crafted and adds a touch of elegance to my dining room.",
-          "image": "reviewer1.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "Mark Thompson",
           "review": "This chair exceeded my expectations. It's sturdy, comfortable, and looks fantastic in my study.",
-          "image": "reviewer1.webp"
+          "image": "reviewer1.jpeg"
         }
       ]
     },
     {
-      "id": 17,
+      "id": 13,
       "category": "woodenchair",
-      "productName": "Mahogany Dining Chair",
+      "productName": "Mahogany Chair",
       "price": 279.0,
       "rating": 4.5,
       "smallDesc": "Elevate your dining experience with our Mahogany Dining Chair. Constructed from premium mahogany wood, this chair combines elegance with durability. Its timeless design and comfortable seating make it a perfect addition to any dining setting.",
@@ -608,19 +477,19 @@
         {
           "customerName": "Sophia Brown",
           "review": "I purchased these chairs for my dining room, and they are absolutely stunning! The quality is exceptional, and they are very comfortable to sit in for long periods.",
-          "image": "reviewer1.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "David Wilson",
           "review": "These chairs are well-made and sturdy. They arrived quickly and were easy to assemble. I'm very pleased with my purchase.",
-          "image": "reviewer1.webp"
+          "image": "reviewer2.jpeg"
         }
       ]
     },
     {
-      "id": 18,
+      "id": 14,
       "category": "gamingchair",
-      "productName": "Ergonomic Racing Chair",
+      "productName": "Ergonomic Chair",
       "price": 249.99,
       "rating": 4.7,
       "smallDesc": "Step up your gaming experience with our Ergonomic Racing Chair. Designed for comfort and performance, this chair features a sleek racing-inspired design and adjustable features for a personalized fit.",
@@ -636,19 +505,19 @@
         {
           "customerName": "Alex Johnson",
           "review": "Love this chair! It's super comfortable and looks great in my gaming setup.",
-          "image": "reviewer1.webp"
+          "image": "reviewer2.jpeg"
         },
         {
           "customerName": "Jessica Parker",
           "review": "Best gaming chair I've ever had! The adjustable features are fantastic, and it's very sturdy.",
-          "image": "reviewer1.webp"
+          "image": "reviewer3.jpeg"
         }
       ]
     },
     {
-      "id": 19,
+      "id": 15,
       "category": "gamingchair",
-      "productName": "High Back Gaming Chair",
+      "productName": "High-Back Chair",
       "price": 199.99,
       "rating": 4.6,
       "smallDesc": "Experience superior comfort with our High Back Gaming Chair. Designed with gamers in mind, this chair features a high backrest, lumbar support, and adjustable armrests for an ergonomic gaming experience.",
@@ -664,19 +533,19 @@
         {
           "customerName": "Ryan Lee",
           "review": "Fantastic chair! It's comfortable, sturdy, and looks awesome in my gaming room.",
-          "image": "reviewer1.webp"
+          "image": "reviewer1.jpeg"
         },
         {
           "customerName": "Sophie Evans",
           "review": "Great gaming chair! Love the lumbar support and adjustable armrests. Highly recommend it.",
-          "image": "reviewer1.webp"
+          "image": "reviewer1.jpeg"
         }
       ]
     },
     {
-      "id": 20,
+      "id": 16,
       "category": "gamingchair",
-      "productName": "Pro Series Gaming Chair",
+      "productName": "Pro-Series Chair",
       "price": 279.99,
       "rating": 4.8,
       "smallDesc": "Dominate the competition with our Pro Series Gaming Chair. Engineered for performance and durability, this chair features a sleek design, premium materials, and ergonomic features for a competitive edge.",
@@ -692,19 +561,19 @@
         {
           "customerName": "Daniel Harris",
           "review": "Amazing chair! It's incredibly comfortable and supportive, even during long gaming marathons.",
-          "image": "reviewer1.webp"
+          "image": "reviewer2.jpeg"
         },
         {
           "customerName": "Megan Cooper",
           "review": "Absolutely love this chair! It's super stylish and comfortable, and the adjustable features are a game-changer.",
-          "image": "reviewer1.webp"
+          "image": "reviewer3.jpeg"
         }
       ]
     },
     {
-      "id": 21,
+      "id": 17,
       "category": "gamingchair",
-      "productName": "Executive Gaming Chair",
+      "productName": "Executive Chair",
       "price": 299.99,
       "rating": 4.9,
       "smallDesc": "Upgrade your gaming setup with our Executive Gaming Chair. Designed for style and comfort, this chair features a luxurious faux leather exterior, high-density foam padding, and adjustable features for maximum support.",
@@ -720,19 +589,19 @@
         {
           "customerName": "Ethan Carter",
           "review": "Love this chair! It's so comfortable and looks incredibly stylish. Definitely worth the investment.",
-          "image": "reviewer1.webp"
+          "image": "reviewer1.jpeg"
         },
         {
           "customerName": "Sophia Garcia",
           "review": "Best gaming chair I've ever owned! The faux leather is high-quality, and the adjustable features are fantastic.",
-          "image": "reviewer1.webp"
+          "image": "reviewer3.jpeg"
         }
       ]
     },
     {
-      "id": 22,
+      "id": 18,
       "category": "gamingchair",
-      "productName": "Lumbar Support Gaming Chair",
+      "productName": "Lumbar Chair",
       "price": 169.99,
       "rating": 4.5,
       "smallDesc": "Experience superior support with our Lumbar Support Gaming Chair. Designed to alleviate back strain during long gaming sessions, this chair features built-in lumbar support, adjustable features, and plush cushioning for maximum comfort.",
@@ -748,19 +617,19 @@
         {
           "customerName": "Aiden Smith",
           "review": "Excellent chair! The lumbar support is a game-changer for me. I no longer experience back pain during long gaming sessions.",
-          "image": "reviewer1.webp"
+          "image": "reviewer2.jpeg"
         },
         {
           "customerName": "Isabella Martinez",
           "review": "Love this chair! It's incredibly comfortable, and the lumbar support is fantastic. Highly recommend it to fellow gamers.",
-          "image": "reviewer1.webp"
+          "image": "reviewer3.jpeg"
         }
       ]
     },
     {
-      "id": 23,
+      "id": 19,
       "category": "armedchair",
-      "productName": "Vintage Leather Armchair",
+      "productName": "Leather Armchair",
       "price": 349.99,
       "rating": 4.5,
       "smallDesc": "Experience luxury with our Vintage Leather Armchair. Crafted from premium leather and sturdy wood, this armchair offers both comfort and sophistication.",
@@ -776,19 +645,19 @@
         {
           "customerName": "Sophia Adams",
           "review": "Absolutely love this armchair! The leather feels luxurious, and it's so comfortable to sit on. Perfect addition to my living room.",
-          "image": "reviewer1.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "David Miller",
           "review": "High-quality craftsmanship and elegant design. This armchair exceeded my expectations. Highly recommend it to anyone looking for a stylish addition to their home.",
-          "image": "reviewer1.webp"
+          "image": "reviewer2.jpeg"
         }
       ]
     },
     {
-      "id": 24,
+      "id": 20,
       "category": "armedchair",
-      "productName": "Modern Velvet Armchair",
+      "productName": "Modern Armchair",
       "price": 279.99,
       "rating": 4.3,
       "smallDesc": "Add a touch of modern elegance with our Modern Velvet Armchair. Featuring plush velvet upholstery and sleek metal accents, it's sure to elevate any space.",
@@ -804,19 +673,19 @@
         {
           "customerName": "Olivia Wilson",
           "review": "This armchair is stunning! The velvet fabric is so soft, and the color is exactly as pictured. It's become my favorite spot in the house.",
-          "image": "reviewer1.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "Daniel White",
           "review": "I'm impressed by the quality and comfort of this armchair. It's a perfect blend of style and functionality. Highly recommended!",
-          "image": "reviewer1.webp"
+          "image": "reviewer1.jpeg"
         }
       ]
     },
     {
-      "id": 25,
+      "id": 21,
       "category": "armedchair",
-      "productName": "Classic Tufted Armchair",
+      "productName": "Classic Armchair",
       "price": 319.99,
       "rating": 4.4,
       "smallDesc": "Create a cozy reading nook with our Classic Tufted Armchair. Featuring elegant tufted upholstery and a sturdy wooden frame, it's an inviting addition to any home.",
@@ -832,19 +701,19 @@
         {
           "customerName": "Sophie Roberts",
           "review": "Love, love, love this armchair! It's so comfortable and looks beautiful in my reading corner. The tufted design adds a touch of elegance.",
-          "image": "reviewer1.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "Matthew Brown",
           "review": "This armchair exceeded my expectations. The quality is top-notch, and it's incredibly comfortable to sit on. Couldn't be happier with my purchase!",
-          "image": "reviewer1.webp"
+          "image": "reviewer2.jpeg"
         }
       ]
     },
     {
-      "id": 26,
+      "id": 22,
       "category": "armedchair",
-      "productName": "Mid-Century Modern Armchair",
+      "productName": "Mid-Century Armchair",
       "price": 329.99,
       "rating": 4.8,
       "smallDesc": "Add a touch of retro charm with our Mid-Century Modern Armchair. Featuring iconic design elements and premium upholstery, it's a statement piece for any mid-century inspired space.",
@@ -860,19 +729,19 @@
         {
           "customerName": "Ethan Harris",
           "review": "This armchair is a gem! It's beautifully designed and incredibly comfortable. The color is perfect, and it complements my mid-century decor.",
-          "image": "reviewer1.webp"
+          "image": "reviewer1.jpeg"
         },
         {
           "customerName": "Ava Martinez",
           "review": "I'm in love with this armchair! It's stylish, comfortable, and adds a retro vibe to my living room. Couldn't be happier with my purchase.",
-          "image": "reviewer1.webp"
+          "image": "reviewer3.jpeg"
         }
       ]
     },
     {
-      "id": 27,
+      "id": 23,
       "category": "armedchair",
-      "productName": "Scandinavian Inspired Armchair",
+      "productName": "Scandinavian Armchair",
       "price": 299.99,
       "rating": 4.7,
       "smallDesc": "Bring Nordic charm to your home with our Scandinavian Inspired Armchair. Featuring clean lines and natural materials, it's a timeless addition to any modern interior.",
@@ -888,12 +757,12 @@
         {
           "customerName": "Liam Turner",
           "review": "I'm impressed by the quality and comfort of this armchair. It's a perfect addition to my Scandinavian-inspired living room. Highly recommend it!",
-          "image": "reviewer1.webp"
+          "image": "reviewer2.jpeg"
         },
         {
           "customerName": "Isabella Scott",
           "review": "Absolutely love this armchair! It's sleek, comfortable, and blends seamlessly with my modern decor. Couldn't be happier with my purchase.",
-          "image": "reviewer1.webp"
+          "image": "reviewer3.jpeg"
         }
       ]
     } 
@@ -919,12 +788,12 @@
         {
           "customerName": "Sarah Miller",
           "review": "Absolutely love my Vintage Oak Desk! It's beautifully crafted and fits perfectly in my home office.",
-          "image": "reviewer1.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "John Smith",
           "review": "Great desk! Solid build quality and easy to assemble. Highly recommended for anyone looking for a stylish workspace solution.",
-          "image": "reviewer1.webp"
+          "image": "reviewer1.jpeg"
         }
       ]
     },
@@ -947,12 +816,12 @@
         {
           "customerName": "Emma Wilson",
           "review": "I'm impressed with the quality of the Modern Industrial Desk! It's stylish, sturdy, and enhances the overall look of my workspace.",
-          "image": "reviewer1.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "Alex Johnson",
           "review": "Excellent desk! Easy to assemble and looks even better in person. Highly recommend it to anyone in need of a stylish and functional workspace solution.",
-          "image": "reviewer1.webp"
+          "image": "reviewer2.jpeg"
         }
       ]
     },
@@ -975,12 +844,12 @@
         {
           "customerName": "Sophia Lee",
           "review": "I absolutely love my Contemporary Glass Desk! It's elegant, spacious, and complements my modern office decor perfectly.",
-          "image": "reviewer1.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "Daniel Brown",
           "review": "The Contemporary Glass Desk exceeded my expectations! It's sleek, sturdy, and adds a touch of class to my workspace. Highly recommended.",
-          "image": "reviewer1.webp"
+          "image": "reviewer1.jpeg"
         }
       ]
     },
@@ -1003,12 +872,12 @@
         {
           "customerName": "Sophia Lewis",
           "review": "I'm absolutely in love with my Vintage Oak Writing Desk! It's beautifully crafted and adds so much character to my home office.",
-          "image": "reviewer1.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "Benjamin Clark",
           "review": "Fantastic desk! The vintage design is exactly what I was looking for, and the quality is exceptional. Highly recommend it!",
-          "image": "reviewer1.webp"
+          "image": "reviewer2.jpeg"
         }
       ]
     },
@@ -1031,12 +900,12 @@
         {
           "customerName": "Oliver Wilson",
           "review": "I'm thrilled with my Industrial Metal Desk! It's sturdy, stylish, and fits perfectly in my loft apartment.",
-          "image": "reviewer1.webp"
+          "image": "reviewer1.jpeg"
         },
         {
           "customerName": "Sophie Brown",
           "review": "Great desk! The industrial look is exactly what I wanted, and it's surprisingly spacious. Definitely recommend it to anyone looking for a stylish workspace solution.",
-          "image": "reviewer1.webp"
+          "image": "reviewer3.jpeg"
         }
       ]
     },
@@ -1059,12 +928,12 @@
         {
           "customerName": "Sophia Johnson",
           "review": "I love this sofa! It's so comfortable and looks amazing in my living room.",
-          "image": "reviewer1.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "David Miller",
           "review": "Excellent sofa! The fabric is soft, and the cushions are just the right amount of firmness. Highly recommend!",
-          "image": "reviewer2.webp"
+          "image": "reviewer1.jpeg"
         }
       ]
     },
@@ -1087,12 +956,12 @@
         {
           "customerName": "Emma White",
           "review": "Absolutely stunning sofa! The leather is of excellent quality, and it's so comfortable to sit on. Couldn't be happier with my purchase.",
-          "image": "reviewer3.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "James Wilson",
           "review": "This sofa exceeded my expectations! The design is sleek, and the leather feels luxurious. Highly recommend this to anyone looking for a modern touch to their living room.",
-          "image": "reviewer4.webp"
+          "image": "reviewer2.jpeg"
         }
       ]
     },
@@ -1115,12 +984,12 @@
         {
           "customerName": "Olivia Martinez",
           "review": "Love, love, love this sectional sofa! It's so cozy and spacious, perfect for movie nights with the family.",
-          "image": "reviewer5.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "Daniel Brown",
           "review": "This sectional sofa is fantastic! The cushions are incredibly comfortable, and the design fits perfectly in my living room. Highly recommended.",
-          "image": "reviewer6.webp"
+          "image": "reviewer1.jpeg"
         }
       ]
     },{
@@ -1142,12 +1011,12 @@
         {
           "customerName": "Jessica Smith",
           "review": "Absolutely stunning bed! The quality is exceptional, and it looks even better in person. I'm thrilled with my purchase!",
-          "image": "reviewer1.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "David Johnson",
           "review": "This bed exceeded my expectations! It's incredibly comfortable and well-made. Highly recommend it to anyone looking for a luxurious bed.",
-          "image": "reviewer2.webp"
+          "image": "reviewer2.jpeg"
         }
       ]
     },
@@ -1170,12 +1039,12 @@
         {
           "customerName": "Sophia Martinez",
           "review": "Love this bed! It's stylish and comfortable. The assembly was straightforward, and it feels very sturdy. Highly recommend!",
-          "image": "reviewer3.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "Daniel Brown",
           "review": "Great bed for the price! Sleek design and easy to assemble. It's exactly what I was looking for in a modern platform bed.",
-          "image": "reviewer4.webp"
+          "image": "reviewer2.jpeg"
         }
       ]
     },
@@ -1198,12 +1067,12 @@
         {
           "customerName": "Matthew Wilson",
           "review": "Beautiful bed! The craftsmanship is excellent, and it looks stunning in my bedroom. Very pleased with this purchase.",
-          "image": "reviewer5.webp"
+          "image": "reviewer1.jpeg"
         },
         {
           "customerName": "Olivia Clark",
           "review": "I'm impressed with the quality of this sleigh bed! It's sturdy, well-made, and adds a touch of sophistication to my room. Highly recommend!",
-          "image": "reviewer6.webp"
+          "image": "reviewer3.jpeg"
         }
       ]
     },
@@ -1226,12 +1095,12 @@
         {
           "customerName": "Sophie Evans",
           "review": "Love this platform bed! It's sleek, sturdy, and easy to assemble. Adds a modern touch to my bedroom.",
-          "image": "reviewer8.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "Alexander Harris",
           "review": "Great purchase! The bed arrived on time and was well-packaged. It looks fantastic in my room and feels very sturdy.",
-          "image": "reviewer9.webp"
+          "image": "reviewer2.jpeg"
         }
       ]
     },
@@ -1254,12 +1123,12 @@
         {
           "customerName": "Nathan Phillips",
           "review": "This bed is awesome! It's solidly built and looks amazing in my loft. Adds a cool industrial vibe to the room.",
-          "image": "reviewer10.webp"
+          "image": "reviewer2.jpeg"
         },
         {
           "customerName": "Sophia Anderson",
           "review": "Absolutely love this industrial bed! It's exactly what I was looking for. The quality is excellent, and it arrived sooner than expected.",
-          "image": "reviewer11.webp"
+          "image": "reviewer3.jpeg"
         }
       ]
     },
@@ -1282,12 +1151,12 @@
         {
           "customerName": "Samantha Brown",
           "review": "Absolutely love this cupboard! It's beautiful and spacious, perfect for storing all my kitchen essentials.",
-          "image": "reviewer1.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "Daniel Miller",
           "review": "Great quality and craftsmanship. The Vintage Wooden Cupboard adds a touch of sophistication to my dining area.",
-          "image": "reviewer2.webp"
+          "image": "reviewer2.jpeg"
         }
       ]
     },
@@ -1310,12 +1179,12 @@
         {
           "customerName": "Sophie Evans",
           "review": "I'm thrilled with my Rustic Farmhouse Cupboard! It's exactly what I was looking for to complete my farmhouse-style kitchen.",
-          "image": "reviewer3.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "Jacob Clark",
           "review": "Excellent craftsmanship and sturdy construction. The Rustic Farmhouse Cupboard exceeded my expectations.",
-          "image": "reviewer4.webp"
+          "image": "reviewer2.jpeg"
         }
       ]
     },
@@ -1338,12 +1207,12 @@
         {
           "customerName": "Emma Garcia",
           "review": "Love the sleek design of this cupboard! It looks perfect in my living room and provides ample storage space.",
-          "image": "reviewer5.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "Noah Martinez",
           "review": "The Modern White Cupboard is a great addition to my home office. It's both stylish and functional.",
-          "image": "reviewer6.webp"
+          "image": "reviewer1.jpeg"
         }
       ]
     },
@@ -1366,12 +1235,12 @@
         {
           "customerName": "Olivia Wilson",
           "review": "Beautiful craftsmanship and excellent quality! The Classic Cherry Cupboard exceeded my expectations.",
-          "image": "reviewer7.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "Ethan Scott",
           "review": "I'm very happy with my purchase. The Classic Cherry Cupboard adds a touch of elegance to my bedroom.",
-          "image": "reviewer8.webp"
+          "image": "reviewer1.jpeg"
         }
       ]
     },
@@ -1394,12 +1263,12 @@
         {
           "customerName": "Liam Stewart",
           "review": "Great storage bed! The drawers are very spacious, and the bed itself looks fantastic. Adds a beachy vibe to my room.",
-          "image": "reviewer12.webp"
+          "image": "reviewer2.jpeg"
         },
         {
           "customerName": "Ava White",
           "review": "I'm impressed with the quality of this storage bed! It's sturdy and well-made. The drawers are a lifesaver for keeping my room organized.",
-          "image": "reviewer13.webp"
+          "image": "reviewer3.jpeg"
         }
       ]
     }
@@ -1424,68 +1293,12 @@
         {
           "customerName": "Sophia Anderson",
           "review": "Love this hat! It's well-made and looks great with any outfit.",
-          "image": "reviewer1.webp"
+          "image": "reviewer3.jpeg"
         },
         {
           "customerName": "Daniel Smith",
           "review": "Excellent quality and fast shipping. Highly recommend!",
-          "image": "reviewer2.webp"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "category": "hat",
-      "productName": "Wide Brim Sun Hat",
-      "price": 39.99,
-      "rating": 4.3,
-      "smallDesc": "Stay stylish and protected from the sun with our Wide Brim Sun Hat. Made from breathable materials, it's perfect for sunny days at the beach or picnics in the park.",
-      "colors": ["#FFFFFF", "#FFD700", "#008080", "#8B008B", "#800080"],
-      "sizes": ["m", "s", "l", "xl"],
-      "amount": 15,
-      "image": "1.webp",
-      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
-      "description": "The Wide Brim Sun Hat features a classic design with a wide brim for maximum sun protection. It's lightweight and comfortable to wear, making it ideal for outdoor activities.",
-      "info": "With its adjustable chin strap, this hat stays securely in place even on windy days. It's packable and easy to carry, making it a must-have for your summer wardrobe.",
-      "tags": "wide brim, sun hat, beach, summer, accessory",
-      "reviews": [
-        {
-          "customerName": "Olivia Johnson",
-          "review": "Perfect sun hat for beach days! It provides great coverage and looks stylish too.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Ethan Brown",
-          "review": "Great quality hat! The wide brim is perfect for keeping the sun off my face.",
-          "image": "reviewer2.webp"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "category": "hat",
-      "productName": "Classic Baseball Cap",
-      "price": 29.99,
-      "rating": 4.0,
-      "smallDesc": "Complete your casual look with our Classic Baseball Cap. Made from durable materials, it's comfortable to wear and adds a sporty touch to any outfit.",
-      "colors": ["#FF0000", "#FF8C00", "#FFFF00", "#008000", "#0000FF"],
-      "sizes": ["m", "s", "l", "xl"],
-      "amount": 25,
-      "image": "1.webp",
-      "images": ["1.webp", "2.webp", "3.webp", "4.webp"],
-      "description": "The Classic Baseball Cap features a structured design with a pre-curved visor and an adjustable strap for a custom fit. It's perfect for everyday wear and outdoor activities.",
-      "info": "With its timeless design and versatile colors, this cap pairs well with jeans, shorts, or athleisure wear. Whether you're running errands or hitting the gym, it's the perfect accessory.",
-      "tags": "baseball cap, sporty, casual, accessory",
-      "reviews": [
-        {
-          "customerName": "William Lee",
-          "review": "Comfortable and stylish cap! I wear it for workouts and casual outings.",
-          "image": "reviewer1.webp"
-        },
-        {
-          "customerName": "Sophia Garcia",
-          "review": "Love this baseball cap! It's well-made and fits perfectly.",
-          "image": "reviewer2.webp"
+          "image": "reviewer1.jpeg"
         }
       ]
     }

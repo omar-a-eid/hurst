@@ -194,6 +194,8 @@
         }
         .bg-color{
             background-color: white;
+        }.bg-colorgray{
+            background-color: #F6F6F6;
         }
         .mg{
             margin-bottom:   7px;
@@ -334,15 +336,16 @@
             </div>
             <div class="row col-12 mt-4">
                 <div class="row col-12">
-                    <div class="col-5 counter justify-content-center d-flex">
-                        <button class="btn btn-secondary btn-counter" onclick="decrease()">-</button>
+                    <div class="col-5 counter justify-content-evenly d-flex bg-colorgray">
+                        <button class="btn btn-secondary btn-counter bg-colorgray" onclick="decrease()">-</button>
                         <div class="counter-line"></div>
                         <span id="counter-value" class="mx-3">0</span>
                         <div class="counter-line"></div>
-                        <button class="btn btn-secondary btn-counter" onclick="increase()">+</button>
+                        <button class="btn btn-secondary btn-counter bg-colorgray" onclick="increase()">+</button>
                     </div>
-                    <div class="col-7 ">
-                        <ul class="nav justify-content-evenly mt-2"> <!-- Favourite , Search , refresh , cart -->
+                    <div class="col-1"></div>
+                    <div class="col-6 bg-colorgray">
+                        <ul class="nav justify-content-evenly mt-2 bg-colorgray "> <!-- Favourite , Search , refresh , cart -->
                             <li class="nav-item">
                                 <a class="black fa-regular fa-heart" href="#"></a>
                             </li>
@@ -367,10 +370,10 @@
                     <button class="prev-btn">Previous</button>
                     <div class="slider">
                         <img src="../images/${obj.images[0]}" alt="Image 1">
-                        <img class="img-fluid" src="../images/${obj.images[0]}" alt="Image 2">
-                        <img class="img-fluid" src="../images/${obj.images[0]}" alt="Image 3">
-                        <img class="img-fluid" src="../images/${obj.images[0]}" alt="Image 2">
-                        <img class="img-fluid" src="../images/${obj.images[0]}" alt="Image 3">
+                        <img class="img-fluid" src="../images/${obj.images[1]}" alt="Image 2">
+                        <img class="img-fluid" src="../images/${obj.images[2]}" alt="Image 3">
+                        <img class="img-fluid" src="../images/${obj.images[3]}" alt="Image 2">
+                        <img class="img-fluid" src="../images/${obj.images[4]}" alt="Image 3">
                     </div>
                     <button class="next-btn">Next</button>
                 </div>
@@ -432,7 +435,7 @@
                         </div>
                         <div class="row col-10 d-flex">
                             <div class="col-4">
-                                <h5><strong>${obj.reviews[0].customerName}</strong></h5>
+                                <h5><strong>${obj.reviews[1].customerName}</strong></h5>
                             </div>
                             <div class="col-4 d-flex justify-content-end">
                                 <button class="button fas fa-hand-point-left"></button>
