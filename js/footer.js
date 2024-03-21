@@ -1,18 +1,20 @@
-window.addEventListener('load',function(){
-    drawFooter()
-})
+window.addEventListener("load", function () {
+  drawFooter();
+});
 
+function drawFooter() {
+  let path = "./";
 
-function drawFooter()
-{
+  if (window.location.pathname != "index.html") {
+    path = "../";
+  }
 
-    let cssLink = document.createElement('link');
-    cssLink.rel = 'stylesheet';
-    cssLink.href = 'css/footer.css';
-    document.head.appendChild(cssLink);
+  let cssLink = document.createElement("link");
+  cssLink.rel = "stylesheet";
+  cssLink.href = path + "css/footer.css";
+  document.head.appendChild(cssLink);
 
-    
-    let footerHTML = `
+  let footerHTML = `
     <div class="container w-50 d-flex justify-content-center search-div">
             <div class="row d-flex w-100 align-items-center justify-content-center search-container">
                 <div class="col-6">
@@ -162,7 +164,7 @@ function drawFooter()
                                     <div class="row">
                                         <div class="col-sm-6 col-12">
                                             <div class="footer-thumb">
-                                                <a href="#"><img src="./images/footer1.webp" alt="" /></a>
+                                                <a href="#"><img src="${path}images/footer1.webp" alt="" /></a>
                                                 <div class="footer-thumb-info">
                                                     <p><a href="#">Furniture Product<br>Name</a></p>
                                                     <h4 class="price-3">$ 60.00</h4>
@@ -171,7 +173,7 @@ function drawFooter()
                                         </div>
                                         <div class="col-sm-6 col-12">
                                             <div class="footer-thumb">
-                                                <a href="#"><img src="./images/footer2.webp" alt="" /></a>
+                                                <a href="#"><img src="${path}images/footer2.webp" alt="" /></a>
                                                 <div class="footer-thumb-info">
                                                     <p><a href="#">Furniture Product<br>Name</a></p>
                                                     <h4 class="price-3">$ 60.00</h4>
@@ -198,10 +200,10 @@ function drawFooter()
                         </div>
                         <div class="col-md-6">
                             <div class="payment text-md-end">
-                                <a href="#"><img src="images/1pay1.webp" alt="" /></a>
-                                <a href="#"><img src="images/pay2.webp" alt="" /></a>
-                                <a href="#"><img src="images/pay2.webp" alt="" /></a>
-                                <a href="#"><img src="images/pay4.webp" alt="" /></a>
+                                <a href="#"><img src="${path}images/1pay1.webp" alt="" /></a>
+                                <a href="#"><img src="${path}images/pay2.webp" alt="" /></a>
+                                <a href="#"><img src="${path}images/pay2.webp" alt="" /></a>
+                                <a href="#"><img src="${path}images/pay4.webp" alt="" /></a>
                             </div>
                         </div>
                     </div>
@@ -209,9 +211,7 @@ function drawFooter()
             </div>
             <!-------------------------------------------- Copyright-area start ---------------------------------------->
     `;
-    let footerContainer = document.createElement('footer');
-    footerContainer.innerHTML = footerHTML;
-    document.body.appendChild(footerContainer);
-
+  let footerContainer = document.createElement("footer");
+  footerContainer.innerHTML = footerHTML;
+  document.body.appendChild(footerContainer);
 }
-
