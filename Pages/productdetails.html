@@ -203,6 +203,10 @@
         .pd{
             padding: 10px;
         }
+        .img{
+            width:100px;
+            height:100px;
+        }
     </style>
 </head>
 
@@ -299,42 +303,6 @@
                 <p>${obj.info}</p>
             </div>
             <div class="row col-12 mt-4">
-                <div class="col-2">
-                    <p>Color</p>
-                </div>
-                <div class="col-4">
-                    <div class="row justify-content-between">
-                        <div class="col-1">
-                            <div class="color-box" style="background-color: ${obj.colors[0]};"> </div>
-                        </div>
-                        <div class="col-1">
-                            <div class="color-box" style="background-color: ${obj.colors[1]};"></div>
-                        </div>
-                        <div class="col-1">
-                            <div class="color-box" style="background-color: ${obj.colors[2]};"></div>
-                        </div>
-                        <div class="col-1">
-                            <div class="color-box" style="background-color: ${obj.colors[3]};"></div>
-                        </div>
-                        <div class="col-1">
-                            <div class="color-box" style="background-color: ${obj.colors[4]};"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="row col-12 mt-4">
-                <div class="col-2 mt-2 ">
-                    <p>Size</p>
-                </div>
-                <div class="row col-7 justify-content-flex-start ">
-                    <div class="size-box">${obj.sizes[1]}</div>
-                    <div class="size-box">${obj.sizes[0]}</div>
-                    <div class="size-box">${obj.sizes[2]}</div>
-                    <div class="size-box">${obj.sizes[3]}</div>
-                    <div class="size-box">${obj.sizes[4]}</div>
-                </div>
-            </div>
-            <div class="row col-12 mt-4">
                 <div class="row col-12">
                     <div class="col-5 counter justify-content-evenly d-flex bg-colorgray">
                         <button class="btn btn-secondary btn-counter bg-colorgray" onclick="decrease()">-</button>
@@ -370,10 +338,10 @@
                     <button class="prev-btn">Previous</button>
                     <div class="slider">
                         <img src="../images/${obj.images[0]}" alt="Image 1">
-                        <img class="img-fluid" src="../images/${obj.images[1]}" alt="Image 2">
-                        <img class="img-fluid" src="../images/${obj.images[2]}" alt="Image 3">
-                        <img class="img-fluid" src="../images/${obj.images[3]}" alt="Image 2">
-                        <img class="img-fluid" src="../images/${obj.images[4]}" alt="Image 3">
+                        <img class=" img" src="../images/${obj.images[1]}" alt="Image 2">
+                        <img class=" img" src="../images/${obj.images[2]}" alt="Image 3">
+                        <img class=" img" src="../images/${obj.images[3]}" alt="Image 2">
+                        <img class=" img" src="../images/${obj.images[4]}" alt="Image 3">
                     </div>
                     <button class="next-btn">Next</button>
                 </div>
