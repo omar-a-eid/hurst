@@ -57,9 +57,6 @@ async function fetchAndDisplayProducts(category)
 
 /*********************************************** Display Products **************************************************/
 
-
-
-
 function displayProducts(products) {
     let container = document.querySelector('.items');
     container.innerHTML = '';
@@ -69,54 +66,47 @@ function displayProducts(products) {
         const isFavorite = getFavorites().some(favorite => favorite.id === product.id);
         const favIconClass = isFavorite ? 'fav-btn-active' : '';
 
-        let ratings = getSavedRatings(product.id);
-        let totalRating = ratings.length > 0 ? ratings.reduce((a, b) => a + b) : 0;
-        let averageRating = ratings.length > 0 ? (totalRating / ratings.length).toFixed(1) : 0;
-        // console.log(JSON.stringify(product));
+        let userRating = getUserRating(product.id);
+        let starRatingHTML = '';
+        for (let i = 5; i >= 1; i--)
+        {
+            let checked = i === userRating ? 'checked' : '';
+            starRatingHTML += `
+                <input type="radio" id="star${i}_${product.id}" name="rating_${product.id}" value="${i}" ${checked}>
+                <label for="star${i}_${product.id}"></label>
+            `;
+        }
+
 
         let productHTML = `
-        <div class="col-3 mb-3 card-parent">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3 card-parent">
             <div class="h-100 card-content p-2">
                 <div class="card border-0 w-100 h-100">
                     <img src="./images/${product.image}" alt="${product.productName}">
                     <div class="product-action bg-light w-75 d-flex align-items-center justify-content-around">
-                            <i class="fa-solid fa-heart-circle-plus ms-3 addToFav ${favIconClass}" aria-hidden="true" data-id="${product.id}"></i> 
+                        <i class="fa-solid fa-heart-circle-plus ms-3 addToFav ${favIconClass}" aria-hidden="true" data-id="${product.id}"></i>
                         <span class="glyphicon glyphicon-option-vertical"></span>
                         <a type="button" data-bs-toggle="modal" data-bs-target="#detailsModal" data-product='${JSON.stringify(product)}' title="Quick View">
                             <i class="fa-solid fa-search product-icons"></i>
                         </a>
-
                         <span class="glyphicon glyphicon-option-vertical"></span>
-                            <i class="fa-solid fa-cart-plus product-add-cart ms-3" aria-hidden="true" id="cart" data-id="${product.id}"></i>
+                        <i class="fa-solid fa-cart-plus product-add-cart ms-3" aria-hidden="true" id="cart" data-id="${product.id}"></i>
                     </div>
-        
+
                     <div class="details d-flex justify-content-between mt-3 p-0">
-                        <h3><b>${product.productName}</b></h3> 
+                        <h3><b>${product.productName}</b></h3>
                         <p>${product.type}</p>
                     </div>
-                    <div class="price d-inline-block justify-content-between align-items-center">
-                        <h4><b>$${product.price}</b></h4> 
-                        <div class="rating">
-                            <input type="radio" id="star5_${product.id}" name="rating_${product.id}" value="5">
-                            <label for="star5_${product.id}"></label>
-                            <input type="radio" id="star4_${product.id}" name="rating_${product.id}" value="4">
-                            <label for="star4_${product.id}"></label>
-                            <input type="radio" id="star3_${product.id}" name="rating_${product.id}" value="3">
-                            <label for="star3_${product.id}"></label>
-                            <input type="radio" id="star2_${product.id}" name="rating_${product.id}" value="2">
-                            <label for="star2_${product.id}"></label>
-                            <input type="radio" id="star1_${product.id}" name="rating_${product.id}" value="1">
-                            <label for="star1_${product.id}"></label>
 
-                            <div class="rating-display">
-                                <div class="average-rating">Average Rating: ${averageRating}</div>
-                            </div>
+                    <div class="d-inline-block justify-content-between align-items-center">
+                        <h4><b>$${product.price}</b></h4>
+                        <div class="rating">
+                            ${starRatingHTML}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    
         `;
         container.innerHTML += productHTML; 
     });
@@ -140,22 +130,37 @@ document.addEventListener('DOMContentLoaded', function () {
 /************************************** Rating Products *********************************************/
 
 
-function getSavedRatings(productId) 
+function saveUserRating(productId, rating) 
 {
-    return JSON.parse(sessionStorage.getItem(`ratings_${productId}`)) || [];
-}
-
-function saveRating(productId, rating) 
-{
-    let ratings = getSavedRatings(productId);
-    ratings.push(rating);
-    sessionStorage.setItem(`ratings_${productId}`, JSON.stringify(ratings));
+    sessionStorage.setItem(`user_rating_${productId}`, rating);
     updateRatingsDisplay(productId);
 }
 
+document.addEventListener('change', function(event) {
+    if (event.target.matches('.rating input[type="radio"]')) 
+    {
+        let productId = event.target.id.split('_')[1];
+        let rating = parseInt(event.target.value);
+        saveUserRating(productId, rating);
+    }
+});
 
-/************************************** Update Ratings Display *********************************************/
+function getUserRating(productId) 
+{
+    let userRating = sessionStorage.getItem(`user_rating_${productId}`);
+    return userRating ? parseInt(userRating) : 0;
+}
 
+function updateRatingsDisplay(productId) 
+{
+    let productCard = document.querySelector(`.card-parent[data-id="${productId}"]`);
+    if (productCard) {
+        let averageRatingDisplay = productCard.querySelector('.average-rating');
+        if (averageRatingDisplay) {
+            averageRatingDisplay.textContent = `Average Rating: ${averageRating}`;
+        }
+    }
+}
 
 /************************************** Filter Function *********************************************/
 
@@ -207,6 +212,7 @@ document.getElementById('filterForm').addEventListener('submit', function(event)
 });
 
 /************************************ Handling filter btn and div style *******************************/
+
 let filterBtn = document.getElementById('filter-btn');
 
 filterBtn.addEventListener('mouseenter', function() 
@@ -247,8 +253,6 @@ function displayFilter() {
 }
 
 displayFilter()
-
-
 
 /************************************** Display Product Details in Modal *********************************************/
 
@@ -301,6 +305,7 @@ function displayProductDetails(product) {
 }
 
 /************************ Display product details modal ***********************/
+
 $('#detailsModal').on('show.bs.modal', function (event) 
 {
     let button = $(event.relatedTarget);
