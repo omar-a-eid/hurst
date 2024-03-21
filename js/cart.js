@@ -33,15 +33,27 @@ export function decreaseQuantity(index) {
   }
 }
 
+function findProductById(id, ...productArrays) {
+  for (const products of productArrays) {
+      const foundProduct = products.find(product => product.id === id);
+      if (foundProduct) {
+          return foundProduct;
+      }
+  }
+  return null;
+}
+
+
 /* Call the function with qty if it's there and it only needs the id of the product */
 
-export async function addToCart(id, qty = 1) {
+export async function addToCart(prodId, qty = 1) {
+  const id =parseInt(prodId);
   let cartItems = getCarItems();
   let product = undefined;
   try {
     const data = await fetchData();
     const products = data.products;
-    product = products.find((product) => product.id == id);
+    product = findProductById(id, data.featuredProduct, products, data["new-arrivals"], data["best-seller"], data["most-view"]);
   } catch (error) {
     console.log(error);
   }

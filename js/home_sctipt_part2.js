@@ -84,9 +84,7 @@ function displayProducts(products) {
                         </a>
 
                         <span class="glyphicon glyphicon-option-vertical"></span>
-                        <a href="cart.html" data-bs-toggle="tooltip" data-placement="top" title="Add To Cart">
-                            <h4 class="bi bi-cart-fill product-icons"></h4>
-                        </a>
+                            <h4 class="bi bi-cart-fill product-icons product-add-cart" data-id="${product.id}"></h4>
                     </div>
         
                     <div class="details d-flex justify-content-between mt-3 p-0">

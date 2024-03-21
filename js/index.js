@@ -3,13 +3,20 @@ import { initMenu } from './menu.js';
 import { initSearch } from './search.js';
 import { fetchAndDisplayProducts } from './fetchData.js';
 import { displayFav, addedToFavourite } from './favorites.js';
+import { addToCartHandler,addToCart } from './cart.js';
 
 
 
 document.addEventListener('click', function(e) {
     if (e.target.classList.contains('addToFav')) {
         const id = e.target.dataset.id;
+        console.log(e);
         addedToFavourite(id);
+    }
+
+    if (e.target.classList.contains('product-add-cart')) {
+        const id = e.target.dataset.id;
+        addToCart(id);
     }
 
 });
@@ -31,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function() {
     if (favItems) {
         displayFav();
     }
-
+    
     const searchInput = document.getElementById('searchInput');
     if (searchInput) {
         initSearch(searchInput);

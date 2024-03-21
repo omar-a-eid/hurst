@@ -43,6 +43,7 @@ window.onload = function () {
 function handleCartActions(event) {
   if (event.target.classList.contains("qtybutton")) {
     const index = event.target.closest("tr").rowIndex - 1;
+    console.log(index);
     if (event.target.classList.contains("dec")) {
       decreaseQuantity(index);
     } else if (event.target.classList.contains("inc")) {

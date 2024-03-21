@@ -563,248 +563,53 @@
   ],
   "featuredProduct": [
     {
-      "id": 11,
+      "id": 21,
       "image": "1.webp",
       "price": 18.99,
-      "productName": "Featured Product"
+      "productName": "Featured Product",
+      "amount": 10
     },
     {
-      "id": 12,
+      "id": 22,
       "image": "2.webp",
       "price": 39.99,
-      "productName": "Featured Product"
+      "productName": "Featured Product",
+      "amount": 10
     },
     {
-      "id": 13,
+      "id": 23,
       "image": "1.webp",
       "price": 59.99,
-      "productName": "Featured Product"
+      "productName": "Featured Product",
+      "amount": 10
     },
     {
-      "id": 14,
+      "id": 24,
       "image": "2.webp",
       "price": 519.99,
-      "productName": "Featured Product"
+      "productName": "Featured Product",
+      "amount": 10
     }
   ],
 
   "new-arrivals": [
     {
-      "id":1,
-      "image": "1.webp",
-      "price": 29.99,
-      "productName": "Product 1",
-      "type": "chair",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-    },
-    {
-      "id":2,
-      "image": "2.webp",
-      "price": 39.99,
-      "productName": "Product 2",
-      "type": "chair",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-    },
-    {
-      "id":3,
-      "image": "2.webp",
-      "price": 49.99,
-      "productName": "Product 3",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-    },
-    {
-      "id":4,
-      "image": "2.webp",
-      "price": 49.99,
-      "productName": "Product 4",
-      "type": "table",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-    },
-
-    {
-      "id":5,
-      "image": "1.webp",
-      "price": 29.99,
-      "productName": "Product 1",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-    },
-    {
-      "id":6,
-      "image": "2.webp",
-      "price": 39.99,
-      "productName": "Product 2",
-      "type": "table",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-    },
-    {
-      "id":7,
-      "image": "2.webp",
-      "price": 49.99,
-      "productName": "Product 3",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-    },
-    {
-      "id":8,
-      "image": "2.webp",
-      "price": 49.99,
-      "productName": "Product 4",
-      "type": "table",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-    }
-  ],
-  "best-seller": [ 
-    {
-      "id":9,
-      "image": "1.webp",
-      "price": 18.99,
-      "productName": "Featured Product",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-    },
-    {
-      "id":10,
-      "image": "2.webp",
-      "price": 39.99,
-      "productName": "Featured Product",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-    },
-    {
-      "id":11,
-      "image": "1.webp",
-      "price": 59.99,
-      "productName": "Featured Product",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-    },
-    {
-      "id":12,
-      "image": "2.webp",
-      "price": 519.99,
-      "productName": "Featured Product",
-      "type": "table",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-    }
-],
-
-"most-view": [ 
-  {
-    "id":13,
-    "image": "1.webp",
-    "price": 29.99,
-    "productName": "Product 1",
-    "type": "Furniture",
-    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-  },
-  {
-    "id":14,
-    "image": "2.webp",
-    "price": 39.99,
-    "productName": "Product 2",
-    "type": "table",
-    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-  },
-  {
-    "id":15,
-    "image": "3.webp",
-    "price": 49.99,
-    "productName": "Product 3",
-    "type": "Furniture",
-    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-  },
-  {
-    "id":16,
-    "image": "1.webp",
-    "price": 49.99,
-    "productName": "Product 4",
-    "type": "table",
-    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-  },
-  {
-    "id":17,
-    "image": "1.webp",
-    "price": 18.99,
-    "productName": "Featured Product",
-    "type": "Furniture",
-    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-  },
-  {
-    "id":18,
-    "image": "2.webp",
-    "price": 39.99,
-    "productName": "Featured Product",
-    "type": "chair",
-    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-  },
-  {
-    "id":19,
-    "image": "1.webp",
-    "price": 59.99,
-    "productName": "Featured Product",
-    "type": "chair",
-    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-  },
-  {
-    "id":20,
-    "image": "2.webp",
-    "price": 519.99,
-    "productName": "Featured Product",
-    "type": "Furniture",
-    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-  }
-  ],
-
-  "discounts": [ 
-    {
-      "id":21,
-      "image": "1.webp",
-      "price": 18.99,
-      "productName": "Featured Product",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-    },
-    {
-      "id":22,
-      "image": "2.webp",
-      "price": 39.99,
-      "productName": "Featured Product",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-    },
-    {
-      "id":23,
-      "image": "1.webp",
-      "price": 59.99,
-      "productName": "Featured Product",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-    },
-    {
-      "id":24,
-      "image": "2.webp",
-      "price": 519.99,
-      "productName": "Featured Product",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
-    },
-    {
       "id":25,
       "image": "1.webp",
       "price": 29.99,
       "productName": "Product 1",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
+      "type": "chair",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "amount": 10
     },
     {
       "id":26,
       "image": "2.webp",
       "price": 39.99,
       "productName": "Product 2",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
+      "type": "chair",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "amount": 10
     },
     {
       "id":27,
@@ -812,10 +617,229 @@
       "price": 49.99,
       "productName": "Product 3",
       "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "amount": 10
     },
     {
       "id":28,
+      "image": "2.webp",
+      "price": 49.99,
+      "productName": "Product 4",
+      "type": "table",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "amount": 10
+    },
+
+    {
+      "id":29,
+      "image": "1.webp",
+      "price": 29.99,
+      "productName": "Product 1",
+      "type": "Furniture",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "amount": 10
+    },
+    {
+      "id":30,
+      "image": "2.webp",
+      "price": 39.99,
+      "productName": "Product 2",
+      "type": "table",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "amount": 10
+    },
+    {
+      "id":31,
+      "image": "2.webp",
+      "price": 49.99,
+      "productName": "Product 3",
+      "type": "Furniture",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "amount": 10
+    },
+    {
+      "id":32,
+      "image": "2.webp",
+      "price": 49.99,
+      "productName": "Product 4",
+      "type": "table",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "amount": 10
+    }
+  ],
+  "best-seller": [ 
+    {
+      "id":33,
+      "image": "1.webp",
+      "price": 18.99,
+      "productName": "Featured Product",
+      "type": "Furniture",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "amount": 10
+    },
+    {
+      "id":34,
+      "image": "2.webp",
+      "price": 39.99,
+      "productName": "Featured Product",
+      "type": "Furniture",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "amount": 10
+    },
+    {
+      "id":35,
+      "image": "1.webp",
+      "price": 59.99,
+      "productName": "Featured Product",
+      "type": "Furniture",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "amount": 10
+    },
+    {
+      "id":36,
+      "image": "2.webp",
+      "price": 519.99,
+      "productName": "Featured Product",
+      "type": "table",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "amount": 10
+    }
+],
+
+"most-view": [ 
+  {
+    "id":37,
+    "image": "1.webp",
+    "price": 29.99,
+    "productName": "Product 1",
+    "type": "Furniture",
+    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+    "amount": 10
+  },
+  {
+    "id":38,
+    "image": "2.webp",
+    "price": 39.99,
+    "productName": "Product 2",
+    "type": "table",
+    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+    "amount": 10
+  },
+  {
+    "id":39,
+    "image": "3.webp",
+    "price": 49.99,
+    "productName": "Product 3",
+    "type": "Furniture",
+    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+    "amount": 10
+  },
+  {
+    "id":40,
+    "image": "1.webp",
+    "price": 49.99,
+    "productName": "Product 4",
+    "type": "table",
+    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+    "amount": 10
+  },
+  {
+    "id":41,
+    "image": "1.webp",
+    "price": 18.99,
+    "productName": "Featured Product",
+    "type": "Furniture",
+    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+    "amount": 10
+  },
+  {
+    "id":42,
+    "image": "2.webp",
+    "price": 39.99,
+    "productName": "Featured Product",
+    "type": "chair",
+    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+    "amount": 10
+  },
+  {
+    "id":43,
+    "image": "1.webp",
+    "price": 59.99,
+    "productName": "Featured Product",
+    "type": "chair",
+    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+    "amount": 10
+  },
+  {
+    "id":44,
+    "image": "2.webp",
+    "price": 519.99,
+    "productName": "Featured Product",
+    "type": "Furniture",
+    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+    "amount": 10
+  }
+  ],
+
+  "discounts": [ 
+    {
+      "id":45,
+      "image": "1.webp",
+      "price": 18.99,
+      "productName": "Featured Product",
+      "type": "Furniture",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
+    },
+    {
+      "id":46,
+      "image": "2.webp",
+      "price": 39.99,
+      "productName": "Featured Product",
+      "type": "Furniture",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
+    },
+    {
+      "id":47,
+      "image": "1.webp",
+      "price": 59.99,
+      "productName": "Featured Product",
+      "type": "Furniture",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
+    },
+    {
+      "id":48,
+      "image": "2.webp",
+      "price": 519.99,
+      "productName": "Featured Product",
+      "type": "Furniture",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
+    },
+    {
+      "id":49,
+      "image": "1.webp",
+      "price": 29.99,
+      "productName": "Product 1",
+      "type": "Furniture",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
+    },
+    {
+      "id":50,
+      "image": "2.webp",
+      "price": 39.99,
+      "productName": "Product 2",
+      "type": "Furniture",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
+    },
+    {
+      "id":51,
+      "image": "2.webp",
+      "price": 49.99,
+      "productName": "Product 3",
+      "type": "Furniture",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
+    },
+    {
+      "id":52,
       "image": "2.webp",
       "price": 49.99,
       "productName": "Product 4",

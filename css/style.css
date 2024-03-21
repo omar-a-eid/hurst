@@ -107,7 +107,11 @@ body{
   100% {
     transform: translateY(0);
     opacity: 1;
-  }
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
 }
 
 .carousel-caption {
@@ -133,10 +137,10 @@ body{
   width: 100%;
 }
 
-.btn{
+.custom-btn{
   border:1px solid  #c8a165;
 }
-.btn:hover{
+.custom-btn:hover{
    background-color: #c8a165 !important;
    color:#fff
  }

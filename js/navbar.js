@@ -18,7 +18,7 @@ export function displayNav(){
     <div class="col-lg-4 text-lg-center col-6">
       <a
         class="navbar-brand"
-        href="#">
+        href="../index.html">
         <img
         src="images/logo.webp"
         alt="logo"
@@ -30,7 +30,7 @@ export function displayNav(){
     <div class="col-lg-4 col-6 text-end">
       <a
         class="navbar-brand"
-        href="#">
+        href="../pages/checkout.html">
         <i class="fa-solid fa-cart-shopping"></i>
       </a>
     </div>
