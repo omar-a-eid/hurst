@@ -168,7 +168,7 @@ function displayOrderCost(cartItems) {
     </tr>
     <tr>
       <td>Order Total</td>
-      <td class="text-end">$${total.toFixed(2)}</td>
+      <td class="text-end">$${total == 0 ? total : (total + 15).toFixed(2)}</td>
     </tr>
   `;
 
@@ -223,7 +223,7 @@ export function displayOrderComplete(total) {
           Total
         </h4>
         <p class="text-uppercase text-light-black mb-0">
-          <strong>$ ${total.toFixed(2)}</strong>
+          <strong>$ ${total == 0 ? total : (total + 15).toFixed(2)}</strong>
         </p>
       </div>
       <div class="single-order-info">
