@@ -38,31 +38,26 @@ document.addEventListener("DOMContentLoaded", () => {
     // Retrieve user data from local storage
     const userData = JSON.parse(localStorage.getItem(usernameLogin));
 
+    // // Validate user data and set login state in session storage
+    // if (userData && userData.password === passwordLogin) {
+    //   sessionStorage.setItem("loggedUser", usernameLogin);
+    //   messageBoxSignIn.textContent = "Login successful!";
+    //   messageBoxSignIn.classList.add("success");
+    //   messageBoxSignIn.classList.remove("error");
+    // } else {
+    //   messageBoxSignIn.textContent = "Invalid username or password.";
+    //   messageBoxSignIn.classList.add("error");
+    //   messageBoxSignIn.classList.remove("success");
+    // }
+
     // Validate user data and set login state in session storage
     if (userData && userData.password === passwordLogin) {
       sessionStorage.setItem("loggedUser", usernameLogin);
-      messageBoxSignIn.textContent = "Login successful!";
-      messageBoxSignIn.classList.add("success");
-      messageBoxSignIn.classList.remove("error");
+      // Redirect to home page after successful login
+      window.location.href = "/";
     } else {
-      messageBoxSignIn.textContent = "Invalid username or password.";
-      messageBoxSignIn.classList.add("error");
-      messageBoxSignIn.classList.remove("success");
+      showAlert("Invalid username or password.", "error");
     }
-
-    /*
-    // Validate user data and set login state in session storage
-  if (userData && userData.password === passwordLogin) {
-    sessionStorage.setItem("loggedUser", usernameLogin);
-    showAlert("Login successful!", "success");
-
-    // Redirect to home page after successful login
-    window.location.href = '#';
-  } else {
-    showAlert("Invalid username or password.", "error");
-  }
-    */
-
   });
 
   // Handle sign up form submission
@@ -128,6 +123,7 @@ document.addEventListener("DOMContentLoaded", () => {
       usernameSignUp,
       JSON.stringify({ email: emailSignUp, password: passwordSignUp })
     );
+    // window.location.href = "/";
     messageBoxSignUp.textContent = "Registration successful!";
     messageBoxSignUp.classList.add("success");
     messageBoxSignUp.classList.remove("error");

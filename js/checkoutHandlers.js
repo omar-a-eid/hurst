@@ -1,4 +1,5 @@
-  import { displayBanner } from "./banner.js";
+import auth from "./auth.js";
+import { displayBanner } from "./banner.js";
 import {
   addToCartHandler,
   decreaseQuantity,
@@ -15,6 +16,7 @@ import { displayNav, initNavbarAnimation } from "./navbar.js";
 import { removeWhishlistItem } from "./wishlist.js";
 
 window.onload = function () {
+  auth("/pages/signinSignup.html");
   displayNav();
   initNavbarAnimation();
   initMenu();

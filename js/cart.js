@@ -1,6 +1,6 @@
+import auth from "./auth.js";
 import { displayCartItems } from "./checkoutUI.js";
 import { fetchData } from "./fetchData.js";
-
 /*Will return the cart items */
 export function getCarItems() {
   return JSON.parse(localStorage.getItem("cart")) || [];
@@ -46,6 +46,8 @@ function findProductById(id, ...productArrays) {
 /* Call the function with qty if it's there and it only needs the id of the product */
 
 export async function addToCart(prodId, qty = 1) {
+  auth("/pages/signinSignup.html");
+
   const id = parseInt(prodId);
   let cartItems = getCarItems();
   let product = undefined;

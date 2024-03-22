@@ -1,6 +1,9 @@
-export function displayNav(){
-  const nav = document.getElementById('navbar');
-  let result = '';
+import auth from "./auth.js";
+export function displayNav() {
+  let isLogged = auth();
+  console.log(isLogged);
+  const nav = document.getElementById("navbar");
+  let result = "";
   result += `
   <div class="container-fluid">
   <div class="row w-100 align-items-center">
@@ -27,18 +30,29 @@ export function displayNav(){
       </a>
     </div>
 
-    <div class="col-lg-4 col-6 text-end">
-      <a
-        class="navbar-brand"
-        href="../pages/checkout.html">
-        <i class="fa-solid fa-cart-shopping"></i>
-      </a>
-    </div>
+    ${
+      isLogged
+        ? `<div class="col-lg-4 col-6 text-end">
+    <a
+      class="navbar-brand"
+      href="../pages/checkout.html">
+      <i class="fa-solid fa-cart-shopping"></i>
+    </a>
+  </div>`
+        : `<div class="col-lg-4 col-6 text-end">
+    <a
+      class="navbar-brand"
+      href="../pages/checkout.html">
+      <i class="fa-solid fa-right-to-bracket"></i>
+    </a>
+  </div>`
+    }
+    
   </div>
 </div>
-`
-    let offcanvas = document.getElementById('offcanvasExample');
-    let offcanvasHtml=` 
+`;
+  let offcanvas = document.getElementById("offcanvasExample");
+  let offcanvasHtml = ` 
     <div class="offcanvas-header">
     <button
       type="button"
@@ -70,31 +84,37 @@ export function displayNav(){
   <li class="parent pt-2">
     <a href="../pages/aboutUs.html">About Us</a>
   </li>
+
+  ${
+    isLogged
+      ? ""
+      : `
+  <li class="parent pt-2">
+    <a href="../pages/signinSignup.html">Login</a>
+  </li>
+  `
+  }
     </ul>
   </div>
-  `
-  ;
-
+  `;
   nav.innerHTML = result;
-  offcanvas.innerHTML =offcanvasHtml;
-
-
+  offcanvas.innerHTML = offcanvasHtml;
 }
 
 let scrolled = false;
 
 export function initNavbarAnimation() {
-  window.addEventListener('scroll', function () {
-    var navbar = document.querySelector('.navbar');
+  window.addEventListener("scroll", function () {
+    var navbar = document.querySelector(".navbar");
     if (window.scrollY > 0 && !scrolled) {
       scrolled = true;
-      navbar.classList.add('scroll-down');
-      navbar.style.transition = 'all 0.7s ease-in-out';
+      navbar.classList.add("scroll-down");
+      navbar.style.transition = "all 0.7s ease-in-out";
     }
     if (window.scrollY === 0 && scrolled) {
       scrolled = false;
-      navbar.classList.remove('scroll-down');
-      navbar.style.transition = 'all 0.7s ease-in-out';
+      navbar.classList.remove("scroll-down");
+      navbar.style.transition = "all 0.7s ease-in-out";
     }
   });
 }
