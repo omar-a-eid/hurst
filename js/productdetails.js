@@ -1,4 +1,5 @@
 import { displayBanner } from "./banner.js";
+import { initMenu } from "./menu.js";
 import { addToCart } from "./cart.js";
 import { addedToFavourite } from "./favorites.js";
 import { displayNav, initNavbarAnimation } from "./navbar.js";
@@ -369,3 +370,10 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+window.addEventListener("load", function () {
+    displayNav();
+    initNavbarAnimation();
+    initMenu();
+    displayBanner("Products");
+    main();
+  });
