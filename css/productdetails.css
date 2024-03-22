@@ -1,206 +1,210 @@
+a {
+  text-decoration: none;
+}
 .star {
-    color: #c76f63;
+  color: #c76f63;
 }
 
 .black {
-    color: black;
+  color: black;
 }
 
 /* css of the colors */
 .color-box {
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    border: 1px solid #000;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  border: 1px solid #000;
 }
 
 .red {
-    background-color: red;
+  background-color: red;
 }
 
 .green {
-    background-color: green;
+  background-color: green;
 }
 
 .blue {
-    background-color: blue;
+  background-color: blue;
 }
 
 .yellow {
-    background-color: yellow;
+  background-color: yellow;
 }
 
 .purple {
-    background-color: purple;
+  background-color: purple;
 }
 
 .color-box:hover {
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 /* css of the sizes */
 
 .size-box {
-    display: inline-block;
-    width: 35px;
-    height: 35px;
-    text-align: center;
-    line-height: 35px;
-    border: 1px solid #000;
-    transition: background-color 0.3s;
-    /* Add transition effect for smoother color change */
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  border: 1px solid #000;
+  transition: background-color 0.3s;
+  /* Add transition effect for smoother color change */
 }
 
 .size-box:hover {
-    background-color: #C8A165;
-    color: white;
+  background-color: #c8a165;
+  color: white;
 }
 
 .nav-link.active {
-    background-color: #C8A165 !important;
-    color: white !important;
+  background-color: #c8a165 !important;
+  color: white !important;
 }
 
 .black:hover {
-    background-color: orange;
-    color: white;
+  background-color: orange;
+  color: white;
 }
 
 /* css of increment and decrement */
 
 .counter {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .btn-counter {
-    padding: 0.375rem 0.75rem;
-    background-color: white;
-    color: black;
-    border: none;
-    /* Removed border */
+  padding: 0.375rem 0.75rem;
+  background-color: white;
+  color: black;
+  border: none;
+  /* Removed border */
 }
 
 .btn-counter:hover {
-    background-color: orange;
-    color: black;
+  background-color: orange;
+  color: black;
 }
 
 .counter-line {
-    width: 1px;
-    height: 20px;
-    background-color: black;
-    margin: 0 5px;
+  width: 1px;
+  height: 20px;
+  background-color: black;
+  margin: 0 5px;
 }
 
 /* css of carousol */
 .slider-container {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .slider {
-    position: relative;
-    display: flex;
-    transition: transform 0.5s ease;
+  position: relative;
+  display: flex;
+  transition: transform 0.5s ease;
 }
 
 .slider img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 .additional-img {
-    display: block;
-    height: auto;
-    margin-top: 20px;
+  display: block;
+  height: auto;
+  margin-top: 20px;
 }
 
 .prev-btn,
 .next-btn {
-    position: absolute;
-    top: 50%;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    z-index: 1;
+  position: absolute;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
 }
 
 .prev-btn {
-    left: 0;
-    transform: translateY(-50%);
+  left: 0;
+  transform: translateY(-50%);
 }
 
 .next-btn {
-    right: 0;
-    transform: translateY(-50%);
+  right: 0;
+  transform: translateY(-50%);
 }
 
 .button {
-    display: inline-block;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    margin: 0 10px;
+  display: inline-block;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  margin: 0 10px;
 }
 
 .button:hover {
-    color: #C8A165;
+  color: #c8a165;
 }
 
 .counter-line {
-    width: 2px;
-    height: 20px;
-    background-color: black;
-    margin-left: 25px;
+  width: 2px;
+  height: 20px;
+  background-color: black;
+  margin-left: 25px;
 }
 
 .star1 {
-    background-color: #c76f63 !important;
-    color: white;
+  background-color: #c76f63 !important;
+  color: white;
 }
 
 .star1:hover {
-    background-color: orange !important;
-
+  background-color: orange !important;
 }
 
 .rev {
-
-    background-color: #c76f63 !important;
-
+  background-color: #c76f63 !important;
 }
 
 .blacko {
-    color: black !important;
-    border: 1px solid white !important;
-    border-radius: 0px !important;
-    text-align: left;
+  color: black !important;
+  border: 1px solid white !important;
+  border-radius: 0px !important;
+  text-align: left;
 }
 
 body {
-    background-color: #F6F6F6;
+  background-color: #f6f6f6;
 }
 
 .bg-color {
-    background-color: white;
+  background-color: white;
 }
 
 .bg-colorgray {
-    background-color: #F6F6F6;
+  background-color: #f6f6f6;
 }
 
 .mg {
-    margin-bottom: 7px;
+  margin-bottom: 7px;
 }
 
 .pd {
-    padding: 10px;
+  padding: 10px;
 }
 
 .img {
-    width: 100px;
-    height: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+.search-div {
+  display: none !important;
 }
