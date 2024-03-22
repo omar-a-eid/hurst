@@ -2,95 +2,99 @@ import { getFavorites } from "../js/favorites.js";
 
 /************************************* links activation ***********************************/
 
-let Links = document.querySelectorAll('.tab-menu a');
+let Links = document.querySelectorAll(".tab-menu a");
 // console.log(Links);
 
-Links.forEach(link => {
-    link.addEventListener('click', function() {
-        Links.forEach(link => {
-            link.classList.remove('active');
-            let hrElement = link.querySelector('.new5');
-            // console.log(hrElement);
-            if (hrElement) {
-                hrElement.remove();
-            }
-        });
-
-        this.classList.add('active');
-        this.innerHTML += '<hr class="new5">';
+Links.forEach((link) => {
+  link.addEventListener("click", function () {
+    Links.forEach((link) => {
+      link.classList.remove("active");
+      let hrElement = link.querySelector(".new5");
+      // console.log(hrElement);
+      if (hrElement) {
+        hrElement.remove();
+      }
     });
+
+    this.classList.add("active");
+    this.innerHTML += '<hr class="new5">';
+  });
 });
 
 /************************************ Fetch data from json **************************************/
 
-async function fetchData() 
-{
-    try {
-        let response = await fetch('data/data.json');
-        // console.log(response);
-        let data = await response.json();
-        // console.log(data);
-        return data;
-    } catch (error) {
-        console.error('Error fetching data:', error);
-    }
+async function fetchData() {
+  try {
+    let response = await fetch("data/data.json");
+    // console.log(response);
+    let data = await response.json();
+    // console.log(data);
+    return data;
+  } catch (error) {
+    console.error("Error fetching data:", error);
+  }
 }
 
-async function fetchAndDisplayProducts(category) 
-{
-    try {
-        let fetchedData = await fetchData();
-        // console.log(fetchedData);
+async function fetchAndDisplayProducts(category) {
+  try {
+    let fetchedData = await fetchData();
+    // console.log(fetchedData);
 
-        if (fetchedData.hasOwnProperty(category)) 
-        {
-            // console.log(fetchedData[category]);
-            let products = fetchedData[category];
-            displayProducts(products);
-        } else {
-            console.error('Category not found:', category);
-        }
-    } catch (error) {
-        console.error('Error fetching or displaying products:', error);
+    if (fetchedData.hasOwnProperty(category)) {
+      // console.log(fetchedData[category]);
+      let products = fetchedData[category];
+      displayProducts(products);
+    } else {
+      console.error("Category not found:", category);
     }
+  } catch (error) {
+    console.error("Error fetching or displaying products:", error);
+  }
 }
 
 /*********************************************** Display Products **************************************************/
 
 function displayProducts(products) {
-    let container = document.querySelector('.items');
-    container.innerHTML = '';
+  let container = document.querySelector(".items");
+  container.innerHTML = "";
 
-    products.forEach(product => {
+  products.forEach((product) => {
+    const isFavorite = getFavorites().some(
+      (favorite) => favorite.id === product.id
+    );
+    const favIconClass = isFavorite ? "fav-btn-active" : "";
 
-        const isFavorite = getFavorites().some(favorite => favorite.id === product.id);
-        const favIconClass = isFavorite ? 'fav-btn-active' : '';
-
-        let userRating = getUserRating(product.id);
-        let starRatingHTML = '';
-        for (let i = 5; i >= 1; i--)
-        {
-            let checked = i === userRating ? 'checked' : '';
-            starRatingHTML += `
+    let userRating = getUserRating(product.id);
+    let starRatingHTML = "";
+    for (let i = 5; i >= 1; i--) {
+      let checked = i === userRating ? "checked" : "";
+      starRatingHTML += `
                 <input type="radio" id="star${i}_${product.id}" name="rating_${product.id}" value="${i}" ${checked}>
                 <label for="star${i}_${product.id}"></label>
             `;
-        }
+    }
 
-
-        let productHTML = `
+    let productHTML = `
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3 card-parent">
             <div class="h-100 card-content p-2">
                 <div class="card border-0 w-100 h-100">
-                    <img src="./images/${product.image}" alt="${product.productName}">
+                    <img src="./images/${product.image}" alt="${
+      product.productName
+    }">
                     <div class="product-action bg-light w-75 d-flex align-items-center justify-content-around">
-                        <i class="fa-solid fa-heart-circle-plus ms-3 addToFav ${favIconClass}" aria-hidden="true" data-id="${product.id}"></i>
+                        <i class="fa-solid fa-heart-circle-plus ms-3 addToFav ${favIconClass}" aria-hidden="true" data-id="${
+      product.id
+    }"></i>
                         <span class="glyphicon glyphicon-option-vertical"></span>
-                        <a type="button" data-bs-toggle="modal" data-bs-target="#detailsModal" data-product='${JSON.stringify(product)}' title="Quick View">
+                        <a type="button" data-bs-toggle="modal" data-bs-target="#detailsModal" data-product='${JSON.stringify(
+                          product
+                        )}' title="Quick View">
                             <i class="fa-solid fa-search product-icons"></i>
                         </a>
                         <span class="glyphicon glyphicon-option-vertical"></span>
-                        <i class="fa-solid fa-cart-plus product-add-cart ms-3" aria-hidden="true" id="cart" data-id="${product.id}"></i>
+                        <i class="fa-solid fa-cart-plus product-add-cart ms-3" aria-hidden="true" id="cart" data-id="${
+                          product.id
+                        }"></i>
                     </div>
 
                     <div class="details d-flex justify-content-between mt-3 p-0">
@@ -108,158 +112,156 @@ function displayProducts(products) {
             </div>
         </div>
         `;
-        container.innerHTML += productHTML; 
-    });
-    
+    container.innerHTML += productHTML;
+  });
 }
 
 /*************************************** handling categories *****************************************/
 
-document.addEventListener('DOMContentLoaded', function () {
-    Links.forEach(link => {
-        link.addEventListener('click', function() {
-            let category = this.getAttribute('href').substring(1);
-            fetchAndDisplayProducts(category);
-        });
+document.addEventListener("DOMContentLoaded", function () {
+  Links.forEach((link) => {
+    link.addEventListener("click", function () {
+      let category = this.getAttribute("href").substring(1);
+      fetchAndDisplayProducts(category);
     });
+  });
 
-    let viewDefaultItems = document.querySelector('.tab-menu a[href="#new-arrivals"]');
-    viewDefaultItems.click();
-}); 
+  let viewDefaultItems = document.querySelector(
+    '.tab-menu a[href="#new-arrivals"]'
+  );
+  viewDefaultItems.click();
+});
 
 /************************************** Rating Products *********************************************/
 
-
-function saveUserRating(productId, rating) 
-{
-    sessionStorage.setItem(`user_rating_${productId}`, rating);
-    updateRatingsDisplay(productId);
+function saveUserRating(productId, rating) {
+  sessionStorage.setItem(`user_rating_${productId}`, rating);
+  updateRatingsDisplay(productId);
 }
 
-document.addEventListener('change', function(event) {
-    if (event.target.matches('.rating input[type="radio"]')) 
-    {
-        let productId = event.target.id.split('_')[1];
-        let rating = parseInt(event.target.value);
-        saveUserRating(productId, rating);
-    }
+document.addEventListener("change", function (event) {
+  if (event.target.matches('.rating input[type="radio"]')) {
+    let productId = event.target.id.split("_")[1];
+    let rating = parseInt(event.target.value);
+    saveUserRating(productId, rating);
+  }
 });
 
-function getUserRating(productId) 
-{
-    let userRating = sessionStorage.getItem(`user_rating_${productId}`);
-    return userRating ? parseInt(userRating) : 0;
+function getUserRating(productId) {
+  let userRating = sessionStorage.getItem(`user_rating_${productId}`);
+  return userRating ? parseInt(userRating) : 0;
 }
 
-function updateRatingsDisplay(productId) 
-{
-    let productCard = document.querySelector(`.card-parent[data-id="${productId}"]`);
-    if (productCard) {
-        let averageRatingDisplay = productCard.querySelector('.average-rating');
-        if (averageRatingDisplay) {
-            averageRatingDisplay.textContent = `Average Rating: ${averageRating}`;
-        }
+function updateRatingsDisplay(productId) {
+  let productCard = document.querySelector(
+    `.card-parent[data-id="${productId}"]`
+  );
+  if (productCard) {
+    let averageRatingDisplay = productCard.querySelector(".average-rating");
+    if (averageRatingDisplay) {
+      averageRatingDisplay.textContent = `Average Rating: ${averageRating}`;
     }
+  }
 }
 
 /************************************** Filter Function *********************************************/
 
-let filterDiv = document.getElementById('myDIV');
+let filterDiv = document.getElementById("myDIV");
 console.log(filterDiv);
 
-let filterMessage = document.getElementById('no_product_message');
+let filterMessage = document.getElementById("no_product_message");
 console.log(filterMessage);
-filterMessage.style.display = 'none';
+filterMessage.style.display = "none";
 
-
-document.getElementById('filterForm').addEventListener('submit', function(event) {
+document
+  .getElementById("filterForm")
+  .addEventListener("submit", function (event) {
     event.preventDefault();
 
-    let minPrice = parseFloat(document.getElementById('minPrice').value);
-    let maxPrice = parseFloat(document.getElementById('maxPrice').value);
-    let productType = document.getElementById('productType').value;
+    let minPrice = parseFloat(document.getElementById("minPrice").value);
+    let maxPrice = parseFloat(document.getElementById("maxPrice").value);
+    let productType = document.getElementById("productType").value;
 
-    let allProducts = document.querySelectorAll('.items .card-parent');
-    
-    let productsFound = false; 
+    let allProducts = document.querySelectorAll(".items .card-parent");
 
-    allProducts.forEach(product => {
-        let price = parseFloat(product.querySelector('.product_price h4').textContent.replace('$', ''));
-        let type = product.querySelector('.details p').textContent.trim();
+    let productsFound = false;
 
-        let meetsPriceCriteria = isNaN(minPrice) || isNaN(maxPrice) || (price >= minPrice && price <= maxPrice);
-        let meetsTypeCriteria = productType === '' || type === productType;
+    allProducts.forEach((product) => {
+      let price = parseFloat(
+        product.querySelector(".product_price h4").textContent.replace("$", "")
+      );
+      let type = product.querySelector(".details p").textContent.trim();
 
-        if (meetsPriceCriteria && meetsTypeCriteria) {
-            product.style.display = 'block';
-            productsFound = true; 
-        } else {
-            product.style.display = 'none';
-        }
+      let meetsPriceCriteria =
+        isNaN(minPrice) ||
+        isNaN(maxPrice) ||
+        (price >= minPrice && price <= maxPrice);
+      let meetsTypeCriteria = productType === "" || type === productType;
+
+      if (meetsPriceCriteria && meetsTypeCriteria) {
+        product.style.display = "block";
+        productsFound = true;
+      } else {
+        product.style.display = "none";
+      }
     });
 
-
     if (productsFound == false) {
-        filterMessage.style.display = 'flex';
-        filterMessage.style.textAlign = 'center';
+      filterMessage.style.display = "flex";
+      filterMessage.style.textAlign = "center";
     } else {
-        filterMessage.style.display = 'none';
+      filterMessage.style.display = "none";
     }
 
-    filterDiv.style.display = 'none';
-
-
-});
+    filterDiv.style.display = "none";
+  });
 
 /************************************ Handling filter btn and div style *******************************/
 
-let filterBtn = document.getElementById('filter-btn');
+let filterBtn = document.getElementById("filter-btn");
 
-filterBtn.addEventListener('mouseenter', function() 
-{
+filterBtn.addEventListener("click", function () {
+  if (filterDiv.style.display == "block") {
+    filterDiv.style.display = "none";
+  } else {
     filterDiv.style.display = "block";
+  }
 });
 
-filterBtn.addEventListener('mouseleave', function(event) 
-{
-    if (!event.relatedTarget || !filterDiv.contains(event.relatedTarget)) 
-    {
-        filterDiv.style.display = "none";
-    }
+// filterBtn.addEventListener("mouseleave", function (event) {
+//   if (!event.relatedTarget || !filterDiv.contains(event.relatedTarget)) {
+//     filterDiv.style.display = "none";
+//   }
+// });
+
+filterDiv.addEventListener("mouseenter", function () {
+  filterDiv.style.display = "block";
 });
 
-
-filterDiv.addEventListener('mouseenter', function() 
-{
-    filterDiv.style.display = "block";
-});
-
-filterDiv.addEventListener('mouseleave', function(event) 
-{
-    if (!event.relatedTarget || event.relatedTarget !== filterBtn)
-     {
-        filterDiv.style.display = "none";
-    }
-});
+// filterDiv.addEventListener("mouseleave", function (event) {
+//   if (!event.relatedTarget || event.relatedTarget !== filterBtn) {
+//     filterDiv.style.display = "none";
+//   }
+// });
 
 /************************************ display filter products div ******************************************/
 
 function displayFilter() {
-    if (filterDiv.style.display === "none") {
-        filterDiv.style.display = "block";
-    } else {
-        filterDiv.style.display = "none";
-    }
+  if (filterDiv.style.display === "none") {
+    filterDiv.style.display = "block";
+  } else {
+    filterDiv.style.display = "none";
+  }
 }
 
-displayFilter()
+displayFilter();
 
 /************************************** Display Product Details in Modal *********************************************/
 
 function displayProductDetails(product) {
-    console.log(product);
-    let modalBody = document.getElementById('my-content');
-    modalBody.innerHTML = `
+  console.log(product);
+  let modalBody = document.getElementById("my-content");
+  modalBody.innerHTML = `
         <div class="row">
             <div class="col-6 p-3">
                 <img src="./images/${product.image}" class="w-100 h-100" alt="${product.productName}">
@@ -306,13 +308,11 @@ function displayProductDetails(product) {
 
 /************************ Display product details modal ***********************/
 
-$('#detailsModal').on('show.bs.modal', function (event) 
-{
-    let button = $(event.relatedTarget);
-    let product = button.data('product'); 
-    // console.log(product);
-    displayProductDetails(product);
+$("#detailsModal").on("show.bs.modal", function (event) {
+  let button = $(event.relatedTarget);
+  let product = button.data("product");
+  // console.log(product);
+  displayProductDetails(product);
 });
 
 /*****************************************************************************/
-

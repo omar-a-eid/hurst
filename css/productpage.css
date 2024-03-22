@@ -1,168 +1,173 @@
+a {
+  text-decoration: none;
+}
 /* Categories css */
-
 .dropdown-toggle::after {
-    display: none;
+  display: none;
 }
 
 .accordion-button::after {
-    display: none;
+  display: none;
 }
 
 /* price css */
 
 .size-box:hover {
-    background-color: orange;
+  background-color: orange;
 }
 
 .size-box:hover {
-    background-color: orange;
+  background-color: orange;
 }
 
 .form-range::-webkit-slider-runnable-track {
-    background-color: orange;
+  background-color: orange;
 }
 
 .form-range::-ms-track {
-    background-color: orange;
+  background-color: orange;
 }
 
 /* Color css */
 
 .color-box {
-    width: 30px;
-    height: 30px;
-    display: inline-block;
-    border: 1px solid #000;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  border: 1px solid #000;
 }
 
 .dropdown-menu {
-    padding: 10px;
+  padding: 10px;
 }
 
 .dropdown-menu li:hover div:nth-child(2) {
-    color: lightsalmon;
+  color: lightsalmon;
 }
 
 /* Sizes css */
 
 .line {
-    border-top: 1px solid #000;
-    margin-top: 10px;
-    margin-bottom: 10px;
+  border-top: 1px solid #000;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .size-heading {
-    border-bottom: 1px solid #ccc;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .size-box {
-    border: 1px solid #ccc;
-    padding: 10px;
-    text-align: center;
-    transition: background-color 0.3s;
-    cursor: pointer;
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  transition: background-color 0.3s;
+  cursor: pointer;
 }
 
 /* nav links css */
 
 .star {
-    padding: 0px;
-    margin: 0px;
+  padding: 0px;
+  margin: 0px;
 }
 
 .star1 {
-    color: #C87065 !important;
+  color: #c87065 !important;
 }
 
 .black {
-    color: #000 !important;
+  color: #000 !important;
 }
 
 .kmz {
-    background-color: #dad8d8;
-    padding: 6px;
-    padding-left: 10px;
+  background-color: #dad8d8;
+  padding: 6px;
+  padding-left: 10px;
 }
 
 .counter-line {
-    width: 1px;
-    height: 20px;
-    background-color: black;
+  width: 1px;
+  height: 20px;
+  background-color: black;
 }
 
 /* Page Slider css */
 
 .page-numbers {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    justify-content: center;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
 }
 
 .page-numbers li {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
-
 .page-numbers li a {
-    text-decoration: none;
-    padding: 5px 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    color: #333;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
 }
 
 .page-numbers li a:hover {
-    background-color: #f0f0f0;
+  background-color: #f0f0f0;
 }
 
 .pagination-arrows {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .pagination-arrows a {
-    margin: 0 10px;
-    color: #333;
+  margin: 0 10px;
+  color: #333;
 }
 
 .pagination-arrows a:hover {
-    color: #555;
+  color: #555;
 }
 
 .badge.price {
-    background-color: transparent;
-    color: #C87065;
+  background-color: transparent;
+  color: #c87065;
 }
 
 .badge.top-left-New {
-    background-color: #C87065;
-    color: white;
-    top: 0;
-    left: 0;
+  background-color: #c87065;
+  color: white;
+  top: 0;
+  left: 0;
 }
 
 .badge.top-left-Sale {
-    background-color: #c76f63;
-    color: white;
-    top: 0;
-    left: 0;
+  background-color: #c76f63;
+  color: white;
+  top: 0;
+  left: 0;
 }
 
 .background-card-color {
-    background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .card {
-    border-radius: 0px;
+  border-radius: 0px;
 }
 
 body {
-    background-color: #F6F6F6;
+  background-color: #f6f6f6;
 }
 
 .bg-color {
-    background-color: white;
+  background-color: white;
+}
+
+.search-div {
+  display: none !important;
 }

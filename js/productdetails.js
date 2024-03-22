@@ -1,7 +1,7 @@
 import { displayBanner } from "./banner.js";
-import { initMenu } from "./menu.js";
 import { addToCart } from "./cart.js";
 import { addedToFavourite } from "./favorites.js";
+import { initMenu } from "./menu.js";
 import { displayNav, initNavbarAnimation } from "./navbar.js";
 let qty, isFavorite;
 function details() {
@@ -371,9 +371,8 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 });
 window.addEventListener("load", function () {
-    displayNav();
-    initNavbarAnimation();
-    initMenu();
-    displayBanner("Products");
-    main();
-  });
+  displayNav();
+  initNavbarAnimation();
+  initMenu();
+  main();
+});
