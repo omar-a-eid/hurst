@@ -1,52 +1,39 @@
-import {addToCart} from './cart.js';
-
+import { displayBanner } from "./banner.js";
+import { addToCart } from "./cart.js";
+import { addedToFavourite } from "./favorites.js";
+import { displayNav, initNavbarAnimation } from "./navbar.js";
+let qty, isFavorite;
 function details() {
-    let counter = 0;
-    const counterValue = document.getElementById('counter-value');
-
-    function increase() {
-        counter++;
-        counterValue.textContent = counter;
-    }
-
-    function decrease() {
-        if (counter > 0) {
-            counter--;
-            counterValue.textContent = counter;
+  let favIconClass;
+  const favoritesProd = JSON.parse(localStorage.getItem("favorites")) || [];
+  let result = "";
+  if (favoritesProd.length === 0) {
+    result += `<h1 class="text-center mt-5">No Favorite Items</h1>`;
+  }
+  favoritesProd.forEach((product) => {
+    isFavorite = favoritesProd.some((favorite) => favorite.id === product.id);
+    favIconClass = isFavorite ? "fav-btn-active" : "";
+  });
+  // let cards = document.getElementById("cards");
+  function getData() {
+    fetch("../data/data.json")
+      .then((res) => {
+        // to
+        if (!res.ok) {
+          throw new Error("File can't load");
         }
-    }
+        return res.json();
+      })
+      .then((res) => {
+        let pro_id = new URLSearchParams(window.location.search);
+        // console.log(pro_id);
+        let product = res.products.filter((pro) => pro.id == pro_id.get("id"));
+        let obj = product[0];
+        // console.log(obj);
+        // console.log(obj.colors[0]);
+        qty = obj.amount;
 
-    document.addEventListener("DOMContentLoaded", function () {
-        const navLinks = document.querySelectorAll('.nav-link');
-
-        navLinks.forEach(function (navLink) {
-            navLink.addEventListener('click', function () {
-                navLinks.forEach(function (link) {
-                    link.classList.remove('rev');
-                });
-                this.classList.add('rev');
-            });
-        });
-    });
-    // let cards = document.getElementById("cards");
-    function getData() {
-        fetch("../data/data.json").then((res) => {
-            // to 
-            if (!res.ok) {
-                throw new Error("File can't load");
-            }
-            return res.json();
-        }).then((res) => {
-
-            let pro_id = new URLSearchParams(window.location.search);
-            // console.log(pro_id);
-            let product = res.products.filter(pro => pro.id == pro_id.get("id"));
-            let obj = product[0];
-            // console.log(obj);
-            // console.log(obj.colors[0]);
-
-            let str =
-                `
+        let str = `
             <div class="row mt-5 col-12 ">
 <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 bg-color ">
     <img class="additional-img w-100 img-fluid" src="../images/${obj.image}" alt="furnituer">
@@ -85,18 +72,18 @@ function details() {
     </div>
     <div class="row col-12 mt-4">
         <div class="row col-12">
-            <div class="col-5 counter justify-content-evenly d-flex bg-colorgray">
-                <button class="btn btn-secondary btn-counter bg-colorgray" onclick="decrease()">-</button>
+            <div class="col-5 counter justify-content-evenly d-flex bg-colorgray" id="qty-btn">
+                <button class="btn btn-secondary btn-counter bg-colorgray dec">-</button>
                 <div class="counter-line"></div>
-                <span id="counter-value" class="mx-3">0</span>
+                <span id="counter-value" class="mx-3">1</span>
                 <div class="counter-line"></div>
-                <button class="btn btn-secondary btn-counter bg-colorgray" onclick="increase()">+</button>
+                <button class="btn btn-secondary btn-counter bg-colorgray inc">+</button>
             </div>
             <div class="col-1"></div>
             <div class="col-6 bg-colorgray">
                 <ul class="nav justify-content-evenly mt-2 bg-colorgray "> <!-- Favourite , Search , refresh , cart -->
                     <li class="nav-item">
-                        
+                    <i class="fa-solid fa-heart-circle-plus ms-3 addToFav ${favIconClass}" aria-hidden="true" data-id="${obj.id}"></i>
                     </li>
                     <div class="counter-line"></div>
                     <li class="nav-item">
@@ -132,7 +119,7 @@ function details() {
 <div class="d-block d-md-block d-lg-flex col-12 mt-3 align-items-start ">
     <div class="nav flex-column nav-pills me-3 " id="v-pills-tab" role="tablist "
         aria-orientation="vertical">
-        <button class=" blacko nav-link bg-color mg" id="v-pills-home-tab " data-bs-toggle="pill"
+        <button class="blacko nav-link bg-color mg active" id="v-pills-home-tab " data-bs-toggle="pill"
             data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
             aria-selected="true">Description</button>
         <button class=" blacko nav-link bg-color mg" id="v-pills-profile-tab " data-bs-toggle="pill"
@@ -288,73 +275,97 @@ function details() {
 </div>
             `;
 
-            document.getElementById("cont").innerHTML = str;
-            let myLink = document.querySelector("#myLink");
-            myLink.addEventListener("click", function (e) {
-                e.preventDefault();
-                addToCart(obj.id, obj.amount);
-                this.setAttribute('href', '../pages/checkout.html');
-            });
-            const nextBtn = document.querySelector(".next-btn");
-            console.log(nextBtn);
-            // div.insertAdjacentHTML('afterend', str);
-            const slider = document.querySelector(".slider");
-            const prevBtn = document.querySelector(".prev-btn");
-            const images = document.querySelectorAll(".slider img");
-            const additionalImg = document.querySelector(".additional-img");
+        document.getElementById("cont").innerHTML = str;
+        let myLink = document.querySelector("#myLink");
+        myLink.addEventListener("click", function (e) {
+          e.preventDefault();
+          const counterBody = document.getElementById("counter-value");
+          let currentValue = parseInt(counterBody.textContent);
+          addToCart(obj.id, currentValue);
+          this.setAttribute("href", "../pages/checkout.html");
+        });
+        const nextBtn = document.querySelector(".next-btn");
+        console.log(nextBtn);
+        // div.insertAdjacentHTML('afterend', str);
+        const slider = document.querySelector(".slider");
+        const prevBtn = document.querySelector(".prev-btn");
+        const images = document.querySelectorAll(".slider img");
+        const additionalImg = document.querySelector(".additional-img");
 
-            let counter = 0;
-            const imageWidth = images[0].clientWidth;
+        let counter = 0;
+        const imageWidth = images[0].clientWidth;
 
+        // Function to update additional image src
+        function updateAdditionalImageSrc() {
+          additionalImg.src = images[counter % images.length].src;
+        }
 
-            // Function to update additional image src
-            function updateAdditionalImageSrc() {
-                additionalImg.src = images[counter % images.length].src;
-            }
+        // Initial update of additional image source
+        updateAdditionalImageSrc();
 
-            // Initial update of additional image source
-            updateAdditionalImageSrc();
+        // Event listener for transitionend event on slider
+        slider.addEventListener("transitionend", updateAdditionalImageSrc);
+        console.log(nextBtn);
+        nextBtn.addEventListener("click", () => {
+          console.log("hello");
+          counter++;
+          updateAdditionalImageSrc(); // Update additional image immediately
+          slider.style.transition = "transform 0.5s ease";
+          slider.style.transform = `translateX(-${counter * imageWidth}px)`;
+          if (counter === images.length) {
+            counter = 0;
+            slider.style.transition = "none";
+            slider.style.transform = `translateX(0px)`;
 
-            // Event listener for transitionend event on slider
-            slider.addEventListener("transitionend", updateAdditionalImageSrc);
-            console.log(nextBtn);
-            nextBtn.addEventListener("click", () => {
-                console.log("hello");
-                counter++;
-                updateAdditionalImageSrc(); // Update additional image immediately
-                slider.style.transition = "transform 0.5s ease";
-                slider.style.transform = `translateX(-${counter * imageWidth}px)`;
-                if (counter === images.length) {
-                    counter = 0;
-                    slider.style.transition = "none";
-                    slider.style.transform = `translateX(0px)`;
+            setTimeout(() => {
+              slider.style.transition = "transform 0.5s ease";
+              slider.style.transform = `translateX(-${counter * imageWidth}px)`;
+            }, 50);
+          }
+        });
 
-                    setTimeout(() => {
-                        slider.style.transition = "transform 0.5s ease";
-                        slider.style.transform = `translateX(-${counter * imageWidth}px)`;
-                    }, 50);
-                }
-            });
-
-            prevBtn.addEventListener("click", () => {
-                if (counter <= 0) return;
-                counter--;
-                updateAdditionalImageSrc(); // Update additional image immediately
-                slider.style.transition = "transform 0.5s ease";
-                slider.style.transform = `translateX(-${counter * imageWidth}px)`;
-            });
-
-
-        }).catch(error => console.log(error));
-    }
-    if (window.location.search !== "") {
-        getData();
-    } else {
-        alert("Id not found");
-        window.location.href = "../Pages/productpage.html";
-    }
-
+        prevBtn.addEventListener("click", () => {
+          if (counter <= 0) return;
+          counter--;
+          updateAdditionalImageSrc(); // Update additional image immediately
+          slider.style.transition = "transform 0.5s ease";
+          slider.style.transform = `translateX(-${counter * imageWidth}px)`;
+        });
+      })
+      .catch((error) => console.log(error));
+  }
+  if (window.location.search !== "") {
+    getData();
+  } else {
+    alert("Id not found");
+    window.location.href = "../Pages/productpage.html";
+  }
 }
-window.onload = function (){
-    details();
-}
+
+document.addEventListener("DOMContentLoaded", function () {
+  let path = window.location.search.split("?")[1];
+  let params = new URLSearchParams(path);
+  let name = params.get("name");
+  let productName = decodeURIComponent(name);
+  details();
+  displayNav();
+  initNavbarAnimation();
+  displayBanner(productName);
+
+  const productDetailBody = document.getElementById("cont");
+  productDetailBody.addEventListener("click", function (event) {
+    const counterBody = document.getElementById("counter-value");
+    let currentValue = parseInt(counterBody.textContent);
+    if (event.target.classList.contains("inc")) {
+      if (currentValue < qty) {
+        counterBody.textContent = currentValue + 1;
+      }
+    } else if (event.target.classList.contains("dec")) {
+      if (currentValue > 0) {
+        counterBody.textContent = currentValue - 1;
+      }
+    } else if (event.target.classList.contains("addToFav")) {
+      addedToFavourite(event.target.dataset.id);
+    }
+  });
+});

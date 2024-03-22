@@ -77,7 +77,7 @@ import { displayNav, initNavbarAnimation } from "./navbar.js";
           "beforeend",
           `
           <div class="d-flex card col-12 col-lg-2 col-xl-2 col-xxl-2 bg-color p-3">
-            <a href="productdetails.html?id=${product.id}">
+            <a href="productdetails.html?id=${product.id}&name=${product.productName}">
               <img src="../images/${product.image}" class="card-img-top w-100" alt="image">
             </a>
             <div class="col-12 card-body text-center">
@@ -118,7 +118,14 @@ import { displayNav, initNavbarAnimation } from "./navbar.js";
     let path = window.location.search.split("?")[1];
     let category = "chair";
     if (path) {
-      category = path;
+      let params = new URLSearchParams(path);
+      let categoryUndecoded = params.get("category");
+      category = decodeURIComponent(categoryUndecoded);
+
+      let pageNumber = params.get("page");
+      if (pageNumber) {
+        currentPage = decodeURIComponent(pageNumber);
+      }
     }
     getData(category, "products");
   }
