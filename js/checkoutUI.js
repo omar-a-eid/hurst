@@ -188,6 +188,11 @@ export function displayOrderComplete(total) {
     year: "numeric",
   }).format(new Date(Date.now() + 3 * 24 * 60 * 60 * 1000));
 
+  /****************** save total price to session storage *******************/
+  const orderTotal = total == 0 ? 0 : (total + 15).toFixed(2);
+  sessionStorage.setItem('orderTotal', orderTotal);
+  /**************************************************************************/
+
   if (total != 0) {
     orderCompleteHtml += `
     <div class="thank-recieve bg-white mb-3">

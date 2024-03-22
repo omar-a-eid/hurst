@@ -163,9 +163,53 @@ hr.new5
   color: #d3b484;
 }
 
+#subscribe{
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  width: 100%;
+  border-bottom-color: #d3b484;
+}
+
+#subscribe:focus{
+    outline: none;
+}
+
+/******************************** receipt ****************************************/
+
+.receipt-title{
+  background-color: #d3b484;
+}
+
+
+@keyframes fadeInUp {
+  from {
+      opacity: 0;
+      transform: translateY(20px);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+}
+
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+
+.payment_details{
+  margin-top: 170px;
+}
 
 @media (max-width: 576px) {
   .tab-menu li hr.new5 {
       display: none;
   }
 }
+
