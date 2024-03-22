@@ -35,25 +35,32 @@ export function decreaseQuantity(index) {
 
 function findProductById(id, ...productArrays) {
   for (const products of productArrays) {
-      const foundProduct = products.find(product => product.id === id);
-      if (foundProduct) {
-          return foundProduct;
-      }
+    const foundProduct = products.find((product) => product.id === id);
+    if (foundProduct) {
+      return foundProduct;
+    }
   }
   return null;
 }
 
-
 /* Call the function with qty if it's there and it only needs the id of the product */
 
 export async function addToCart(prodId, qty = 1) {
-  const id =parseInt(prodId);
+  const id = parseInt(prodId);
   let cartItems = getCarItems();
   let product = undefined;
   try {
     const data = await fetchData();
     const products = data.products;
-    product = findProductById(id, data.featuredProduct, products, data["new-arrivals"], data["best-seller"], data["most-view"], data["discounts"]);
+    product = findProductById(
+      id,
+      data.featuredProduct,
+      products,
+      data["new-arrivals"],
+      data["best-seller"],
+      data["most-view"],
+      data["discounts"]
+    );
   } catch (error) {
     console.log(error);
   }
@@ -61,21 +68,16 @@ export async function addToCart(prodId, qty = 1) {
     const existingItem = cartItems.find((item) => item.id === id);
     if (existingItem) {
       existingItem.qty += qty;
-
       let alertMessage = `
-        <div class="alert alert-danger" 
-          role="alert"
-          style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%); z-index: 9999;">
-          <strong>Attention!</strong> Product already exists at the cart!
+        <div class="alert alert-success" role="alert" style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%); z-index: 9999;">
+          <strong>Success!</strong> Product added to cart successfully!
         </div>
       `;
 
       document.body.insertAdjacentHTML("afterbegin", alertMessage);
-
       setTimeout(function () {
         document.querySelector(".alert").remove();
       }, 3000);
-
     } else {
       cartItems.push({
         id: id,
@@ -85,7 +87,6 @@ export async function addToCart(prodId, qty = 1) {
         image: product.image,
         stock: product.amount,
       });
-
 
       let alertMessage = `
         <div class="alert alert-success" role="alert" style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%); z-index: 9999;">
@@ -98,7 +99,6 @@ export async function addToCart(prodId, qty = 1) {
       setTimeout(function () {
         document.querySelector(".alert").remove();
       }, 3000);
-
     }
     localStorage.setItem("cart", JSON.stringify(cartItems));
     if (window.location.pathname === "/pages/checkout.html") {
