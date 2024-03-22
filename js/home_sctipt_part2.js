@@ -81,6 +81,7 @@ function displayProducts(products) {
                     <img src="./images/${product.image}" alt="${
       product.productName
     }">
+      
                     <div class="product-action bg-light w-75 d-flex align-items-center justify-content-around">
                         <i class="fa-solid fa-heart-circle-plus ms-3 addToFav ${favIconClass}" aria-hidden="true" data-id="${
       product.id
@@ -98,7 +99,13 @@ function displayProducts(products) {
                     </div>
 
                     <div class="details d-flex justify-content-between mt-3 p-0">
-                        <h4><b>${product.productName}</b></h4>
+                        <h4>
+                        <a  href="/pages/productdetails.html?id=${
+                          product.id
+                        }&name=${product.productName}"><b>${
+      product.productName
+    }</b></a>
+                        </h4>
                         <p>${product.type}</p>
                     </div>
 
