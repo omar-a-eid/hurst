@@ -107,7 +107,11 @@ body{
   100% {
     transform: translateY(0);
     opacity: 1;
-  }
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+}
 }
 
 .carousel-caption {
@@ -133,10 +137,10 @@ body{
   width: 100%;
 }
 
-.btn{
+.custom-btn{
   border:1px solid  #c8a165;
 }
-.btn:hover{
+.custom-btn:hover{
    background-color: #c8a165 !important;
    color:#fff
  }
@@ -292,7 +296,7 @@ color:#c8a165;
   transition: transform 0.5s ease;
 }
 
-.card {
+.card-home {
   margin: 10px 0.5em;
   box-shadow: 0px 2px 4px 0 rgba(22, 22, 26, 0.18);
   border: none;
@@ -354,7 +358,7 @@ color:#c8a165;
   margin: 10px auto;
 }
 
-.card:hover{
+.card-home:hover{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transform: translateY(-10px);
 }

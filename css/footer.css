@@ -1,0 +1,123 @@
+
+/******************************* Footer ********************************/
+hr.new5
+{
+    border: 1px solid #d3b484;
+    width: 50px;
+}
+
+.search-container{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 80px;
+    background-color: white;
+  }
+  
+  .container-fluid{
+    margin-top: -10px;
+  }
+  
+  .copyright-area{
+    background-color: #eee;
+  }
+  
+  .footer-area{
+    background-color: #f6f6f6;
+    margin-top: -40px;
+  }
+  
+  .search-div{
+    background-color: white;
+  }
+  
+  
+  .copyright a {
+    color: grey;
+  }
+  
+  .copyright a:hover {
+    color: #d3b484;
+  }
+  
+  
+  .footer-menu a {
+    color: grey;
+  }
+  
+  .footer-menu a:hover {
+    color: #d3b484;
+    transition: 0.4s;
+  }
+  
+  
+  
+  
+  
+  /************************************************************/
+  
+  .footer-thumb {
+    overflow: hidden;
+    position: relative;
+    width: 75%;
+  }
+  
+  .footer-thumb>a {
+    display: block;
+    position: relative
+  }
+  
+  .footer-thumb>a::before {
+    background: #c8a165 none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    opacity: .5;
+    position: absolute;
+    top: 100%;
+    width: 100%
+  }
+  
+  .footer-thumb:hover a::before {
+    top: 0
+  }
+  
+  .footer-thumb-info {
+    height: 100%;
+    left: 0;
+    padding: 10px 15px;
+    position: absolute;
+    top: 100%;
+    transition: all .5s ease 0s;
+    visibility: hidden;
+    width: 100%;
+    z-index: 2
+  }
+  
+  .footer-thumb-info p {
+    line-height: 15px;
+    text-transform: capitalize
+  }
+  
+  .price-3 {
+    font-size: 16px;
+    line-height: 15px
+  }
+  
+  .footer-thumb-info p a,.price-3 {
+    color: #fff
+  }
+  
+  .footer-thumb:hover .footer-thumb-info {
+    top: 0;
+    visibility: visible
+  }
+
+  .subscribe{
+    background-color: rgba(204, 19, 19, 0.697);
+    border-radius: 3px;
+    color: white;
+  }
+
+  .subscribe:hover{
+    color: white;
+    background-color: #c8a165;
+    border: 1px solid #c8a165;
+  }

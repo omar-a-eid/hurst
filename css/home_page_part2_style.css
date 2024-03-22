@@ -1,0 +1,171 @@
+hr.new4 
+{
+    border: 1px solid red;
+    width: 60px;
+}
+
+.tab-menu li a 
+{
+    color: #666;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 10px;
+    padding-bottom: 12px;
+    text-decoration: none;
+}
+
+.nav>li>a:hover{
+  background-color: transparent !important;
+}
+
+.tab-menu li a.active 
+{
+    color: #d3b484;
+}
+
+hr.new5
+{
+    border: 1px solid #d3b484;
+    width: 50px;
+} 
+
+
+/**************************************** Product card ***************************************/
+
+.card-content:hover{
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card-parent{
+  height: 400px;
+}
+
+.card img{
+  height: 250px;
+}
+  
+.details {
+  padding: 2px 16px;
+}
+
+.details h4:hover{
+  color: #d3b484;
+}
+
+.product_price h4{
+  color: #c87065;
+}
+
+
+/******************************************************************************************/
+
+.rating input {
+  display: none;
+}
+
+.rating label {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  float: right;
+}
+
+.rating label:before {
+  content: "\2605";
+  font-size: 15px;
+}
+
+.rating input:checked ~ label:before {
+  color: #c87065;
+}
+
+/****************************************** Styling products icons buttons  *********************************************/
+
+.product-action 
+{
+  display: none;
+  position: absolute;
+  bottom: 0; 
+  left: 50%;
+  transform: translate(-50%, 100%); 
+  opacity: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease; 
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.9); 
+  border-radius: 5px; 
+  padding: 5px; 
+  margin-bottom: 150px;
+}
+
+.card:hover .product-action {
+  transform: translate(-50%, 0);
+  opacity: 1;
+}
+
+
+.product-icons {
+  transition: color 0.3s ease;
+}
+
+.product-icons:hover {
+  color: #c87065;
+}
+
+/*****************************************************************************************************/
+
+#detailsModal{
+  padding-top: 200px;
+}
+
+
+/************************************* Filter div *******************************************/
+
+#myDIV {
+  width: 100%;
+  display: none;
+  border-radius: 10px;
+}
+
+.feature-link{
+  color: gray;
+}
+
+.feature-link:hover{
+  color: #d3b484;
+}
+
+.add-cart-btn{
+  background-color: gray;
+}
+
+.add-cart-btn:hover{
+  background-color: #d3b484;
+}
+
+
+.card-header{
+  background-color: #d3b484;
+}
+
+#filter-btn:hover{
+  background-color: #d3b484;
+  border: 1px solid #d3b484;
+}
+
+#filter-btn{
+  border: 1px solid #d3b484;
+  border-bottom-left-radius: 0;
+}
+
+#no_product_message h1:hover{
+  color: #d3b484;
+}
+
+
+@media (max-width: 576px) {
+  .tab-menu li hr.new5 {
+      display: none;
+  }
+}
