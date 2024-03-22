@@ -68,6 +68,9 @@ body{
 .submenu li a {
   color: #fff;
   text-decoration: none;
+  display: block;
+  padding: 40px;
+  transition: all 0.5s ease-in-out;
 }
 
 .submenu li a:hover {

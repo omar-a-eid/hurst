@@ -48,7 +48,28 @@ export function displayNav(){
   </div>
   <div class="offcanvas-body">
     <ul id="menu">
-    
+    <li class="parent pt-2">
+    <a href="../index.html">Home</a>
+  </li>
+  <li class="parent pt-2">
+    <a href="../pages/productpage.html">Products</a>
+    <ul class="submenu">
+      <li><a href="../pages/productpage.html"> All Products </a></li>
+      <li><a href="../pages/productdetails.html">Product Details</a></li>
+    </ul>
+  </li>
+  <li class="parent pt-2">
+    <a href="#">Shortcodes</a>
+  </li>
+  <li class="parent pt-2">
+    <a href="../pages/contactUs.html">Blog</a>
+  </li>
+  <li class="parent pt-2">
+    <a href="../pages/contactUs.html">Contact Us</a>
+  </li>
+  <li class="parent pt-2">
+    <a href="../pages/aboutUs.html">About Us</a>
+  </li>
     </ul>
   </div>
   `
