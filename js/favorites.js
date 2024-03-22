@@ -12,7 +12,9 @@ function findProductById(id, ...productArrays) {
 }
 
 export async function addedToFavourite(prodId) {
-  auth("/pages/signinSignup.html");
+  if (!auth("/pages/signinSignup.html")) {
+    return;
+  }
   try {
     const id = parseInt(prodId);
 
