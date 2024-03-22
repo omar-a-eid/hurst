@@ -1,3 +1,6 @@
+import { initMenu } from "./menu.js";
+import { displayNav, initNavbarAnimation } from "./navbar.js";
+
 if ($(".swiper-container").hasClass("team-member-slider")) {
   var swiper = new Swiper(".swiper-container", {
     slidesPerView: 3,
@@ -36,3 +39,9 @@ if ($(".swiper-container").hasClass("team-member-slider")) {
     },
   });
 }
+
+window.onload = function () {
+  displayNav();
+  initNavbarAnimation();
+  initMenu();
+};

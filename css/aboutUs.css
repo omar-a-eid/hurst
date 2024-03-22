@@ -72,6 +72,7 @@ header nav .active {
 }
 
 .about-text {
+  margin-top: 10em;
   background-color: #fff;
   padding: 2rem;
   border-radius: 0.5rem;
