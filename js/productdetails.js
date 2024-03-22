@@ -39,7 +39,7 @@ function details() {
 <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 bg-color ">
     <img class="additional-img w-100 img-fluid" src="../images/${obj.image}" alt="furnituer">
 </div>
-<div class="col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 bg-color ">
+<div class="col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 bg-color p-3">
     <div class="row">
         <div class="col-6">
             <p><strong>${obj.productName}</strong></p>
@@ -88,14 +88,6 @@ function details() {
                     </li>
                     <div class="counter-line"></div>
                     <li class="nav-item">
-                        <a class="black fa-solid fa-magnifying-glass-plus" href="#"></a>
-                    </li>
-                    <div class="counter-line"></div>
-                    <li class="nav-item">
-                        <a class="black fa-solid fa-rotate" href="#"></a>
-                    </li>
-                    <div class="counter-line"></div>
-                    <li class="nav-item">
                         <a class="black fa-solid fa-cart-arrow-down" id="myLink" href="#"></a>
                     </li>
                 </ul>
@@ -117,7 +109,7 @@ function details() {
     </div>
 </div>
 <div class="mt-5"></div>
-<div class="d-block d-md-block d-lg-flex col-12 mt-3 align-items-start ">
+<div class="d-block d-md-block d-lg-flex col-12 mt-3 alignitems-start">
     <div class="nav flex-column nav-pills me-3 " id="v-pills-tab" role="tablist "
         aria-orientation="vertical">
         <button class="blacko nav-link bg-color mg active" id="v-pills-home-tab " data-bs-toggle="pill"
@@ -133,7 +125,7 @@ function details() {
             data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
             aria-selected="false">Tags</button>
     </div>
-    <div class="tab-content bg-color pd" id="v-pills-tabContent">
+    <div class="tab-content bg-color pd p-4" id="v-pills-tabContent">
         <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
             aria-labelledby="v-pills-home-tab">
             <div class="row col-10">
@@ -185,72 +177,6 @@ function details() {
                         <p>${obj.reviews[1].review}</p>
                     </div>
                 </div>
-            </div>
-            <div class="row col-12 mt-5">
-                <p>LEAVE YOUR REVIW</p>
-            </div>
-            <div class="row col-12">
-                <div class="col-12">
-                    <p>Your Rating</p>
-                </div>
-                <div class="row col-10">
-                    <div class="star col-1 d-flex">
-                        <a class="star fa-regular fa-star " href="#"></a>
-                        <div class="counter-line "></div>
-                    </div>
-                    <div class="star col-2 d-flex ">
-                        <a class="star fa-regular fa-star " href="#"></a>
-                        <a class="star fa-regular fa-star " href="#"></a>
-                        <div class="counter-line "></div>
-                    </div>
-                    <div class="star col-2 d-flex ">
-                        <a class="star fa-regular fa-star " href="#"></a>
-                        <a class="star fa-regular fa-star " href="#"></a>
-                        <a class="star fa-regular fa-star " href="#"></a>
-                        <div class="counter-line "></div>
-                    </div>
-                    <div class="star col-2 d-flex ">
-                        <a class="star fa-regular fa-star " href="#"></a>
-                        <a class="star fa-regular fa-star " href="#"></a>
-                        <a class="star fa-regular fa-star " href="#"></a>
-                        <a class="star fa-regular fa-star " href="#"></a>
-                        <div class="counter-line "></div>
-                    </div>
-                    <div class="star col-1 d-flex ">
-                        <a class="star fa-regular fa-star " href="#"></a>
-                        <a class="star fa-regular fa-star " href="#"></a>
-                        <a class="star fa-regular fa-star " href="#"></a>
-                        <a class="star fa-regular fa-star " href="#"></a>
-                        <a class="star fa-regular fa-star " href="#"></a>
-                    </div>
-                </div>
-            </div>
-            <div class="row col-12 mt-5">
-                <div class="col-5">
-                    <form>
-                        <div class="mb-3">
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Yout Name here...">
-                        </div>
-                    </form>
-                </div>
-                <div class="col-5">
-                    <form>
-                        <div class="mb-3">
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Subject...">
-                        </div>
-                    </form>
-                </div>
-            </div>
-            <div class="row col-12 mt-2">
-                <form>
-                    <div class="mb-3">
-                        <input type="text" class="form-control" id="exampleInputEmail1"
-                            aria-describedby="emailHelp" placeholder="Your review here...">
-                    </div>
-                    <button type="submit" class="btn btn-primary star1">SUBMIT REVIEW</button>
-                </form>
             </div>
         </div>
         <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
