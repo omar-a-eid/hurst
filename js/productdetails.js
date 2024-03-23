@@ -1,20 +1,10 @@
 import { displayBanner } from './banner.js';
 import { addToCart } from './cart.js';
-import { addedToFavourite } from './favorites.js';
+import { getFavorites,addedToFavourite } from './favorites.js';
 import { initMenu } from './menu.js';
 import { displayNav, initNavbarAnimation } from './navbar.js';
 let qty, isFavorite;
 function details() {
-  let favIconClass;
-  const favoritesProd = JSON.parse(localStorage.getItem('favorites')) || [];
-  let result = '';
-  if (favoritesProd.length === 0) {
-    result += `<h1 class="text-center mt-5">No Favorite Items</h1>`;
-  }
-  favoritesProd.forEach((product) => {
-    isFavorite = favoritesProd.some((favorite) => favorite.id === product.id);
-    favIconClass = isFavorite ? 'fav-btn-active' : '';
-  });
   // let cards = document.getElementById("cards");
   function getData() {
     fetch('../data/data.json')
@@ -36,7 +26,12 @@ function details() {
             <img class="img" src="../images/${obj.images[i]}" alt="Image 1">
             
             `;
-        }
+        } 
+        const isFavorite = getFavorites().some(
+            (favorite) => favorite.id === res.id
+          );
+          const favIconClass = isFavorite ? 'fav-btn-active' : '';
+      
         let str = `
             <div class="row mt-5 col-12 ">
 <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 bg-color ">
