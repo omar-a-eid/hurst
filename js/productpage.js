@@ -14,14 +14,14 @@ import { displayNav, initNavbarAnimation } from "./navbar.js";
 
   function main() {
     // Get the range input element and output element for the price range
-    const priceRange = document.getElementById("priceRange");
-    const priceOutput = document.getElementById("priceOutput");
+    // const priceRange = document.getElementById("priceRange");
+    // const priceOutput = document.getElementById("priceOutput");
 
     // Add event listener for the input event on the range input
-    priceRange.addEventListener("input", function () {
-      // Update the value displayed in the output element
-      priceOutput.textContent = "$50 - $" + (50 + parseInt(this.value));
-    });
+    // priceRange.addEventListener("input", function () {
+    //   // Update the value displayed in the output element
+    //   priceOutput.textContent = "$50 - $" + (50 + parseInt(this.value));
+    // });
 
     // Get the cards container element
     const cards = document.getElementById("cards");
@@ -40,19 +40,13 @@ import { displayNav, initNavbarAnimation } from "./navbar.js";
           let products = [];
           switch (type) {
             case "products":
-              products = data.products.filter(
-                (product) => product.category === category
-              );
-              break;
-            case "furniture":
-              products = data.furniture.filter(
-                (product) => product.category === category
-              );
-              break;
-            case "Accessories":
-              products = data.Accessories.filter(
-                (product) => product.category === category
-              );
+              if (category || category == "all") {
+                products = data.products;
+              } else {
+                products = data.products.filter(
+                  (product) => product.category === category
+                );
+              }
               break;
           }
           renderProducts(products);
@@ -116,7 +110,7 @@ import { displayNav, initNavbarAnimation } from "./navbar.js";
     });
 
     let path = window.location.search.split("?")[1];
-    let category = "chair";
+    let category = "all";
     if (path) {
       let params = new URLSearchParams(path);
       let categoryUndecoded = params.get("category");
