@@ -1,4 +1,6 @@
 import { displayBanner } from "./banner.js";
+import { addToCart } from "./cart.js";
+import { addedToFavourite } from "./favorites.js";
 import { initMenu } from "./menu.js";
 import { displayNav, initNavbarAnimation } from "./navbar.js";
 (function () {
@@ -10,6 +12,17 @@ import { displayNav, initNavbarAnimation } from "./navbar.js";
     initMenu();
     displayBanner("Products");
     main();
+
+    const productPage = document.getElementById("cards");
+    productPage.addEventListener("click", function (event) {
+      let id = event.target.closest("ul").dataset.id;
+      let target = event.target.classList;
+      if (target.contains("addToCart")) {
+        addToCart(id);
+      } else if (target.contains("addToFav")) {
+        addedToFavourite(id);
+      }
+    });
   });
 
   function main() {
@@ -92,11 +105,11 @@ import { displayNav, initNavbarAnimation } from "./navbar.js";
                 <li class="nav-item"><a class="star star1 fa-solid fa-star-half-stroke" href="#"></a></li>
                 <li class="nav-item"><a class="star star1 fa-regular fa-star" href="#"></a></li>
             </ul>
-            <ul class="nav justify-content-between action-icons mt-3">
-                <li class="nav-item"><a class="nav-link link star black fa-regular fa-heart" href="#"></a></li>
-                <li class="nav-item"><a class="nav-link link star black fa-solid fa-search" href="#"></a></li>
-                <li class="nav-item"><a class="nav-link link star black fa-solid fa-sync-alt" href="#"></a></li>
-                <li class="nav-item"><a class="nav-link link star black fa-solid fa-cart-arrow-down" href="#"></a></li>
+            <ul class="nav justify-content-between action-icons mt-3" data-id="${product.id}">
+                <li class="nav-item"><i class="nav-link link star black fa-regular fa-heart addToFav"></i></li>
+                <li class="nav-item"><i class="nav-link link star black fa-solid fa-search"></i></li>
+                <li class="nav-item"><i class="nav-link link star black fa-solid fa-sync-alt"></i></li>
+                <li class="nav-item"><i class="nav-link link star black fa-solid fa-cart-arrow-down addToCart"></i></li>
             </ul>
         </div>
     </div>
