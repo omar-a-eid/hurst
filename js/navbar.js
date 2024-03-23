@@ -1,7 +1,6 @@
 import auth from "./auth.js";
 export function displayNav() {
   let isLogged = auth();
-  console.log(isLogged);
   const nav = document.getElementById("navbar");
   let result = "";
   result += `
@@ -38,14 +37,13 @@ export function displayNav() {
       href="../pages/checkout.html">
       <i class="fa-solid fa-cart-shopping"></i>
     </a>
-    <button class="btn btn-outline-dark logout">Logout</button>
+    <i class="navbar-brand fa-solid fa-right-from-bracket logout"></i>
   </div>`
         : `<div class="col-lg-4 col-6 text-end">
     <a
       class="navbar-brand"
-      href="../pages/checkout.html">
+      href="../pages/signinSignup.html">
       <i class="fa-solid fa-right-to-bracket"></i>
-      <a href="../pages/signinSignup.html" class="btn btn-outline-dark">SignIn</a>
     </a>
   </div>`
     }
