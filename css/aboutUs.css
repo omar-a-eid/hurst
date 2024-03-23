@@ -31,7 +31,7 @@ header {
 
 .header-content {
   max-width: 80rem;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .logo {
@@ -88,6 +88,8 @@ header nav .active {
 
 .about-text p {
   margin-bottom: 1.5rem;
+  color: #5f5f5f;
+  font-size:14px;
 }
 
 /* Team section */
