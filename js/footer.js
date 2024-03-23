@@ -119,7 +119,7 @@ function drawFooter() {
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6">
-                    <p class="mb-0">&copy; <a href="https://github.com/omar-a-eid/hurst.git" target="_blank" class="text-decoration-none">CodeCarnival</a> 2022. All Rights Reserved.</p>
+                    <p class="mb-0">&copy; <a href="https://github.com/omar-a-eid/hurst.git" target="_blank" class="text-decoration-none copy-link">ITI E-Commerce GITHUB</a> 2022. All Rights Reserved.</p>
                 </div>
                 <div class="col-md-6 text-md-end">
                     <div class="payment">

@@ -110,3 +110,12 @@ hr.new5 {
   background-color: #c8a165;
   border: 1px solid #c8a165;
 }
+
+
+.copy-link{
+  color: grey;
+}
+
+.copy-link:hover{
+  color: #c8a165;
+}
