@@ -78,7 +78,7 @@ function displayProducts(products) {
         <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3 card-parent">
             <div class="h-100 card-content p-2">
                 <div class="card border-0 w-100 h-100">
-                    <img src="./images/assets/${product.image}" alt="${
+                    <img src="./images/${product.image}" alt="${
       product.productName
     }">
       
@@ -271,7 +271,7 @@ function displayProductDetails(product) {
   modalBody.innerHTML = `
         <div class="row">
             <div class="col-6 p-3">
-                <img src="./images/assets/${product.image}" class="w-100 h-100" alt="${product.productName}">
+                <img src="./images/${product.image}" class="w-100 h-100" alt="${product.productName}">
             </div>
             <div class="col-6 d-flex align-items-center justify-content-center">
 

@@ -60,25 +60,22 @@
     },
     {
       "id": 3,
-      "category": "chair",
-      "productName": "IKEA Chair",
-      "price": 199,
+      "category": "accessories",
+      "productName": "Ito Bindery Memo Block",
+      "price": 25,
       "rating": 4.6,
-      "smallDesc": "Classic and affordable armchair for cozy relaxation.",
-      "colors": ["#FFFFFF", "#333333", "#BEBEBE"],
-      "sizes": ["m", "s", "l", "sl", "xl"],
+      "smallDesc": "Capture life’s unfolding narrative on Ito Bindery’s exquisite Memo Blocks.",
       "amount": 20,
-      "image": "chair4.jpg",
+      "image": "product3_1.webp",
       "images": [
-        "chair4.jpg",
-        "chair3.jpg",
-        "chair4.jpg",
-        "chair3.jpg",
-        "chair5.jpg"
+        "product3_1.webp",
+        "product3_2.webp",
+        "product3_3.webp",
+        "product3_4.webp"
       ],
-      "description": "The IKEA Poäng Armchair is a timeless favorite for its simple yet stylish design and unbeatable comfort. With its curved frame and cushioned seat, it's perfect for lounging, reading, or enjoying a cup of coffee.",
+      "description": "Capture life’s unfolding narrative on Ito Bindery’s exquisite Memo Blocks. Stack them, display them, scribble your dreams on them. 350 tear-off sheets. Precision cut edges. Smooth paper surface. With excellent eco-credentials – a recycled paperboard base, plastic-free packaging – the three modular block sizes can be arranged into a rectangle to create the perfect desk accessory. Choose from white, gray, red or bewitching black, which turns pencil jottings to shimmering silver. It’s magic.",
       "info": "Dimensions: 26.75\"W x 32.25\"D x 39.38\"H. Material: Layer-glued bent oak veneer frame, high resilience foam cushion, polyester blend upholstery.",
-      "tags": ["ikea", "poäng armchair", "affordable", "furniture"],
+      "tags": ["Ito Bindery", "accessories", "affordable"],
       "reviews": [
         {
           "customerName": "David",
@@ -94,25 +91,17 @@
     },
     {
       "id": 4,
-      "category": "chair",
-      "productName": "Leather Chair",
-      "price": 549.99,
+      "category": "table",
+      "productName": "Glass Table",
+      "price": 100,
       "rating": 4.6,
-      "smallDesc": "Luxurious leather recliner chair with ergonomic design.",
-      "colors": ["#FFFFFF", "#D3D3D3", "#FF5733"],
-      "sizes": ["m", "s", "l", "sl", "xl"],
+      "smallDesc": "A one of one side table experiment utilizing a spare glass top.",
       "amount": 8,
-      "image": "chair5.jpg",
-      "images": [
-        "chair4.jpg",
-        "chair3.jpg",
-        "chair4.jpg",
-        "chair3.jpg",
-        "chair5.jpg"
-      ],
-      "description": "Our Leather Recliner Chair combines comfort and style for the ultimate lounging experience. With its plush cushions and ergonomic design, it's perfect for relaxing after a long day.",
+      "image": "product4_1.webp",
+      "images": ["product4_1.webp", "product4_2.webp"],
+      "description": "The base is made from Baltic birch plywood. The glass top has a small chip and a couple of scratches. Available for local pickup in Los Angeles only.",
       "info": "Dimensions: 36\"W x 40\"D x 42\"H. Material: Leather upholstery, metal frame.",
-      "tags": ["chair", "recliner chair", "leather", "furniture"],
+      "tags": ["table", "Glass", "leather", "furniture"],
       "reviews": [
         {
           "customerName": "Ethan Harris",
@@ -128,25 +117,22 @@
     },
     {
       "id": 5,
-      "category": "chair",
-      "productName": "Rustic Chair",
-      "price": 129.99,
+      "category": "accessories",
+      "productName": "Endless Rain Record",
+      "price": 60,
       "rating": 4.4,
-      "smallDesc": "Simple yet sturdy design crafted from reclaimed wood.",
-      "colors": ["#8B4513", "#A0522D", "#D2B48C"],
-      "sizes": ["m", "s", "l", "sl", "xl"],
+      "smallDesc": "Audio to sooth your mind.",
       "amount": 25,
-      "image": "chair3.jpg",
+      "image": "product5_1.webp",
       "images": [
-        "chair4.jpg",
-        "chair3.jpg",
-        "chair4.jpg",
-        "chair3.jpg",
-        "chair5.jpg"
+        "product5_1.webp",
+        "product5_2.webp",
+        "product5_3.webp",
+        "product5_4.webp"
       ],
-      "description": "Our Rustic Wooden Chair brings warmth and character to any space. Handcrafted from reclaimed wood, each chair is unique and showcases the natural beauty of the materials.",
+      "description": "Play Endless Rain, a vinyl record by Japanese sound artist Kouichi Okamoto (a.k.a. Bekkou). Two sides, Rain and Drop.",
       "info": "Dimensions: 18\"W x 18\"D x 35\"H. Material: Reclaimed wood.",
-      "tags": ["chair", "wooden chair", "rustic", "furniture"],
+      "tags": ["Endless", "Record", "rustic", "accessories"],
       "reviews": [
         {
           "customerName": "Emma Thompson",
@@ -162,25 +148,17 @@
     },
     {
       "id": 6,
-      "category": "chair",
-      "productName": "Leather Armchair",
-      "price": 899.99,
+      "category": "table",
+      "productName": "Coffee Table",
+      "price": 70,
       "rating": 4.7,
-      "smallDesc": "Timeless elegance with supple leather upholstery.",
-      "colors": ["#2F4F4F", "#B0C4DE", "#BC8F8F"],
-      "sizes": ["m", "s", "l", "sl", "xl"],
+      "smallDesc": "One of One.",
       "amount": 18,
-      "image": "chair5.jpg",
-      "images": [
-        "chair4.jpg",
-        "chair3.jpg",
-        "chair4.jpg",
-        "chair3.jpg",
-        "chair5.jpg"
-      ],
-      "description": "Our Vintage Leather Armchair evokes classic charm and sophistication. Upholstered in supple leather and featuring elegant detailing, it's the perfect statement piece for any living room or study.",
+      "image": "product6_1.webp",
+      "images": ["product6_1.webp", "product6_2.webp"],
+      "description": "A one of one coffee table experiment made with marine-grade plywood, finished with hardwax oil. Available for local pickup/delivery in Los Angeles only.",
       "info": "Dimensions: 38\"W x 36\"D x 35\"H. Material: Leather upholstery, wood frame.",
-      "tags": ["chair", "armchair", "vintage", "leather", "furniture"],
+      "tags": ["one of one", "table", "furniture"],
       "reviews": [
         {
           "customerName": "Benjamin Roberts",
@@ -196,25 +174,17 @@
     },
     {
       "id": 7,
-      "category": "chair",
-      "productName": "Lounge-2 Chair",
-      "price": 899.99,
+      "category": "accessories",
+      "productName": "Skultuna Herb Pot",
+      "price": 90,
       "rating": 4.9,
-      "smallDesc": "Iconic and comfortable lounge chair with ottoman.",
-      "colors": ["#FFFFFF", "#000000", "#FF5733"],
-      "sizes": ["m", "s", "l", "sl", "xl"],
+      "smallDesc": "A nod to traditional terracotta planters, this brass herb pot is an elegant addition to your space.",
       "amount": 8,
-      "image": "chair3.jpg",
-      "images": [
-        "chair4.jpg",
-        "chair3.jpg",
-        "chair4.jpg",
-        "chair3.jpg",
-        "chair5.jpg"
-      ],
-      "description": "The Eames Lounge Chair is a modern classic, known for its timeless design and exceptional comfort. With its leather upholstery and molded plywood shell, it's the perfect piece for relaxation and style.",
+      "image": "product7_1.webp",
+      "images": ["product7_1.webp", "product7_2.webp", "product7_3.webp"],
+      "description": "A nod to traditional terracotta planters, this brass herb pot is an elegant addition to your space. A collaboration between prolific designer Monica Förster and iconic Swedish brand Skultuna, the pot fuses contemporary lines with ancient production methods. Each pot is spun from a solid piece of brass, using a centuries old technique called metal spinning.",
       "info": "Dimensions: 33\"W x 33\"D x 33\"H. Material: Leather, molded plywood.",
-      "tags": ["chair", "lounge chair", "eames", "furniture"],
+      "tags": ["Skultuna", "Herb", "pot", "accessories"],
       "reviews": [
         {
           "customerName": "Alexandra Lee",
@@ -230,25 +200,17 @@
     },
     {
       "id": 8,
-      "category": "chair",
-      "productName": "Modern Chair",
-      "price": 249.99,
+      "category": "table",
+      "productName": "Kei Console",
+      "price": 795,
       "rating": 4.7,
-      "smallDesc": "Stylish armchair with a mid-century modern design.",
-      "colors": ["#FFFFFF", "#F5F5F5", "#D3D3D3"],
-      "sizes": ["m", "s", "l", "sl", "xl"],
+      "smallDesc": "A resting place for sounds of old memories and new sensations.",
       "amount": 15,
-      "image": "chair4.jpg",
-      "images": [
-        "chair5.jpg",
-        "chair3.jpg",
-        "chair4.jpg",
-        "chair3.jpg",
-        "chair5.jpg"
-      ],
-      "description": "Our Mid-Century Modern Armchair combines style and comfort for the perfect seating solution. With its sleek lines and cushioned seat, it's ideal for lounging and entertaining.",
+      "image": "product8_1.webp",
+      "images": ["product8_1.webp", "product8_2.webp"],
+      "description": "A resting place for sounds of old memories and new sensations. The Kei Console facilitates our inevitable interaction with music, and its accompanying impressions.",
       "info": "Dimensions: 30\"W x 30\"D x 33\"H. Material: Fabric upholstery, wood frame.",
-      "tags": ["chair", "armchair", "mid-century modern", "furniture"],
+      "tags": ["table", "mid-century modern", "furniture"],
       "reviews": [
         {
           "customerName": "Oliver White",
@@ -265,24 +227,21 @@
     {
       "id": 9,
       "category": "chair",
-      "productName": "Accent Chair",
-      "price": 329.99,
+      "productName": "Pure Loop Binuance Retro",
+      "price": 80,
       "rating": 4.8,
-      "smallDesc": "Classic wingback chair with elegant tufted upholstery.",
-      "colors": ["#FFFFFF", "#000000", "#FF5733"],
-      "sizes": ["m", "s", "l", "sl", "xl"],
+      "smallDesc": "The Binuance develops colours, material and technology of the Pure Loop family",
       "amount": 10,
-      "image": "chair1.jpg",
+      "image": "product9_1.webp",
       "images": [
-        "chair4.jpg",
-        "chair3.jpg",
-        "chair4.jpg",
-        "chair3.jpg",
-        "chair5.jpg"
+        "product9_1.webp",
+        "product9_2.webp",
+        "product9_3.webp",
+        "product9_4.webp"
       ],
-      "description": "Our Wingback Accent Chair adds sophistication and style to any room. With its classic design and tufted upholstery, it's perfect for reading nooks, living rooms, and bedrooms.",
+      "description": "The Binuance develops colours, material and technology of the Pure Loop family. The sophisticated two-colour shell is obtained from a single polypropylene injection and it is available in seven tone-on-tone versions. The contrast of the two colours of the shell can be emphasised by the wooden leg frame, or by the retro frame.",
       "info": "Dimensions: 28\"W x 32\"D x 42\"H. Material: Fabric upholstery, wood frame.",
-      "tags": ["chair", "wingback chair", "accent chair", "furniture"],
+      "tags": ["chair", "Pure Loop", "furniture"],
       "reviews": [
         {
           "customerName": "Sophia Clark",
@@ -298,25 +257,17 @@
     },
     {
       "id": 10,
-      "category": "woodenchair",
-      "productName": "Oakwood Classic",
-      "price": 241.0,
+      "category": "accessories",
+      "productName": "Balancing Blocks",
+      "price": 60,
       "rating": 3.5,
-      "smallDesc": "Enjoy timeless elegance with our Oakwood Classic Chair. Crafted from sturdy oak, this chair boasts a classic design that fits seamlessly into any decor. Perfect for dining rooms or study areas, it offers both comfort and style.",
-      "colors": ["#3B2F2F", "#B22222", "#008000", "#F0E68C", "#00b2ee"],
-      "sizes": ["m", "s", "l", "sl", "xl"],
+      "smallDesc": "Handcrafted from reclaimed oak, and tumbled in a non-toxic water-based paint that allows the natural grain to show through. A printed cotton drawstring bag is included for convenient storage.",
       "amount": 10,
-      "image": "wodenchair2.jpg",
-      "images": [
-        "wodenchair2.jpg",
-        "wodenchair3.jpg",
-        "wodenchair2.jpg",
-        "wodenchair1.jpg",
-        "wodenchair2.jpg"
-      ],
-      "description": "Our Wingback Accent Chair adds sophistication and style to any room. With its classic design and tufted upholstery, it's perfect for reading nooks, living rooms, and bedrooms.",
+      "image": "product10_1.webp",
+      "images": ["product10_1.webp", "product10_2.webp", "product10_3.webp"],
+      "description": "A set of 10 multi-faceted, stone-sized wood blocks created by New York based design studio Fort Standard as a modern twist on classic building blocks. Use them to create gravity-defying sculptures, or as a challenging game similar to rock balancing.",
       "info": "Dimensions: 28\"W x 32\"D x 42\"H. Material: Fabric upholstery, wood frame.",
-      "tags": ["chair", "wingback chair", "accent chair", "furniture"],
+      "tags": ["accessories", "Balancing Blocks", "furniture"],
       "reviews": [
         {
           "customerName": "Andria addison",
@@ -332,23 +283,15 @@
     },
     {
       "id": 11,
-      "category": "woodenchair",
-      "productName": "Vintage Walnut Armchair",
-      "price": 279.99,
+      "category": "table",
+      "productName": "Versable",
+      "price": 100,
       "rating": 4.5,
-      "smallDesc": "Introducing our Vintage Walnut Armchair, a timeless piece that exudes elegance and sophistication. Crafted from premium walnut wood, this chair adds a touch of luxury to any space.",
-      "colors": ["#654321", "#8B4513", "#A0522D", "#CD853F", "#D2691E"],
-      "sizes": ["m", "s", "l", "sl", "xl"],
+      "smallDesc": "The Versable family includes fixed and extendable models, available in several sizes, in order to allow a full answer to the needs of the contemporary environments.",
       "amount": 12,
-      "image": "wodenchair3.jpg",
-      "images": [
-        "wodenchair2.jpg",
-        "wodenchair3.jpg",
-        "wodenchair2.jpg",
-        "wodenchair1.jpg",
-        "wodenchair2.jpg"
-      ],
-      "description": "Elevate your living space with the Vintage Walnut Armchair. Its classic design and rich walnut finish make it a standout piece in any room.",
+      "image": "product11_1.webp",
+      "images": ["product11_1.webp", "product11_2.webp"],
+      "description": "A linear table, with clean and delicate shapes. Hence, the idea of creating a versatile piece of furniture. The idea behind Versable was to design a table with a simple and essential aesthetic, light and robust at the same time, able to conceal the central function of the table, but gradually revealing it.",
       "info": "Designed for both style and comfort, this armchair features a curved backrest and armrests for optimal support. Whether used as a lounge chair or accent piece, it adds sophistication to your home.",
       "tags": "vintage, walnut, armchair, wooden, furniture",
       "reviews": [
@@ -366,23 +309,15 @@
     },
     {
       "id": 12,
-      "category": "woodenchair",
-      "productName": "Elegant Chair",
-      "price": 319.99,
+      "category": "chair",
+      "productName": "Skol wood",
+      "price": 80,
       "rating": 4.8,
-      "smallDesc": "Indulge in luxury with our Elegant Cherry Wood Chair. Crafted from premium cherry wood, this chair showcases exquisite craftsmanship and attention to detail. A true masterpiece for your home.",
-      "colors": ["#8B0000", "#FF0000", "#B22222", "#DC143C", "#CD5C5C"],
-      "sizes": ["m", "s", "l", "sl", "xl"],
+      "smallDesc": "The design of Skol, at first glance, brings back memories of times long gone by.",
       "amount": 8,
-      "image": "wodenchair2.jpg",
-      "images": [
-        "wodenchair2.jpg",
-        "wodenchair3.jpg",
-        "wodenchair2.jpg",
-        "wodenchair1.jpg",
-        "wodenchair2.jpg"
-      ],
-      "description": "Experience the epitome of elegance with our Elegant Cherry Wood Chair. Its rich cherry wood finish and sophisticated design elevate any room's ambiance.",
+      "image": "product12_1.webp",
+      "images": ["product12_1.webp", "product12_2.webp"],
+      "description": "The design of Skol, at first glance, brings back memories of times long gone by, sedimented in the collective memory. In fact, the peculiar shapes and the delicate, timeless structure bring to mind the school chairs, coupled with the desks where each person’s experiences took place during the years of childhood and adolescence.",
       "info": "Handcrafted with precision, this chair features intricately carved details and a refined silhouette. Whether placed in a study or living room, it exudes opulence and style.",
       "tags": "elegant, cherry wood, chair, wooden, luxury",
       "reviews": [
@@ -400,22 +335,14 @@
     },
     {
       "id": 13,
-      "category": "woodenchair",
-      "productName": "Vintage Chair",
-      "price": 189.0,
+      "category": "table",
+      "productName": "Rami",
+      "price": 189,
       "rating": 4.2,
-      "smallDesc": "Experience the charm of the past with our Vintage Birch Chair. Made from solid birch wood, this chair exudes timeless appeal with its elegant design. Whether used as a standalone piece or part of a set, it adds sophistication to any space.",
-      "colors": ["#8B4513", "#CD853F", "#A0522D", "#D2691E", "#B8860B"],
-      "sizes": ["m", "s", "l", "sl", "xl"],
+      "smallDesc": "The Rami trestles allow you to create a modular and customized table, tailored to the setting and the wishes of those who choose it.",
       "amount": 15,
-      "image": "wodenchair1.jpg",
-      "images": [
-        "wodenchair2.jpg",
-        "wodenchair3.jpg",
-        "wodenchair2.jpg",
-        "wodenchair1.jpg",
-        "wodenchair2.jpg"
-      ],
+      "image": "product13_1.webp",
+      "images": ["product13_1.webp", "product13_2.webp", "product13_3.webp"],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
       "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
@@ -434,21 +361,19 @@
     },
     {
       "id": 14,
-      "category": "woodenchair",
-      "productName": "Mahogany Chair",
-      "price": 279.0,
+      "category": "accessories",
+      "productName": "Ito Bindery Drawing Pad",
+      "price": 35,
       "rating": 4.5,
-      "smallDesc": "Elevate your dining experience with our Mahogany Dining Chair. Constructed from premium mahogany wood, this chair combines elegance with durability. Its timeless design and comfortable seating make it a perfect addition to any dining setting.",
-      "colors": ["#8B4513", "#CD853F", "#A0522D", "#D2691E", "#B8860B"],
-      "sizes": ["m", "s", "l", "sl", "xl"],
+      "smallDesc": "Put your mind on paper with Ito Bindery Drawing Pads.",
       "amount": 18,
-      "image": "wodenchair3.jpg",
+      "image": "product14_1.webp",
       "images": [
-        "wodenchair2.jpg",
-        "wodenchair3.jpg",
-        "wodenchair2.jpg",
-        "wodenchair1.jpg",
-        "wodenchair2.jpg"
+        "product14_1.webp",
+        "product14_2.webp",
+        "product14_3.webp",
+        "product14_4.webp",
+        "product14_5.webp"
       ],
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
       "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
@@ -468,16 +393,19 @@
     },
     {
       "id": 15,
-      "category": "table",
-      "productName": "Ergonomic table",
-      "price": 249.99,
+      "category": "chair",
+      "productName": "Feluca",
+      "price": 70,
       "rating": 4.7,
-      "smallDesc": "Step up your gaming experience with our Ergonomic Racing Chair. Designed for comfort and performance, this chair features a sleek racing-inspired design and adjustable features for a personalized fit.",
-      "colors": ["#FF0000", "#0000FF", "#00FF00", "#FFFF00", "#FFA500"],
-      "sizes": ["m", "s", "l", "sl", "xl"],
+      "smallDesc": "The feluca (“becorn hat” in English) is an ancient headgear used in the eighteenth century and characterized by two downward curved extremities. ",
       "amount": 30,
-      "image": "table1.jpeg",
-      "images": ["table1.jpeg", "table2.jpeg", "table2.jpeg", "table1.jpeg"],
+      "image": "product15_1.webp",
+      "images": [
+        "product15_1.webp",
+        "product15_2.webp",
+        "product15_3.webp",
+        "product15_4.webp"
+      ],
       "description": "The Ergonomic Racing Chair is engineered for long gaming sessions. Its ergonomic design and high-quality materials ensure optimal support and comfort, so you can stay focused on the game.",
       "info": "Equipped with adjustable armrests, lumbar support, and a reclining feature, this chair offers customizable comfort for every gamer. Whether racing or battling, it provides the ultimate gaming experience.",
       "tags": "ergonomic, racing, chair, gaming, furniture",
@@ -496,16 +424,20 @@
     },
     {
       "id": 16,
-      "category": "table",
-      "productName": "High-Back table",
-      "price": 199.99,
+      "category": "sofa",
+      "productName": "Waffle endless",
+      "price": 70,
       "rating": 4.6,
-      "smallDesc": "Experience superior comfort with our High Back Gaming Chair. Designed with gamers in mind, this chair features a high backrest, lumbar support, and adjustable armrests for an ergonomic gaming experience.",
-      "colors": ["#008000", "#FF6347", "#4B0082", "#8A2BE2", "#FF4500"],
-      "sizes": ["m", "s", "l", "sl", "xl"],
+      "smallDesc": "The Waffle collection, from the outside, presents a cubic shape and regular, precise geometric forms",
       "amount": 25,
-      "image": "table2.jpeg",
-      "images": ["table2.jpeg", "table1.jpeg", "table2.jpeg", "table1.jpeg"],
+      "image": "product16_1.webp",
+      "images": [
+        "product16_1.webp",
+        "product16_2.webp",
+        "product16_3.webp",
+        "product16_4.webp",
+        "product16_5.webp"
+      ],
       "description": "The High Back Gaming Chair offers unparalleled support and comfort during intense gaming sessions. Its ergonomic design promotes proper posture and reduces fatigue, allowing you to focus on winning.",
       "info": "With adjustable features and premium padding, this chair adapts to your body for a customized fit. Whether gaming, working, or relaxing, it provides the support you need for long hours of use.",
       "tags": "high back, gaming, chair, ergonomic, furniture",
@@ -524,16 +456,20 @@
     },
     {
       "id": 17,
-      "category": "table",
-      "productName": "Pro-Series table",
-      "price": 279.99,
+      "category": "accessories",
+      "productName": "Mogu-Kagu Creamer",
+      "price": 75,
       "rating": 4.8,
-      "smallDesc": "Dominate the competition with our Pro Series Gaming Chair. Engineered for performance and durability, this chair features a sleek design, premium materials, and ergonomic features for a competitive edge.",
-      "colors": ["#4169E1", "#FF1493", "#32CD32", "#FFFF00", "#FFD700"],
-      "sizes": ["m", "s", "l", "sl", "xl"],
+      "smallDesc": "Designed by Mitsugu Morita, the Mogu Kagu creamer is carved to pleasing proportions from a single piece of solid wood",
       "amount": 20,
-      "image": "table1.jpeg",
-      "images": ["table1.jpeg", "table1.jpeg", "table2.jpeg", "table1.jpeg"],
+      "image": "product17_1.webp",
+      "images": [
+        "product17_1.webp",
+        "product17_2.webp",
+        "product17_3.webp",
+        "product17_4.webp",
+        "product17_5.webp"
+      ],
       "description": "The Pro Series Gaming Chair is built to withstand even the most intense gaming sessions. Its reinforced frame, high-density foam, and premium upholstery ensure long-lasting comfort and support.",
       "info": "Designed with esports professionals in mind, this chair offers superior performance and adjustability. Whether streaming, practicing, or competing, it helps you stay focused and comfortable.",
       "tags": "pro series, gaming, chair, esports, furniture",
@@ -552,16 +488,14 @@
     },
     {
       "id": 18,
-      "category": "armedchair",
-      "productName": "Leather Armchair",
-      "price": 349.99,
+      "category": "sofa",
+      "productName": "Sys four units",
+      "price": 200,
       "rating": 4.5,
-      "smallDesc": "Experience luxury with our Vintage Leather Armchair. Crafted from premium leather and sturdy wood, this armchair offers both comfort and sophistication.",
-      "colors": ["#8B4513", "#A0522D", "#CD853F", "#D2691E", "#BC8F8F"],
-      "sizes": ["m", "s", "l", "sl", "xl"],
+      "smallDesc": "Sys was born as a sofa full of configurations, which gives the possibility of creating modular systems.",
       "amount": 20,
-      "image": "armed1.jpeg",
-      "images": ["armed1.jpeg", "armed2.jpeg", "armed3.jpeg", "armed2.jpeg"],
+      "image": "product18_1.webp",
+      "images": ["product18_1.webp", "product18_2.webp", "product18_3.webp"],
       "description": "Indulge in the classic elegance of our Vintage Leather Armchair. Its timeless design and rich leather upholstery make it a statement piece for any living space.",
       "info": "Handcrafted with precision, this armchair is built to last. Whether placed in a cozy corner or a formal sitting area, it exudes charm and sophistication.",
       "tags": "vintage, leather, armchair, luxury, furniture",
@@ -580,16 +514,23 @@
     },
     {
       "id": 19,
-      "category": "armedchair",
-      "productName": "Modern Armchair",
-      "price": 279.99,
+      "category": "accessories",
+      "productName": "Archiblocks Bauhaus",
+      "price": 135,
       "rating": 4.3,
-      "smallDesc": "Add a touch of modern elegance with our Modern Velvet Armchair. Featuring plush velvet upholstery and sleek metal accents, it's sure to elevate any space.",
-      "colors": ["#483D8B", "#8A2BE2", "#6A5ACD", "#483D8B", "#4B0082"],
-      "sizes": ["m", "s", "l", "sl", "xl"],
+      "smallDesc": "A lesson in modularity, balance, and composition; in a box.",
       "amount": 15,
-      "image": "armed2.jpeg",
-      "images": ["armed2.jpeg", "armed2.jpeg", "armed3.jpeg", "armed2.jpeg"],
+      "image": "product19_1.webp",
+      "images": [
+        "product19_1.webp",
+        "product19_2.webp",
+        "product19_3.webp",
+        "product19_4.webp",
+        "product19_5.webp",
+        "product19_6.webp",
+        "product19_7.webp",
+        "product19_8.webp"
+      ],
       "description": "Embrace contemporary style with our Modern Velvet Armchair. Its soft velvet fabric and minimalist design make it a versatile piece for modern interiors.",
       "info": "Designed for both comfort and style, this armchair is perfect for lounging or reading. The sturdy construction ensures durability without compromising on aesthetics.",
       "tags": "modern, velvet, armchair, contemporary, furniture",
@@ -608,16 +549,14 @@
     },
     {
       "id": 20,
-      "category": "armedchair",
-      "productName": "Classic Armchair",
-      "price": 319.99,
+      "category": "sofa",
+      "productName": "Sys three units",
+      "price": 150,
       "rating": 4.4,
-      "smallDesc": "Create a cozy reading nook with our Classic Tufted Armchair. Featuring elegant tufted upholstery and a sturdy wooden frame, it's an inviting addition to any home.",
-      "colors": ["#800000", "#8B0000", "#A52A2A", "#B22222", "#DC143C"],
-      "sizes": ["m", "s", "l", "sl", "xl"],
+      "smallDesc": "Sys was born as a sofa full of configurations, which gives the possibility of creating modular systems, that fit well in contexts such as waiting rooms.",
       "amount": 18,
-      "image": "armed3.jpeg",
-      "images": ["armed3.jpeg", "armed2.jpeg", "armed3.jpeg", "armed1.jpeg"],
+      "image": "product20_1.webp",
+      "images": ["product20_1.webp", "product20_2.webp", "product20_3.webp"],
       "description": "Enjoy classic comfort with our Tufted Armchair. Its timeless design and plush cushioning create a cozy spot for relaxation and leisurely reading.",
       "info": "Crafted with attention to detail, this armchair combines style and durability. Whether placed in a living room or bedroom, it adds a touch of sophistication.",
       "tags": "classic, tufted, armchair, cozy, furniture",
@@ -633,348 +572,299 @@
           "image": "reviewer2.jpeg"
         }
       ]
-    },
-    {
-      "id": 21,
-      "category": "armedchair",
-      "productName": "Mid-Century Armchair",
-      "price": 329.99,
-      "rating": 4.8,
-      "smallDesc": "Add a touch of retro charm with our Mid-Century Modern Armchair. Featuring iconic design elements and premium upholstery, it's a statement piece for any mid-century inspired space.",
-      "colors": ["#DAA520", "#B8860B", "#D2B48C", "#FFD700", "#BDB76B"],
-      "sizes": ["m", "s", "l", "sl", "xl"],
-      "amount": 17,
-      "image": "armed1.jpeg",
-      "images": ["armed1.jpeg", "armed2.jpeg", "armed3.jpeg", "armed2.jpeg"],
-      "description": "Step back in time with our Mid-Century Modern Armchair. Its sleek lines and tapered legs capture the essence of mid-century design, while the plush cushioning offers modern comfort.",
-      "info": "Crafted with attention to detail, this armchair is a tribute to the iconic designs of the past. Whether placed in a living room or office, it adds a touch of vintage flair.",
-      "tags": "mid-century, modern, armchair, retro, furniture",
-      "reviews": [
-        {
-          "customerName": "Ethan Harris",
-          "review": "This armchair is a gem! It's beautifully designed and incredibly comfortable. The color is perfect, and it complements my mid-century decor.",
-          "image": "reviewer1.jpeg"
-        },
-        {
-          "customerName": "Ava Martinez",
-          "review": "I'm in love with this armchair! It's stylish, comfortable, and adds a retro vibe to my living room. Couldn't be happier with my purchase.",
-          "image": "reviewer3.jpeg"
-        }
-      ]
-    },
-    {
-      "id": 22,
-      "category": "armedchair",
-      "productName": "Scandinavian Armchair",
-      "price": 299.99,
-      "rating": 4.7,
-      "smallDesc": "Bring Nordic charm to your home with our Scandinavian Inspired Armchair. Featuring clean lines and natural materials, it's a timeless addition to any modern interior.",
-      "colors": ["#778899", "#4682B4", "#5F9EA0", "#B0C4DE", "#87CEEB"],
-      "sizes": ["m", "s", "l", "sl", "xl"],
-      "amount": 19,
-      "image": "armed1.jpeg",
-      "images": ["armed1.jpeg", "armed2.jpeg", "armed3.jpeg", "armed2.jpeg"],
-      "description": "Embrace Scandinavian design with our Inspired Armchair. Its minimalist aesthetic and ergonomic shape create a comfortable seating experience that's perfect for relaxation.",
-      "info": "Crafted from sustainable materials, this armchair is as eco-friendly as it is stylish. Whether placed in a living room or reading corner, it adds a touch of Nordic elegance.",
-      "tags": "scandinavian, inspired, armchair, nordic, furniture",
-      "reviews": [
-        {
-          "customerName": "Liam Turner",
-          "review": "I'm impressed by the quality and comfort of this armchair. It's a perfect addition to my Scandinavian-inspired living room. Highly recommend it!",
-          "image": "reviewer2.jpeg"
-        },
-        {
-          "customerName": "Isabella Scott",
-          "review": "Absolutely love this armchair! It's sleek, comfortable, and blends seamlessly with my modern decor. Couldn't be happier with my purchase.",
-          "image": "reviewer3.jpeg"
-        }
-      ]
     }
   ],
   "featuredProduct": [
     {
-      "id": 21,
-      "image": "1.webp",
-      "price": 18.99,
-      "productName": "Featured Product",
+      "id": 1,
+      "productName": "Nusskubus Nutcracker",
+      "image": "product1_1.webp",
+      "price": 50,
       "amount": 10
     },
     {
-      "id": 22,
-      "image": "2.webp",
-      "price": 39.99,
-      "productName": "Featured Product",
-      "amount": 10
+      "id": 2,
+      "image": "product2_1.webp",
+      "price": 295,
+      "productName": "Kei Side Table",
+      "amount": 15
     },
     {
-      "id": 23,
-      "image": "1.webp",
-      "price": 59.99,
-      "productName": "Featured Product",
-      "amount": 10
+      "id": 3,
+      "image": "product3_1.webp",
+      "price": 25,
+      "productName": "Ito Bindery Memo Block",
+      "amount": 20
     },
     {
-      "id": 24,
-      "image": "2.webp",
-      "price": 519.99,
-      "productName": "Featured Product",
-      "amount": 10
+      "id": 4,
+      "image": "product4_1.webp",
+      "price": 100,
+      "productName": "Glass Table",
+      "amount": 8
     }
   ],
 
   "new-arrivals": [
     {
-      "id": 25,
-      "image": "1.webp",
-      "price": 29.99,
-      "productName": "Product 1",
+      "id": 5,
+      "image": "product5_1.webp",
+      "price": 60,
+      "productName": "Endless Rain Record",
+      "type": "accessories",
+      "smallDesc": "Audio to sooth your mind.",
+      "amount": 25
+    },
+    {
+      "id": 6,
+      "image": "product6_1.webp",
+      "price": 70,
+      "productName": "Coffee Table",
+      "type": "table",
+      "smallDesc": "One of One.",
+      "amount": 18
+    },
+    {
+      "id": 7,
+      "image": "product7_1.webp",
+      "price": 90,
+      "productName": "Skultuna Herb Pot",
+      "type": "accessories",
+      "smallDesc": "A nod to traditional terracotta planters, this brass herb pot is an elegant addition to your space.",
+      "amount": 8
+    },
+    {
+      "id": 8,
+      "image": "product8_1.webp",
+      "price": 795,
+      "productName": "Kei Console",
+      "type": "table",
+      "smallDesc": "A resting place for sounds of old memories and new sensations.",
+      "amount": 15
+    },
+    {
+      "id": 9,
+      "image": "product9_1.webp",
+      "price": 80,
+      "productName": "Pure Loop Binuance Retro",
       "type": "chair",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "smallDesc": "The Binuance develops colours, material and technology of the Pure Loop family",
       "amount": 10
     },
     {
-      "id": 26,
-      "image": "2.webp",
-      "price": 39.99,
-      "productName": "Product 2",
+      "id": 10,
+      "image": "product10_1.webp",
+      "price": 60,
+      "productName": "Balancing Blocks",
+      "type": "accessories",
+      "smallDesc": "Handcrafted from reclaimed oak, and tumbled in a non-toxic water-based paint that allows the natural grain to show through. A printed cotton drawstring bag is included for convenient storage.",
+      "amount": 10
+    },
+    {
+      "id": 11,
+      "image": "product11_1.webp",
+      "price": 100,
+      "productName": "Versable",
+      "type": "table",
+      "smallDesc": "The Versable family includes fixed and extendable models, available in several sizes, in order to allow a full answer to the needs of the contemporary environments.",
+      "amount": 12
+    },
+    {
+      "id": 12,
+      "image": "product12_1.webp",
+      "price": 80,
+      "productName": "Skol wood",
       "type": "chair",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "amount": 10
-    },
-    {
-      "id": 27,
-      "image": "2.webp",
-      "price": 49.99,
-      "productName": "Product 3",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "amount": 10
-    },
-    {
-      "id": 28,
-      "image": "2.webp",
-      "price": 49.99,
-      "productName": "Product 4",
-      "type": "table",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "amount": 10
-    },
-
-    {
-      "id": 29,
-      "image": "1.webp",
-      "price": 29.99,
-      "productName": "Product 1",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "amount": 10
-    },
-    {
-      "id": 30,
-      "image": "2.webp",
-      "price": 39.99,
-      "productName": "Product 2",
-      "type": "table",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "amount": 10
-    },
-    {
-      "id": 31,
-      "image": "2.webp",
-      "price": 49.99,
-      "productName": "Product 3",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "amount": 10
-    },
-    {
-      "id": 32,
-      "image": "2.webp",
-      "price": 49.99,
-      "productName": "Product 4",
-      "type": "table",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "amount": 10
+      "smallDesc": "The design of Skol, at first glance, brings back memories of times long gone by.",
+      "amount": 8
     }
   ],
   "best-seller": [
     {
-      "id": 33,
-      "image": "1.webp",
-      "price": 18.99,
-      "productName": "Featured Product",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "id": 1,
+      "image": "product1_1.webp",
+      "price": 50,
+      "productName": "Nusskubus Nutcracker",
+      "type": "accessories",
+      "smallDesc": "Perfect for hazelnuts, walnuts, brazil nuts, and the like.",
       "amount": 10
     },
     {
-      "id": 34,
-      "image": "2.webp",
-      "price": 39.99,
-      "productName": "Featured Product",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "amount": 10
-    },
-    {
-      "id": 35,
-      "image": "1.webp",
-      "price": 59.99,
-      "productName": "Featured Product",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "amount": 10
-    },
-    {
-      "id": 36,
-      "image": "2.webp",
-      "price": 519.99,
-      "productName": "Featured Product",
+      "id": 2,
+      "image": "product2_1.webp",
+      "price": 295,
+      "productName": "Kei Side Table",
       "type": "table",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "amount": 10
+      "smallDesc": "Bringing a charming presence to a space",
+      "amount": 15
+    },
+    {
+      "id": 19,
+      "image": "product19_1.webp",
+      "price": 135,
+      "productName": "Archiblocks Bauhaus",
+      "type": "accessories",
+      "smallDesc": "A lesson in modularity, balance, and composition; in a box.",
+      "amount": 15
+    },
+    {
+      "id": 20,
+      "image": "product20_1.webp",
+      "price": 150,
+      "productName": "Sys three units",
+      "type": "sofa",
+      "smallDesc": "Sys was born as a sofa full of configurations, which gives the possibility of creating modular systems, that fit well in contexts such as waiting rooms.",
+      "amount": 18
     }
   ],
 
   "most-view": [
     {
-      "id": 37,
-      "image": "1.webp",
-      "price": 29.99,
-      "productName": "Product 1",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "amount": 10
-    },
-    {
-      "id": 38,
-      "image": "2.webp",
-      "price": 39.99,
-      "productName": "Product 2",
+      "id": 6,
+      "image": "product6_1.webp",
+      "price": 70,
+      "productName": "Coffee Table",
       "type": "table",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "smallDesc": "One of One.",
+      "amount": 18
+    },
+    {
+      "id": 10,
+      "image": "product10_1.webp",
+      "price": 60,
+      "productName": "Balancing Blocks",
+      "type": "accessories",
+      "smallDesc": "Handcrafted from reclaimed oak, and tumbled in a non-toxic water-based paint that allows the natural grain to show through. A printed cotton drawstring bag is included for convenient storage.",
       "amount": 10
     },
     {
-      "id": 39,
-      "image": "3.webp",
-      "price": 49.99,
-      "productName": "Product 3",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "amount": 10
+      "id": 12,
+      "image": "product12_1.webp",
+      "price": 80,
+      "productName": "Skol wood",
+      "type": "chair",
+      "smallDesc": "The design of Skol, at first glance, brings back memories of times long gone by.",
+      "amount": 8
     },
     {
-      "id": 40,
-      "image": "1.webp",
-      "price": 49.99,
-      "productName": "Product 4",
+      "id": 13,
+      "image": "product13_1.webp",
+      "price": 189,
+      "productName": "Rami",
       "type": "table",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "amount": 10
+      "smallDesc": "The Rami trestles allow you to create a modular and customized table, tailored to the setting and the wishes of those who choose it.",
+      "amount": 15
     },
     {
-      "id": 41,
-      "image": "1.webp",
-      "price": 18.99,
-      "productName": "Featured Product",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "amount": 10
+      "id": 14,
+      "image": "product14_1.webp",
+      "price": 35,
+      "productName": "Ito Bindery Drawing Pad",
+      "type": "accessories",
+      "smallDesc": "Put your mind on paper with Ito Bindery Drawing Pads.",
+      "amount": 18
     },
     {
-      "id": 42,
-      "image": "2.webp",
-      "price": 39.99,
-      "productName": "Featured Product",
+      "id": 7,
+      "image": "product7_1.webp",
+      "price": 90,
+      "productName": "Skultuna Herb Pot",
+      "type": "accessories",
+      "smallDesc": "A nod to traditional terracotta planters, this brass herb pot is an elegant addition to your space.",
+      "amount": 8
+    },
+    {
+      "id": 8,
+      "image": "product8_1.webp",
+      "price": 795,
+      "productName": "Kei Console",
+      "type": "table",
+      "smallDesc": "A resting place for sounds of old memories and new sensations.",
+      "amount": 15
+    },
+    {
+      "id": 9,
+      "image": "product9_1.webp",
+      "price": 80,
+      "productName": "Pure Loop Binuance Retro",
       "type": "chair",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "amount": 10
-    },
-    {
-      "id": 43,
-      "image": "1.webp",
-      "price": 59.99,
-      "productName": "Featured Product",
-      "type": "chair",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-      "amount": 10
-    },
-    {
-      "id": 44,
-      "image": "2.webp",
-      "price": 519.99,
-      "productName": "Featured Product",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "smallDesc": "The Binuance develops colours, material and technology of the Pure Loop family",
       "amount": 10
     }
   ],
 
   "discounts": [
     {
-      "id": 45,
-      "image": "1.webp",
-      "price": 18.99,
-      "productName": "Featured Product",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
+      "id": 11,
+      "image": "product11_1.webp",
+      "price": 100,
+      "productName": "Versable",
+      "type": "table",
+      "smallDesc": "The Versable family includes fixed and extendable models, available in several sizes, in order to allow a full answer to the needs of the contemporary environments.",
+      "amount": 12
     },
     {
-      "id": 46,
-      "image": "2.webp",
-      "price": 39.99,
-      "productName": "Featured Product",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
+      "id": 12,
+      "image": "product12_1.webp",
+      "price": 80,
+      "productName": "Skol wood",
+      "type": "chair",
+      "smallDesc": "The design of Skol, at first glance, brings back memories of times long gone by.",
+      "amount": 8
     },
     {
-      "id": 47,
-      "image": "1.webp",
-      "price": 59.99,
-      "productName": "Featured Product",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
+      "id": 13,
+      "image": "product13_1.webp",
+      "price": 189,
+      "productName": "Rami",
+      "type": "table",
+      "smallDesc": "The Rami trestles allow you to create a modular and customized table, tailored to the setting and the wishes of those who choose it.",
+      "amount": 15
     },
     {
-      "id": 48,
-      "image": "2.webp",
-      "price": 519.99,
-      "productName": "Featured Product",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
+      "id": 14,
+      "image": "product14_1.webp",
+      "price": 35,
+      "productName": "Ito Bindery Drawing Pad",
+      "type": "accessories",
+      "smallDesc": "Put your mind on paper with Ito Bindery Drawing Pads.",
+      "amount": 18
     },
     {
-      "id": 49,
-      "image": "1.webp",
-      "price": 29.99,
-      "productName": "Product 1",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
+      "id": 18,
+      "image": "product18_1.webp",
+      "price": 200,
+      "productName": "Sys four units",
+      "type": "sofa",
+      "smallDesc": "Sys was born as a sofa full of configurations, which gives the possibility of creating modular systems.",
+      "amount": 20
     },
     {
-      "id": 50,
-      "image": "2.webp",
-      "price": 39.99,
-      "productName": "Product 2",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
+      "id": 19,
+      "image": "product19_1.webp",
+      "price": 135,
+      "productName": "Archiblocks Bauhaus",
+      "type": "accessories",
+      "smallDesc": "A lesson in modularity, balance, and composition; in a box.",
+      "amount": 15
     },
     {
-      "id": 51,
-      "image": "2.webp",
-      "price": 49.99,
-      "productName": "Product 3",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
+      "id": 20,
+      "image": "product20_1.webp",
+      "price": 150,
+      "productName": "Sys three units",
+      "type": "sofa",
+      "smallDesc": "Sys was born as a sofa full of configurations, which gives the possibility of creating modular systems, that fit well in contexts such as waiting rooms.",
+      "amount": 18
     },
     {
-      "id": 52,
-      "image": "2.webp",
-      "price": 49.99,
-      "productName": "Product 4",
-      "type": "Furniture",
-      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
+      "id": 15,
+      "image": "product15_1.webp",
+      "price": 70,
+      "productName": "Feluca",
+      "type": "chair",
+      "smallDesc": "The feluca (“becorn hat” in English) is an ancient headgear used in the eighteenth century and characterized by two downward curved extremities. ",
+      "amount": 30
     }
   ]
 }
