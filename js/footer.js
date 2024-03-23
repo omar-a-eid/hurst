@@ -64,11 +64,10 @@ function drawFooter() {
                         <h3 class="footer-title title-border">accounts</h3>
                         <hr class="new5">
                         <ul class="footer-menu list-unstyled">
-                            <li><a href="#" class="text-decoration-none"><i class="bi bi-record-circle product-icons"></i>My Account</a></li>
-                            <li><a href="#" class="text-decoration-none"><i class="bi bi-record-circle product-icons"></i>My Wishlist</a></li>
-                            <li><a href="#" class="text-decoration-none"><i class="bi bi-record-circle product-icons"></i>My Cart</a></li>
-                            <li><a href="#" class="text-decoration-none"><i class="bi bi-record-circle product-icons"></i>Sign In</a></li>
-                            <li><a href="#" class="text-decoration-none"><i class="bi bi-record-circle product-icons"></i>Check out</a></li>
+                            <li><a href="${path}pages/favourites.html" class="text-decoration-none"><i class="bi bi-record-circle product-icons"></i>My Wishlist</a></li>
+                            <li><a href="${path}pages/checkout.html" class="text-decoration-none"><i class="bi bi-record-circle product-icons"></i>My Cart</a></li>
+                            <li><a href="${path}pages/signinSignup.html" class="text-decoration-none"><i class="bi bi-record-circle product-icons"></i>Sign In</a></li>
+                            <li><a href="${path}pages/checkout.html" class="text-decoration-none"><i class="bi bi-record-circle product-icons"></i>Check out</a></li>
                         </ul>
                     </div>
                 </div>
@@ -77,9 +76,8 @@ function drawFooter() {
                         <h3 class="footer-title title-border">shipping</h3>
                         <hr class="new5">
                         <ul class="footer-menu list-unstyled">
-                            <li><a href="#" class="text-decoration-none"><i class="bi bi-record-circle product-icons"></i>New Products</a></li>
-                            <li><a href="#" class="text-decoration-none"><i class="bi bi-record-circle product-icons"></i>Top Sellers</a></li>
-                            <li><a href="#" class="text-decoration-none"><i class="bi bi-record-circle product-icons"></i>Manufacturers</a></li>
+                            <li><a href="#new-arrivals" class="text-decoration-none"><i class="bi bi-record-circle product-icons"></i>New Products</a></li>
+                            <li><a href="#best-seller" class="text-decoration-none"><i class="bi bi-record-circle product-icons"></i>Top Sellers</a></li>
                             <li><a href="#" class="text-decoration-none"><i class="bi bi-record-circle product-icons"></i>Suppliers</a></li>
                             <li><a href="#" class="text-decoration-none "><i class="bi bi-record-circle product-icons"></i>Specials</a></li>
                         </ul>

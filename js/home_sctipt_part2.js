@@ -82,7 +82,7 @@ function displayProducts(products) {
       product.productName
     }">
       
-                    <div class="product-action bg-light w-75 d-flex align-items-center justify-content-around">
+                    <div class="product-action w-75 d-flex align-items-center justify-content-around">
                         <i class="fa-solid fa-heart-circle-plus ms-3 addToFav ${favIconClass}" aria-hidden="true" data-id="${
       product.id
     }"></i>
@@ -235,21 +235,11 @@ filterBtn.addEventListener("click", function () {
   }
 });
 
-// filterBtn.addEventListener("mouseleave", function (event) {
-//   if (!event.relatedTarget || !filterDiv.contains(event.relatedTarget)) {
-//     filterDiv.style.display = "none";
-//   }
-// });
 
 filterDiv.addEventListener("mouseenter", function () {
   filterDiv.style.display = "block";
 });
 
-// filterDiv.addEventListener("mouseleave", function (event) {
-//   if (!event.relatedTarget || event.relatedTarget !== filterBtn) {
-//     filterDiv.style.display = "none";
-//   }
-// });
 
 /************************************ display filter products div ******************************************/
 
@@ -284,19 +274,19 @@ function displayProductDetails(product) {
                     <hr class"mt-0">
                     <div class="row form-group m-2">
                         <div class="col-sm-2 w-100 mb-0">
-                            <p>${product.price}</p>
+                            <p>$${product.price}</p>
                         </div>
                     </div>
                     <hr class"mt-0">
                     <div class="col-sm-12 mb-4">
-                        <a href="#" class="feature-link">See all features</a>
+                        <a href="../pages/productpage.html" class="feature-link">See all features</a>
                     </div>
 
                     <div class="row m-2 mx-0 mr-0">
-                        <div class="col-3">
+                        <div class="col-4 col-md-4 col-sm-6 col-lg-3">
                             <input class="form-control" id="quantity" type="number" value="0">
                         </div>
-                        <div class="col-9 add-cart-btn p-0">
+                        <div class="col-8 col-sm-6 col-md-7 col-lg-9 add-cart-btn p-0">
                             <a class="btn w-75 data text-light add-cart-btn product-add-cart w-100" data-id="${product.id}" type="submit">Add to cart</a>
                         </div>
                     </div>

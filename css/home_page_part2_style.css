@@ -96,7 +96,19 @@ hr.new5 {
   border-radius: 5px;
   padding: 5px;
   margin-bottom: 150px;
+  background-color: rgb(252, 252, 252);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
+.product-action:hover{
+  background-color: #d3b484;
+  color: white;
+}
+
+.product-action:hover .product-icons:hover{
+  color: black;
+}
+
 
 .card:hover .product-action {
   transform: translate(-50%, 0);
@@ -107,8 +119,16 @@ hr.new5 {
   transition: color 0.3s ease;
 }
 
-.product-icons:hover {
-  color: #c87065;
+.product-action:hover .addToFav:hover{
+  color: black;
+}
+
+.product-action:hover .product-add-cart:hover{
+  color: black;
+}
+
+.product-action:hover .product-icons:hover {
+  color: black;
 }
 
 /*****************************************************************************************************/
