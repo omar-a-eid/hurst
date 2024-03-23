@@ -202,7 +202,7 @@ hr.new5 {
   margin-top: 170px;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .tab-menu li hr.new5 {
     display: none;
   }
