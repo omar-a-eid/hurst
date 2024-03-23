@@ -56,7 +56,20 @@ document.addEventListener("DOMContentLoaded", () => {
       // Redirect to home page after successful login
       window.location.href = "/";
     } else {
-      showAlert("Invalid username or password.", "error");
+      // showAlert("Invalid username or password.", "error");
+      let alertMessage = `
+      <div class="alert alert-danger" 
+      role="alert"
+      style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%); z-index: 9999;">
+      <strong>Error!</strong> Invalid username or password !
+      </div>
+      `;
+
+      document.body.insertAdjacentHTML("afterbegin", alertMessage);
+
+      setTimeout(function () {
+          document.querySelector(".alert").remove();
+      }, 3000);
     }
   });
 
