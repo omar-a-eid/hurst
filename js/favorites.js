@@ -78,6 +78,9 @@ export function getFavorites() {
 }
 
 export function displayFav() {
+  if (!auth("/pages/signinSignup.html")) {
+    return;
+  }
   const favoritesProd = getFavorites();
   let result = "";
   const favProducts = document.getElementById("favItems");
