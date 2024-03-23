@@ -20,6 +20,30 @@ document.addEventListener('click', function(e) {
         addToCart(id);
     }
 
+    if (e.target.classList.contains('product-add-cart')) {
+        let id = e.target.dataset.id;
+        let quantityInput = e.target.closest('.row').querySelector('#quantity');
+        let quantity = parseInt(quantityInput.value);
+        if(quantity <= 0){
+            let alertMessage = `
+            <div class="alert alert-danger" 
+            role="alert"
+            style="position: fixed; top: 20px; left: 50%; transform: translateX(-50%); z-index: 9999;">
+            <strong>Error!</strong> Quantiy must be valid number more than zero!
+            </div>
+            `;
+
+            document.body.insertAdjacentHTML("afterbegin", alertMessage);
+
+            setTimeout(function () {
+                document.querySelector(".alert").remove();
+            }, 3000);
+        }
+        // console.log(quantity);
+        addToCart(id, quantity);
+    }
+
+
     if (e.target.classList.contains('logout')) {
         console.log('logout');
         logout();

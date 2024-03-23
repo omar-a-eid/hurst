@@ -284,7 +284,7 @@ function displayProductDetails(product) {
 
                     <div class="row m-2 mx-0 mr-0">
                         <div class="col-4 col-md-4 col-sm-6 col-lg-3">
-                            <input class="form-control" id="quantity" type="number" value="0">
+                            <input class="form-control" id="quantity" type="number" value="1">
                         </div>
                         <div class="col-8 col-sm-6 col-md-7 col-lg-9 add-cart-btn p-0">
                             <a class="btn w-75 data text-light add-cart-btn product-add-cart w-100" data-id="${product.id}" type="submit">Add to cart</a>

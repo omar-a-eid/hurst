@@ -76,8 +76,8 @@ function drawFooter() {
                         <h3 class="footer-title title-border">shipping</h3>
                         <hr class="new5">
                         <ul class="footer-menu list-unstyled">
-                            <li><a href="#new-arrivals" class="text-decoration-none"><i class="bi bi-record-circle product-icons"></i>New Products</a></li>
-                            <li><a href="#best-seller" class="text-decoration-none"><i class="bi bi-record-circle product-icons"></i>Top Sellers</a></li>
+                            <li><a href="${path}index.html#new-arrivals" class="text-decoration-none"><i class="bi bi-record-circle product-icons"></i>New Products</a></li>
+                            <li><a href="${path}index.html#best-seller" class="text-decoration-none"><i class="bi bi-record-circle product-icons"></i>Top Sellers</a></li>
                             <li><a href="#" class="text-decoration-none"><i class="bi bi-record-circle product-icons"></i>Suppliers</a></li>
                             <li><a href="#" class="text-decoration-none "><i class="bi bi-record-circle product-icons"></i>Specials</a></li>
                         </ul>
