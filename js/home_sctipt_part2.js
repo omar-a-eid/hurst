@@ -75,7 +75,7 @@ function displayProducts(products) {
     }
 
     let productHTML = `
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-3 card-parent">
+        <div class="col-6 col-sm-6 col-md-4 col-lg-3 mb-3 card-parent">
             <div class="h-100 card-content p-2">
                 <div class="card border-0 w-100 h-100">
                     <img src="./images/${product.image}" alt="${
@@ -99,17 +99,17 @@ function displayProducts(products) {
                     </div>
 
                     <div class="details d-flex justify-content-between mt-3 p-0">
-                        <h4>
+                        <h6>
                         <a  href="/pages/productdetails.html?id=${
                           product.id
                         }&name=${product.productName}"><b>${
       product.productName
     }</b></a>
-                        </h4>
+                        </h6>
                         <p>${product.type}</p>
                     </div>
 
-                    <div class="product_price d-inline-block justify-content-between align-items-center">
+                    <div class="product_price d-flex justify-content-between align-items-center">
                         <h4><b>$${product.price}</b></h4>
                         <div class="rating">
                             ${starRatingHTML}
