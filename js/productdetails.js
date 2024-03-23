@@ -1,23 +1,23 @@
-import { displayBanner } from "./banner.js";
-import { addToCart } from "./cart.js";
-import { addedToFavourite } from "./favorites.js";
-import { initMenu } from "./menu.js";
-import { displayNav, initNavbarAnimation } from "./navbar.js";
+import { displayBanner } from './banner.js';
+import { addToCart } from './cart.js';
+import { addedToFavourite } from './favorites.js';
+import { initMenu } from './menu.js';
+import { displayNav, initNavbarAnimation } from './navbar.js';
 let qty, isFavorite;
 function details() {
   let favIconClass;
-  const favoritesProd = JSON.parse(localStorage.getItem("favorites")) || [];
-  let result = "";
+  const favoritesProd = JSON.parse(localStorage.getItem('favorites')) || [];
+  let result = '';
   if (favoritesProd.length === 0) {
     result += `<h1 class="text-center mt-5">No Favorite Items</h1>`;
   }
   favoritesProd.forEach((product) => {
     isFavorite = favoritesProd.some((favorite) => favorite.id === product.id);
-    favIconClass = isFavorite ? "fav-btn-active" : "";
+    favIconClass = isFavorite ? 'fav-btn-active' : '';
   });
   // let cards = document.getElementById("cards");
   function getData() {
-    fetch("../data/data.json")
+    fetch('../data/data.json')
       .then((res) => {
         // to
         if (!res.ok) {
@@ -27,10 +27,10 @@ function details() {
       })
       .then((res) => {
         let pro_id = new URLSearchParams(window.location.search);
-        let product = res.products.filter((pro) => pro.id == pro_id.get("id"));
+        let product = res.products.filter((pro) => pro.id == pro_id.get('id'));
         let obj = product[0];
         qty = obj.amount;
-        let imgs = "";
+        let imgs = '';
         for (let i = 0; i < obj.images.length; i++) {
           imgs += `
             <img class="img" src="../images/${obj.images[i]}" alt="Image 1">
@@ -45,7 +45,7 @@ function details() {
 <div class="col-12 col-xs-12 col-sm-12 col-md-8 col-lg-8 bg-color p-3">
     <div class="row">
         <div class="col-6">
-            <p><strong>${obj.productName}</strong></p>
+            <p class="display-6"><strong>${obj.productName}</strong></p>
         </div>
         <div class="col-6">
             <ul class="nav justify-content-end color"><!-- Stars -->
@@ -128,7 +128,7 @@ function details() {
         <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
             aria-labelledby="v-pills-home-tab">
             <div class="row col-10">
-                <p>${obj.productName}</p>
+                <p class="display-6">${obj.productName}</p>
                 <p>${obj.description}</p>
                 <p>${obj.description}</p>
                 <p>${obj.description}</p>
@@ -181,7 +181,7 @@ function details() {
         <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
             aria-labelledby="v-pills-messages-tab">
             <div class="row col-10">
-                <p>PRODUCT INFORMATION</p>
+                <p class="display-6">PRODUCT INFORMATION</p>
                 <p>${obj.info}</p>
                 <p>${obj.info}</p>
                 <p>${obj.info}</p>
@@ -190,7 +190,7 @@ function details() {
         <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
             aria-labelledby="v-pills-settings-tab">
             <div class="row col-10">
-                <p>TAGS</p>
+                <p class="display-6">TAGS</p>
                 <p>${obj.tags}</p>
                 <p>${obj.tags}</p>
                 <p>${obj.tags}</p>
@@ -201,22 +201,22 @@ function details() {
 </div>
             `;
 
-        document.getElementById("cont").innerHTML = str;
-        let myLink = document.querySelector("#myLink");
-        myLink.addEventListener("click", function (e) {
+        document.getElementById('cont').innerHTML = str;
+        let myLink = document.querySelector('#myLink');
+        myLink.addEventListener('click', function (e) {
           e.preventDefault();
-          const counterBody = document.getElementById("counter-value");
+          const counterBody = document.getElementById('counter-value');
           let currentValue = parseInt(counterBody.textContent);
           addToCart(obj.id, currentValue);
-          this.setAttribute("href", "../pages/checkout.html");
+          this.setAttribute('href', '../pages/checkout.html');
         });
-        const nextBtn = document.querySelector(".next-btn");
+        const nextBtn = document.querySelector('.next-btn');
         console.log(nextBtn);
         // div.insertAdjacentHTML('afterend', str);
-        const slider = document.querySelector(".slider");
-        const prevBtn = document.querySelector(".prev-btn");
-        const images = document.querySelectorAll(".slider img");
-        const additionalImg = document.querySelector(".additional-img");
+        const slider = document.querySelector('.slider');
+        const prevBtn = document.querySelector('.prev-btn');
+        const images = document.querySelectorAll('.slider img');
+        const additionalImg = document.querySelector('.additional-img');
 
         let counter = 0;
         const imageWidth = images[0].clientWidth;
@@ -230,72 +230,72 @@ function details() {
         updateAdditionalImageSrc();
 
         // Event listener for transitionend event on slider
-        slider.addEventListener("transitionend", updateAdditionalImageSrc);
+        slider.addEventListener('transitionend', updateAdditionalImageSrc);
         console.log(nextBtn);
-        nextBtn.addEventListener("click", () => {
-          console.log("hello");
+        nextBtn.addEventListener('click', () => {
+          console.log('hello');
           counter++;
           updateAdditionalImageSrc(); // Update additional image immediately
-          slider.style.transition = "transform 0.5s ease";
+          slider.style.transition = 'transform 0.5s ease';
           slider.style.transform = `translateX(-${counter * imageWidth}px)`;
           if (counter === images.length) {
             counter = 0;
-            slider.style.transition = "none";
+            slider.style.transition = 'none';
             slider.style.transform = `translateX(0px)`;
 
             setTimeout(() => {
-              slider.style.transition = "transform 0.5s ease";
+              slider.style.transition = 'transform 0.5s ease';
               slider.style.transform = `translateX(-${counter * imageWidth}px)`;
             }, 50);
           }
         });
 
-        prevBtn.addEventListener("click", () => {
+        prevBtn.addEventListener('click', () => {
           if (counter <= 0) return;
           counter--;
           updateAdditionalImageSrc(); // Update additional image immediately
-          slider.style.transition = "transform 0.5s ease";
+          slider.style.transition = 'transform 0.5s ease';
           slider.style.transform = `translateX(-${counter * imageWidth}px)`;
         });
       })
       .catch((error) => console.log(error));
   }
-  if (window.location.search !== "") {
+  if (window.location.search !== '') {
     getData();
   } else {
-    alert("Id not found");
-    window.location.href = "../Pages/productpage.html";
+    alert('Id not found');
+    window.location.href = '../Pages/productpage.html';
   }
 }
 
-document.addEventListener("DOMContentLoaded", function () {
-  let path = window.location.search.split("?")[1];
+document.addEventListener('DOMContentLoaded', function () {
+  let path = window.location.search.split('?')[1];
   let params = new URLSearchParams(path);
-  let name = params.get("name");
+  let name = params.get('name');
   let productName = decodeURIComponent(name);
   details();
   displayNav();
   initNavbarAnimation();
   displayBanner(productName);
 
-  const productDetailBody = document.getElementById("cont");
-  productDetailBody.addEventListener("click", function (event) {
-    const counterBody = document.getElementById("counter-value");
+  const productDetailBody = document.getElementById('cont');
+  productDetailBody.addEventListener('click', function (event) {
+    const counterBody = document.getElementById('counter-value');
     let currentValue = parseInt(counterBody.textContent);
-    if (event.target.classList.contains("inc")) {
+    if (event.target.classList.contains('inc')) {
       if (currentValue < qty) {
         counterBody.textContent = currentValue + 1;
       }
-    } else if (event.target.classList.contains("dec")) {
+    } else if (event.target.classList.contains('dec')) {
       if (currentValue > 0) {
         counterBody.textContent = currentValue - 1;
       }
-    } else if (event.target.classList.contains("addToFav")) {
+    } else if (event.target.classList.contains('addToFav')) {
       addedToFavourite(event.target.dataset.id);
     }
   });
 });
-window.addEventListener("load", function () {
+window.addEventListener('load', function () {
   displayNav();
   initNavbarAnimation();
   initMenu();
