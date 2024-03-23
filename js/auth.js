@@ -5,3 +5,9 @@ export default function auth(path) {
   }
   return isLogged;
 }
+
+
+export function logout() {
+  sessionStorage.removeItem("loggedUser");
+  window.location.href = "../index.html";
+}

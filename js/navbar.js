@@ -38,12 +38,14 @@ export function displayNav() {
       href="../pages/checkout.html">
       <i class="fa-solid fa-cart-shopping"></i>
     </a>
+    <button class="btn btn-outline-dark logout">Logout</button>
   </div>`
         : `<div class="col-lg-4 col-6 text-end">
     <a
       class="navbar-brand"
       href="../pages/checkout.html">
       <i class="fa-solid fa-right-to-bracket"></i>
+      <a href="../pages/signinSignup.html" class="btn btn-outline-dark">SignIn</a>
     </a>
   </div>`
     }
