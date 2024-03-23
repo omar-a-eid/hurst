@@ -27,13 +27,16 @@ function details() {
       })
       .then((res) => {
         let pro_id = new URLSearchParams(window.location.search);
-        // console.log(pro_id);
         let product = res.products.filter((pro) => pro.id == pro_id.get("id"));
         let obj = product[0];
-        // console.log(obj);
-        // console.log(obj.colors[0]);
         qty = obj.amount;
-
+        let imgs = "";
+        for (let i = 0; i < obj.images.length; i++) {
+          imgs += `
+            <img class="img" src="../images/${obj.images[i]}" alt="Image 1">
+            
+            `;
+        }
         let str = `
             <div class="row mt-5 col-12 ">
 <div class="col-12 col-xs-12 col-sm-12 col-md-4 col-lg-4 bg-color ">
@@ -98,11 +101,7 @@ function details() {
         <div class="slider-container mb-3">
             <button class="prev-btn">Previous</button>
             <div class="slider">
-                <img src="../images/${obj.images[0]}" alt="Image 1">
-                <img class=" img" src="../images/${obj.images[1]}" alt="Image 2">
-                <img class=" img" src="../images/${obj.images[2]}" alt="Image 3">
-                <img class=" img" src="../images/${obj.images[3]}" alt="Image 2">
-                <img class=" img" src="../images/${obj.images[4]}" alt="Image 3">
+                ${imgs}
             </div>
             <button class="next-btn">Next</button>
         </div>

@@ -109,7 +109,8 @@ a {
 }
 
 .slider img {
-  width: 100%;
+  margin: 3px;
+  width: 200px;
   height: auto;
 }
 

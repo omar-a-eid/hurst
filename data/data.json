@@ -1,715 +1,696 @@
 {
-    "products": [
-      {
-        "id": 1,
-        "category": "chair",
-        "productName": "Lounge Chair",
-        "price": 5695,
-        "rating": 4.9,
-        "smallDesc": "Iconic mid-century modern design for ultimate comfort.",
-        "colors": [
-          "#7D7D7D",
-          "#FFFFFF",
-          "#A9A9A9"
-        ],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 10,
-        "image": "chair3.jpg",
-        "images": ["chair3.jpg","chair5.jpg", "chair4.jpg", "chair3.jpg", "chair5.jpg"],
-        "description": "The Eames Lounge Chair and Ottoman, designed by Charles and Ray Eames, is a timeless classic. Crafted with the highest quality materials, this chair features molded plywood shells and premium leather upholstery for unmatched comfort and style.",
-        "info": "Dimensions: Chair - 32.75\"W x 32.75\"D x 32\"H, Ottoman - 26\"W x 21.5\"D x 17.25\"H. Material: Molded plywood, premium leather upholstery.",
-        "tags": [
-          "eames",
-          "lounge chair",
-          "mid-century modern",
-          "furniture"
-        ],
-        "reviews": [
-          {
-            "customerName": "Jennifer",
-            "review": "Absolutely stunning chair! It's a masterpiece of design and comfort. Worth every penny.",
-            "image": "reviewer1.jpeg"
-          },
-          {
-            "customerName": "Michael",
-            "review": "This chair is an investment piece, but it's worth every cent. It's incredibly comfortable and looks beautiful in my living room.",
-            "image": "reviewer2.jpeg"
-          }
-        ]
-      },
-      {
-        "id": 2,
-        "category": "chair",
-        "productName": "Miller Chair ",
-        "price": 1475,
-        "rating": 4.8,
-        "smallDesc": "Ergonomic office chair for superior support and comfort.",
-        "colors": [
-          "#000000",
-          "#2A2A2A",
-          "#7D7D7D"
-        ],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 15,
-        "image": "chair1.jpg",
-        "images": ["chair4.jpg","chair3.jpg", "chair4.jpg", "chair3.jpg", "chair5.jpg"],
-        "description": "The Herman Miller Aeron Chair is the gold standard in ergonomic office seating. It features innovative design and advanced ergonomic features such as adjustable lumbar support, tilt limiter, and breathable mesh upholstery to provide unmatched comfort and support throughout the workday.",
-        "info": "Dimensions: Size A - 25.75\"W x 16\"-18.5\"D x 38.5\"-43\"H, Size B - 27\"W x 16.75\"-18.5\"D x 41\"-45\"H, Size C - 28.25\"W x 18.5\"-20.5\"D x 43\"-45\"H. Material: Breathable mesh, aluminum frame.",
-        "tags": [
-          "herman miller",
-          "aeron chair",
-          "ergonomic",
-          "office chair"
-        ],
-        "reviews": [
-          {
-            "customerName": "Alex",
-            "review": "Best office chair I've ever owned! It's incredibly comfortable and provides excellent support for long hours of sitting.",
-            "image": "reviewer2.jpeg"
-          },
-          {
-            "customerName": "Jessica",
-            "review": "I was hesitant to spend so much on a chair, but this one is worth every penny. It's made a huge difference in my comfort and productivity at work.",
-            "image": "reviewer3.jpeg"
-          }
-        ]
-      },
-      {
-        "id": 3,
-        "category": "chair",
-        "productName": "IKEA Chair",
-        "price": 199,
-        "rating": 4.6,
-        "smallDesc": "Classic and affordable armchair for cozy relaxation.",
-        "colors": [
-          "#FFFFFF",
-          "#333333",
-          "#BEBEBE"
-        ],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 20,
-        "image": "chair4.jpg",
-        "images": ["chair4.jpg","chair3.jpg", "chair4.jpg", "chair3.jpg", "chair5.jpg"],
-        "description": "The IKEA Poäng Armchair is a timeless favorite for its simple yet stylish design and unbeatable comfort. With its curved frame and cushioned seat, it's perfect for lounging, reading, or enjoying a cup of coffee.",
-        "info": "Dimensions: 26.75\"W x 32.25\"D x 39.38\"H. Material: Layer-glued bent oak veneer frame, high resilience foam cushion, polyester blend upholstery.",
-        "tags": [
-          "ikea",
-          "poäng armchair",
-          "affordable",
-          "furniture"
-        ],
-        "reviews": [
-          {
-            "customerName": "David",
-            "review": "Love this chair! It's comfortable, affordable, and looks great in my living room. Highly recommend!",
-            "image": "reviewer1.jpeg"
-          },
-          {
-            "customerName": "Sarah",
-            "review": "This chair exceeded my expectations. It's comfortable, sturdy, and stylish. A great value for the price.",
-            "image": "reviewer3.jpeg"
-          }
-        ]
-      },
-      {
-        "id": 4,
-        "category": "chair",
-        "productName": "Leather Chair",
-        "price": 549.99,
-        "rating": 4.6,
-        "smallDesc": "Luxurious leather recliner chair with ergonomic design.",
-        "colors": [
-          "#FFFFFF",
-          "#D3D3D3",
-          "#FF5733"
-        ],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 8,
-        "image": "chair5.jpg",
-        "images": ["chair4.jpg","chair3.jpg", "chair4.jpg", "chair3.jpg", "chair5.jpg"],
-        "description": "Our Leather Recliner Chair combines comfort and style for the ultimate lounging experience. With its plush cushions and ergonomic design, it's perfect for relaxing after a long day.",
-        "info": "Dimensions: 36\"W x 40\"D x 42\"H. Material: Leather upholstery, metal frame.",
-        "tags": [
-          "chair",
-          "recliner chair",
-          "leather",
-          "furniture"
-        ],
-        "reviews": [
-          {
-            "customerName": "Ethan Harris",
-            "review": "I absolutely love this recliner chair! It's incredibly comfortable and provides excellent lumbar support.",
-            "image": "reviewer1.jpeg"
-          },
-          {
-            "customerName": "Ava Martin",
-            "review": "This chair is fantastic. It's well-made, stylish, and the reclining feature is a game-changer.",
-            "image": "reviewer2.jpeg"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "category": "chair",
-        "productName": "Rustic Chair",
-        "price": 129.99,
-        "rating": 4.4,
-        "smallDesc": "Simple yet sturdy design crafted from reclaimed wood.",
-        "colors": [
-          "#8B4513",
-          "#A0522D",
-          "#D2B48C"
-        ],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 25,
-        "image": "chair3.jpg",
-        "images": ["chair4.jpg","chair3.jpg", "chair4.jpg", "chair3.jpg", "chair5.jpg"],
-        "description": "Our Rustic Wooden Chair brings warmth and character to any space. Handcrafted from reclaimed wood, each chair is unique and showcases the natural beauty of the materials.",
-        "info": "Dimensions: 18\"W x 18\"D x 35\"H. Material: Reclaimed wood.",
-        "tags": [
-          "chair",
-          "wooden chair",
-          "rustic",
-          "furniture"
-        ],
-        "reviews": [
-          {
-            "customerName": "Emma Thompson",
-            "review": "I love the rustic look of this chair! It's sturdy and well-made, and it adds a charming touch to my dining room.",
-            "image": "reviewer3.jpeg"
-          },
-          {
-            "customerName": "James Anderson",
-            "review": "This chair exceeded my expectations. It's solid, comfortable, and looks fantastic in my kitchen.",
-            "image": "reviewer1.jpeg"
-          }
-        ]
-      },
-      {
-        "id": 6,
-        "category": "chair",
-        "productName": "Leather Armchair",
-        "price": 899.99,
-        "rating": 4.7,
-        "smallDesc": "Timeless elegance with supple leather upholstery.",
-        "colors": [
-          "#2F4F4F",
-          "#B0C4DE",
-          "#BC8F8F"
-        ],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 18,
-        "image": "chair5.jpg",
-        "images": ["chair4.jpg","chair3.jpg", "chair4.jpg", "chair3.jpg", "chair5.jpg"],
-        "description": "Our Vintage Leather Armchair evokes classic charm and sophistication. Upholstered in supple leather and featuring elegant detailing, it's the perfect statement piece for any living room or study.",
-        "info": "Dimensions: 38\"W x 36\"D x 35\"H. Material: Leather upholstery, wood frame.",
-        "tags": [
-          "chair",
-          "armchair",
-          "vintage",
-          "leather",
-          "furniture"
-        ],
-        "reviews": [
-          {
-            "customerName": "Benjamin Roberts",
-            "review": "This armchair is absolutely stunning! The leather is soft and luxurious, and the craftsmanship is impeccable.",
-            "image": "reviewer1.jpeg"
-          },
-          {
-            "customerName": "Evelyn Clark",
-            "review": "I'm thrilled with this purchase. The armchair is comfortable, elegant, and adds a touch of vintage flair to my living room.",
-            "image": "reviewer3.jpeg"
-          }
-        ]
-      },
-      {
-        "id": 7,
-        "category": "chair",
-        "productName": "Lounge-2 Chair",
-        "price": 899.99,
-        "rating": 4.9,
-        "smallDesc": "Iconic and comfortable lounge chair with ottoman.",
-        "colors": [
-          "#FFFFFF",
-          "#000000",
-          "#FF5733"
-        ],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 8,
-        "image": "chair3.jpg",
-        "images": ["chair4.jpg","chair3.jpg", "chair4.jpg", "chair3.jpg", "chair5.jpg"],
-        "description": "The Eames Lounge Chair is a modern classic, known for its timeless design and exceptional comfort. With its leather upholstery and molded plywood shell, it's the perfect piece for relaxation and style.",
-        "info": "Dimensions: 33\"W x 33\"D x 33\"H. Material: Leather, molded plywood.",
-        "tags": [
-          "chair",
-          "lounge chair",
-          "eames",
-          "furniture"
-        ],
-        "reviews": [
-          {
-            "customerName": "Alexandra Lee",
-            "review": "This lounge chair is amazing! It's incredibly comfortable and adds a touch of sophistication to my living room.",
-            "image": "reviewer1.jpeg"
-          },
-          {
-            "customerName": "Matthew Davis",
-            "review": "I couldn't be happier with this purchase. The chair is well-made, stylish, and provides excellent support.",
-            "image": "reviewer2.jpeg"
-          }
-        ]
-      },
-      {
-        "id": 8,
-        "category": "chair",
-        "productName": "Modern Chair",
-        "price": 249.99,
-        "rating": 4.7,
-        "smallDesc": "Stylish armchair with a mid-century modern design.",
-        "colors": [
-          "#FFFFFF",
-          "#F5F5F5",
-          "#D3D3D3"
-        ],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 15,
-        "image": "chair4.jpg",
-        "images": ["chair5.jpg","chair3.jpg", "chair4.jpg", "chair3.jpg", "chair5.jpg"],
-        "description": "Our Mid-Century Modern Armchair combines style and comfort for the perfect seating solution. With its sleek lines and cushioned seat, it's ideal for lounging and entertaining.",
-        "info": "Dimensions: 30\"W x 30\"D x 33\"H. Material: Fabric upholstery, wood frame.",
-        "tags": [
-          "chair",
-          "armchair",
-          "mid-century modern",
-          "furniture"
-        ],
-        "reviews": [
-          {
-            "customerName": "Oliver White",
-            "review": "This armchair is fantastic! It's comfortable, stylish, and fits perfectly in my living room.",
-            "image": "reviewer1.jpeg"
-          },
-          {
-            "customerName": "Emma Taylor",
-            "review": "I love this chair! It's well-made, easy to assemble, and adds a touch of retro charm to my home.",
-            "image": "reviewer3.jpeg"
-          }
-        ]
-      },
-      {
-        "id": 9,
-        "category": "chair",
-        "productName": "Accent Chair",
-        "price": 329.99,
-        "rating": 4.8,
-        "smallDesc": "Classic wingback chair with elegant tufted upholstery.",
-        "colors": [
-          "#FFFFFF",
-          "#000000",
-          "#FF5733"
-        ],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 10,
-        "image": "chair1.jpg",
-        "images": ["chair4.jpg","chair3.jpg", "chair4.jpg", "chair3.jpg", "chair5.jpg"],
-        "description": "Our Wingback Accent Chair adds sophistication and style to any room. With its classic design and tufted upholstery, it's perfect for reading nooks, living rooms, and bedrooms.",
-        "info": "Dimensions: 28\"W x 32\"D x 42\"H. Material: Fabric upholstery, wood frame.",
-        "tags": [
-          "chair",
-          "wingback chair",
-          "accent chair",
-          "furniture"
-        ],
-        "reviews": [
-          {
-            "customerName": "Sophia Clark",
-            "review": "I'm in love with this chair! It's elegant, comfortable, and adds a touch of luxury to my living room.",
-            "image": "reviewer3.jpeg"
-          },
-          {
-            "customerName": "Lucas Turner",
-            "review": "This chair exceeded my expectations. It's well-made, stylish, and provides excellent support.",
-            "image": "reviewer2.jpeg"
-          }
-        ]
-      },
-      {
-        "id": 10,
-        "category": "woodenchair",
-        "productName": "Oakwood Classic",
-        "price": 241.0,
-        "rating": 3.5,
-        "smallDesc": "Enjoy timeless elegance with our Oakwood Classic Chair. Crafted from sturdy oak, this chair boasts a classic design that fits seamlessly into any decor. Perfect for dining rooms or study areas, it offers both comfort and style.",
-        "colors": [
-          "#3B2F2F",
-          "#B22222",
-          "#008000",
-          "#F0E68C",
-          "#00b2ee"
-        ],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 10,
-        "image": "wodenchair2.jpg",
-        "images": ["wodenchair2.jpg", "wodenchair3.jpg", "wodenchair2.jpg", "wodenchair1.jpg","wodenchair2.jpg"],
-        "description": "Our Wingback Accent Chair adds sophistication and style to any room. With its classic design and tufted upholstery, it's perfect for reading nooks, living rooms, and bedrooms.",
-        "info": "Dimensions: 28\"W x 32\"D x 42\"H. Material: Fabric upholstery, wood frame.",
-        "tags": [
-          "chair",
-          "wingback chair",
-          "accent chair",
-          "furniture"
-        ],
-        "reviews": [
-          {
-            "customerName": "Andria addison",
-            "review": "i am fasinated with the product of your website",
-            "image": "reviewer3.jpeg"
-          },
-          {
-            "customerName": "Ahmad Barnes",
-            "review": "I'm impressed with the quality of this armchair. It arrived promptly and was well-packaged. Looks even better in person!",
-            "image": "reviewer1.jpeg"
-          }
-        ]
-      },
-      {
-        "id": 11,
-        "category": "woodenchair",
-        "productName": "Vintage Walnut Armchair",
-        "price": 279.99,
-        "rating": 4.5,
-        "smallDesc": "Introducing our Vintage Walnut Armchair, a timeless piece that exudes elegance and sophistication. Crafted from premium walnut wood, this chair adds a touch of luxury to any space.",
-        "colors": ["#654321", "#8B4513", "#A0522D", "#CD853F", "#D2691E"],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 12,
-        "image": "wodenchair3.jpg",
-        "images": ["wodenchair2.jpg", "wodenchair3.jpg", "wodenchair2.jpg", "wodenchair1.jpg","wodenchair2.jpg"],
-        "description": "Elevate your living space with the Vintage Walnut Armchair. Its classic design and rich walnut finish make it a standout piece in any room.",
-        "info": "Designed for both style and comfort, this armchair features a curved backrest and armrests for optimal support. Whether used as a lounge chair or accent piece, it adds sophistication to your home.",
-        "tags": "vintage, walnut, armchair, wooden, furniture",
-        "reviews": [
-          {
-            "customerName": "Sophia Clark",
-            "review": "Absolutely stunning armchair! The walnut wood finish is gorgeous, and it's surprisingly comfortable to sit in.",
-            "image": "reviewer3.jpeg"
-          },
-          {
-            "customerName": "David Wilson",
-            "review": "I'm impressed with the quality of this armchair. It arrived promptly and was well-packaged. Looks even better in person!",
-            "image": "reviewer1.jpeg"
-          }
-        ]
-      },
-      {
-        "id": 12,
-        "category": "woodenchair",
-        "productName": "Elegant Chair",
-        "price": 319.99,
-        "rating": 4.8,
-        "smallDesc": "Indulge in luxury with our Elegant Cherry Wood Chair. Crafted from premium cherry wood, this chair showcases exquisite craftsmanship and attention to detail. A true masterpiece for your home.",
-        "colors": ["#8B0000", "#FF0000", "#B22222", "#DC143C", "#CD5C5C"],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 8,
-        "image": "wodenchair2.jpg",
-        "images": ["wodenchair2.jpg", "wodenchair3.jpg", "wodenchair2.jpg", "wodenchair1.jpg","wodenchair2.jpg"],
-        "description": "Experience the epitome of elegance with our Elegant Cherry Wood Chair. Its rich cherry wood finish and sophisticated design elevate any room's ambiance.",
-        "info": "Handcrafted with precision, this chair features intricately carved details and a refined silhouette. Whether placed in a study or living room, it exudes opulence and style.",
-        "tags": "elegant, cherry wood, chair, wooden, luxury",
-        "reviews": [
-          {
-            "customerName": "Olivia Martinez",
-            "review": "This chair exceeded my expectations! The cherry wood finish is stunning, and it's surprisingly comfortable to sit in for long periods.",
-            "image": "reviewer3.jpeg"
-          },
-          {
-            "customerName": "Daniel White",
-            "review": "I'm thrilled with my purchase. The chair arrived in perfect condition, and the craftsmanship is superb. Highly recommend!",
-            "image": "reviewer2.jpeg"
-          }
-        ]
-      },
-      {
-        "id": 13,
-        "category": "woodenchair",
-        "productName": "Vintage Chair",
-        "price": 189.0,
-        "rating": 4.2,
-        "smallDesc": "Experience the charm of the past with our Vintage Birch Chair. Made from solid birch wood, this chair exudes timeless appeal with its elegant design. Whether used as a standalone piece or part of a set, it adds sophistication to any space.",
-        "colors": ["#8B4513", "#CD853F", "#A0522D", "#D2691E", "#B8860B"],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 15,
-        "image": "wodenchair1.jpg",
-        "images": ["wodenchair2.jpg", "wodenchair3.jpg", "wodenchair2.jpg", "wodenchair1.jpg","wodenchair2.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
-        "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
-        "reviews": [
-          {
-            "customerName": "Emily Johnson",
-            "review": "I absolutely love this chair! It's beautifully crafted and adds a touch of elegance to my dining room.",
-            "image": "reviewer3.jpeg"
-          },
-          {
-            "customerName": "Mark Thompson",
-            "review": "This chair exceeded my expectations. It's sturdy, comfortable, and looks fantastic in my study.",
-            "image": "reviewer1.jpeg"
-          }
-        ]
-      },
-      {
-        "id": 14,
-        "category": "woodenchair",
-        "productName": "Mahogany Chair",
-        "price": 279.0,
-        "rating": 4.5,
-        "smallDesc": "Elevate your dining experience with our Mahogany Dining Chair. Constructed from premium mahogany wood, this chair combines elegance with durability. Its timeless design and comfortable seating make it a perfect addition to any dining setting.",
-        "colors": ["#8B4513", "#CD853F", "#A0522D", "#D2691E", "#B8860B"],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 18,
-        "image": "wodenchair3.jpg",
-        "images": ["wodenchair2.jpg", "wodenchair3.jpg", "wodenchair2.jpg", "wodenchair1.jpg","wodenchair2.jpg"],
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
-        "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
-        "reviews": [
-          {
-            "customerName": "Sophia Brown",
-            "review": "I purchased these chairs for my dining room, and they are absolutely stunning! The quality is exceptional, and they are very comfortable to sit in for long periods.",
-            "image": "reviewer3.jpeg"
-          },
-          {
-            "customerName": "David Wilson",
-            "review": "These chairs are well-made and sturdy. They arrived quickly and were easy to assemble. I'm very pleased with my purchase.",
-            "image": "reviewer2.jpeg"
-          }
-        ]
-      },
-      {
-        "id": 15,
-        "category": "table",
-        "productName": "Ergonomic table",
-        "price": 249.99,
-        "rating": 4.7,
-        "smallDesc": "Step up your gaming experience with our Ergonomic Racing Chair. Designed for comfort and performance, this chair features a sleek racing-inspired design and adjustable features for a personalized fit.",
-        "colors": ["#FF0000", "#0000FF", "#00FF00", "#FFFF00", "#FFA500"],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 30,
-        "image": "table1.jpeg",
-        "images": ["table1.jpeg", "table2.jpeg", "table2.jpeg", "table1.jpeg"],
-        "description": "The Ergonomic Racing Chair is engineered for long gaming sessions. Its ergonomic design and high-quality materials ensure optimal support and comfort, so you can stay focused on the game.",
-        "info": "Equipped with adjustable armrests, lumbar support, and a reclining feature, this chair offers customizable comfort for every gamer. Whether racing or battling, it provides the ultimate gaming experience.",
-        "tags": "ergonomic, racing, chair, gaming, furniture",
-        "reviews": [
-          {
-            "customerName": "Alex Johnson",
-            "review": "Love this chair! It's super comfortable and looks great in my gaming setup.",
-            "image": "reviewer2.jpeg"
-          },
-          {
-            "customerName": "Jessica Parker",
-            "review": "Best gaming chair I've ever had! The adjustable features are fantastic, and it's very sturdy.",
-            "image": "reviewer3.jpeg"
-          }
-        ]
-      },
-      {
-        "id": 16,
-        "category": "table",
-        "productName": "High-Back table",
-        "price": 199.99,
-        "rating": 4.6,
-        "smallDesc": "Experience superior comfort with our High Back Gaming Chair. Designed with gamers in mind, this chair features a high backrest, lumbar support, and adjustable armrests for an ergonomic gaming experience.",
-        "colors": ["#008000", "#FF6347", "#4B0082", "#8A2BE2", "#FF4500"],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 25,
-        "image": "table2.jpeg",
-        "images": ["table2.jpeg", "table1.jpeg", "table2.jpeg", "table1.jpeg"],
-        "description": "The High Back Gaming Chair offers unparalleled support and comfort during intense gaming sessions. Its ergonomic design promotes proper posture and reduces fatigue, allowing you to focus on winning.",
-        "info": "With adjustable features and premium padding, this chair adapts to your body for a customized fit. Whether gaming, working, or relaxing, it provides the support you need for long hours of use.",
-        "tags": "high back, gaming, chair, ergonomic, furniture",
-        "reviews": [
-          {
-            "customerName": "Ryan Lee",
-            "review": "Fantastic chair! It's comfortable, sturdy, and looks awesome in my gaming room.",
-            "image": "reviewer1.jpeg"
-          },
-          {
-            "customerName": "Sophie Evans",
-            "review": "Great gaming chair! Love the lumbar support and adjustable armrests. Highly recommend it.",
-            "image": "reviewer1.jpeg"
-          }
-        ]
-      },
-      {
-        "id": 17,
-        "category": "table",
-        "productName": "Pro-Series table",
-        "price": 279.99,
-        "rating": 4.8,
-        "smallDesc": "Dominate the competition with our Pro Series Gaming Chair. Engineered for performance and durability, this chair features a sleek design, premium materials, and ergonomic features for a competitive edge.",
-        "colors": ["#4169E1", "#FF1493", "#32CD32", "#FFFF00", "#FFD700"],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 20,
-        "image": "table1.jpeg",
-        "images": ["table1.jpeg", "table1.jpeg", "table2.jpeg", "table1.jpeg"],
-        "description": "The Pro Series Gaming Chair is built to withstand even the most intense gaming sessions. Its reinforced frame, high-density foam, and premium upholstery ensure long-lasting comfort and support.",
-        "info": "Designed with esports professionals in mind, this chair offers superior performance and adjustability. Whether streaming, practicing, or competing, it helps you stay focused and comfortable.",
-        "tags": "pro series, gaming, chair, esports, furniture",
-        "reviews": [
-          {
-            "customerName": "Daniel Harris",
-            "review": "Amazing chair! It's incredibly comfortable and supportive, even during long gaming marathons.",
-            "image": "reviewer2.jpeg"
-          },
-          {
-            "customerName": "Megan Cooper",
-            "review": "Absolutely love this chair! It's super stylish and comfortable, and the adjustable features are a game-changer.",
-            "image": "reviewer3.jpeg"
-          }
-        ]
-      },
-      {
-        "id": 18,
-        "category": "armedchair",
-        "productName": "Leather Armchair",
-        "price": 349.99,
-        "rating": 4.5,
-        "smallDesc": "Experience luxury with our Vintage Leather Armchair. Crafted from premium leather and sturdy wood, this armchair offers both comfort and sophistication.",
-        "colors": ["#8B4513", "#A0522D", "#CD853F", "#D2691E", "#BC8F8F"],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 20,
-        "image": "armed1.jpeg",
-        "images": ["armed1.jpeg", "armed2.jpeg", "armed3.jpeg", "armed2.jpeg"],
-        "description": "Indulge in the classic elegance of our Vintage Leather Armchair. Its timeless design and rich leather upholstery make it a statement piece for any living space.",
-        "info": "Handcrafted with precision, this armchair is built to last. Whether placed in a cozy corner or a formal sitting area, it exudes charm and sophistication.",
-        "tags": "vintage, leather, armchair, luxury, furniture",
-        "reviews": [
-          {
-            "customerName": "Sophia Adams",
-            "review": "Absolutely love this armchair! The leather feels luxurious, and it's so comfortable to sit on. Perfect addition to my living room.",
-            "image": "reviewer3.jpeg"
-          },
-          {
-            "customerName": "David Miller",
-            "review": "High-quality craftsmanship and elegant design. This armchair exceeded my expectations. Highly recommend it to anyone looking for a stylish addition to their home.",
-            "image": "reviewer2.jpeg"
-          }
-        ]
-      },
-      {
-        "id": 19,
-        "category": "armedchair",
-        "productName": "Modern Armchair",
-        "price": 279.99,
-        "rating": 4.3,
-        "smallDesc": "Add a touch of modern elegance with our Modern Velvet Armchair. Featuring plush velvet upholstery and sleek metal accents, it's sure to elevate any space.",
-        "colors": ["#483D8B", "#8A2BE2", "#6A5ACD", "#483D8B", "#4B0082"],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 15,
-        "image": "armed2.jpeg",
-        "images": ["armed2.jpeg", "armed2.jpeg", "armed3.jpeg", "armed2.jpeg"],
-        "description": "Embrace contemporary style with our Modern Velvet Armchair. Its soft velvet fabric and minimalist design make it a versatile piece for modern interiors.",
-        "info": "Designed for both comfort and style, this armchair is perfect for lounging or reading. The sturdy construction ensures durability without compromising on aesthetics.",
-        "tags": "modern, velvet, armchair, contemporary, furniture",
-        "reviews": [
-          {
-            "customerName": "Olivia Wilson",
-            "review": "This armchair is stunning! The velvet fabric is so soft, and the color is exactly as pictured. It's become my favorite spot in the house.",
-            "image": "reviewer3.jpeg"
-          },
-          {
-            "customerName": "Daniel White",
-            "review": "I'm impressed by the quality and comfort of this armchair. It's a perfect blend of style and functionality. Highly recommended!",
-            "image": "reviewer1.jpeg"
-          }
-        ]
-      },
-      {
-        "id": 20,
-        "category": "armedchair",
-        "productName": "Classic Armchair",
-        "price": 319.99,
-        "rating": 4.4,
-        "smallDesc": "Create a cozy reading nook with our Classic Tufted Armchair. Featuring elegant tufted upholstery and a sturdy wooden frame, it's an inviting addition to any home.",
-        "colors": ["#800000", "#8B0000", "#A52A2A", "#B22222", "#DC143C"],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 18,
-        "image": "armed3.jpeg",
-        "images": ["armed3.jpeg", "armed2.jpeg", "armed3.jpeg", "armed1.jpeg"],
-        "description": "Enjoy classic comfort with our Tufted Armchair. Its timeless design and plush cushioning create a cozy spot for relaxation and leisurely reading.",
-        "info": "Crafted with attention to detail, this armchair combines style and durability. Whether placed in a living room or bedroom, it adds a touch of sophistication.",
-        "tags": "classic, tufted, armchair, cozy, furniture",
-        "reviews": [
-          {
-            "customerName": "Sophie Roberts",
-            "review": "Love, love, love this armchair! It's so comfortable and looks beautiful in my reading corner. The tufted design adds a touch of elegance.",
-            "image": "reviewer3.jpeg"
-          },
-          {
-            "customerName": "Matthew Brown",
-            "review": "This armchair exceeded my expectations. The quality is top-notch, and it's incredibly comfortable to sit on. Couldn't be happier with my purchase!",
-            "image": "reviewer2.jpeg"
-          }
-        ]
-      },
-      {
-        "id": 21,
-        "category": "armedchair",
-        "productName": "Mid-Century Armchair",
-        "price": 329.99,
-        "rating": 4.8,
-        "smallDesc": "Add a touch of retro charm with our Mid-Century Modern Armchair. Featuring iconic design elements and premium upholstery, it's a statement piece for any mid-century inspired space.",
-        "colors": ["#DAA520", "#B8860B", "#D2B48C", "#FFD700", "#BDB76B"],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 17,
-        "image": "armed1.jpeg",
-        "images": ["armed1.jpeg", "armed2.jpeg", "armed3.jpeg", "armed2.jpeg"],
-        "description": "Step back in time with our Mid-Century Modern Armchair. Its sleek lines and tapered legs capture the essence of mid-century design, while the plush cushioning offers modern comfort.",
-        "info": "Crafted with attention to detail, this armchair is a tribute to the iconic designs of the past. Whether placed in a living room or office, it adds a touch of vintage flair.",
-        "tags": "mid-century, modern, armchair, retro, furniture",
-        "reviews": [
-          {
-            "customerName": "Ethan Harris",
-            "review": "This armchair is a gem! It's beautifully designed and incredibly comfortable. The color is perfect, and it complements my mid-century decor.",
-            "image": "reviewer1.jpeg"
-          },
-          {
-            "customerName": "Ava Martinez",
-            "review": "I'm in love with this armchair! It's stylish, comfortable, and adds a retro vibe to my living room. Couldn't be happier with my purchase.",
-            "image": "reviewer3.jpeg"
-          }
-        ]
-      },
-      {
-        "id": 22,
-        "category": "armedchair",
-        "productName": "Scandinavian Armchair",
-        "price": 299.99,
-        "rating": 4.7,
-        "smallDesc": "Bring Nordic charm to your home with our Scandinavian Inspired Armchair. Featuring clean lines and natural materials, it's a timeless addition to any modern interior.",
-        "colors": ["#778899", "#4682B4", "#5F9EA0", "#B0C4DE", "#87CEEB"],
-        "sizes": ["m", "s", "l", "sl", "xl"],
-        "amount": 19,
-        "image": "armed1.jpeg",
-        "images": ["armed1.jpeg", "armed2.jpeg", "armed3.jpeg", "armed2.jpeg"],
-        "description": "Embrace Scandinavian design with our Inspired Armchair. Its minimalist aesthetic and ergonomic shape create a comfortable seating experience that's perfect for relaxation.",
-        "info": "Crafted from sustainable materials, this armchair is as eco-friendly as it is stylish. Whether placed in a living room or reading corner, it adds a touch of Nordic elegance.",
-        "tags": "scandinavian, inspired, armchair, nordic, furniture",
-        "reviews": [
-          {
-            "customerName": "Liam Turner",
-            "review": "I'm impressed by the quality and comfort of this armchair. It's a perfect addition to my Scandinavian-inspired living room. Highly recommend it!",
-            "image": "reviewer2.jpeg"
-          },
-          {
-            "customerName": "Isabella Scott",
-            "review": "Absolutely love this armchair! It's sleek, comfortable, and blends seamlessly with my modern decor. Couldn't be happier with my purchase.",
-            "image": "reviewer3.jpeg"
-          }
-        ]
-      } 
-    ],
+  "products": [
+    {
+      "id": 1,
+      "category": "accessories",
+      "productName": "Nusskubus Nutcracker",
+      "price": 50,
+      "rating": 4.9,
+      "smallDesc": "Perfect for hazelnuts, walnuts, brazil nuts, and the like.",
+      "amount": 10,
+      "image": "product1_1.webp",
+      "images": [
+        "product1_1.webp",
+        "product1_2.webp",
+        "product1_3.webp",
+        "product1_4.webp",
+        "product1_5.webp"
+      ],
+      "description": "This simple and sculptural nutcracker takes the act of cracking nuts back to its primitive origins by utilizing an anvil and a hammer, both made out of solid wood. Simply place a nut in one of the three craters on the anvil, and strike with the hammer cube to crack it.",
+      "info": "Dimensions: Chair - 32.75\"W x 32.75\"D x 32\"H, Ottoman - 26\"W x 21.5\"D x 17.25\"H. Material: Molded plywood, premium leather upholstery.",
+      "tags": ["Nusskubus", "Nutcracker", "accessories"],
+      "reviews": [
+        {
+          "customerName": "Jennifer",
+          "review": "Absolutely stunning! It's a masterpiece of design and comfort. Worth every penny.",
+          "image": "reviewer1.jpeg"
+        },
+        {
+          "customerName": "Michael",
+          "review": "This Nutcracker is an investment piece, but it's worth every cent. It's incredibly comfortable and looks beautiful in my living room.",
+          "image": "reviewer2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "table",
+      "productName": "Kei Side Table",
+      "price": 295,
+      "rating": 4.8,
+      "smallDesc": "Bringing a charming presence to a space",
+      "amount": 15,
+      "image": "product2_1.webp",
+      "images": ["product2_1.webp", "product2_2.webp"],
+      "description": "The Herman Miller Aeron Chair is the gold standard in ergonomic office seating. It features innovative design and advanced ergonomic features such as adjustable lumbar support, tilt limiter, and breathable mesh upholstery to provide unmatched comfort and support throughout the workday.",
+      "info": "Dimensions: Size A - 25.75\"W x 16\"-18.5\"D x 38.5\"-43\"H, Size B - 27\"W x 16.75\"-18.5\"D x 41\"-45\"H, Size C - 28.25\"W x 18.5\"-20.5\"D x 43\"-45\"H. Material: Breathable mesh, aluminum frame.",
+      "tags": ["side", "table", "kei side"],
+      "reviews": [
+        {
+          "customerName": "Alex",
+          "review": "Best office chair I've ever owned! It's incredibly comfortable and provides excellent support for long hours of sitting.",
+          "image": "reviewer2.jpeg"
+        },
+        {
+          "customerName": "Jessica",
+          "review": "I was hesitant to spend so much on a chair, but this one is worth every penny. It's made a huge difference in my comfort and productivity at work.",
+          "image": "reviewer3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "category": "chair",
+      "productName": "IKEA Chair",
+      "price": 199,
+      "rating": 4.6,
+      "smallDesc": "Classic and affordable armchair for cozy relaxation.",
+      "colors": ["#FFFFFF", "#333333", "#BEBEBE"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 20,
+      "image": "chair4.jpg",
+      "images": [
+        "chair4.jpg",
+        "chair3.jpg",
+        "chair4.jpg",
+        "chair3.jpg",
+        "chair5.jpg"
+      ],
+      "description": "The IKEA Poäng Armchair is a timeless favorite for its simple yet stylish design and unbeatable comfort. With its curved frame and cushioned seat, it's perfect for lounging, reading, or enjoying a cup of coffee.",
+      "info": "Dimensions: 26.75\"W x 32.25\"D x 39.38\"H. Material: Layer-glued bent oak veneer frame, high resilience foam cushion, polyester blend upholstery.",
+      "tags": ["ikea", "poäng armchair", "affordable", "furniture"],
+      "reviews": [
+        {
+          "customerName": "David",
+          "review": "Love this chair! It's comfortable, affordable, and looks great in my living room. Highly recommend!",
+          "image": "reviewer1.jpeg"
+        },
+        {
+          "customerName": "Sarah",
+          "review": "This chair exceeded my expectations. It's comfortable, sturdy, and stylish. A great value for the price.",
+          "image": "reviewer3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "category": "chair",
+      "productName": "Leather Chair",
+      "price": 549.99,
+      "rating": 4.6,
+      "smallDesc": "Luxurious leather recliner chair with ergonomic design.",
+      "colors": ["#FFFFFF", "#D3D3D3", "#FF5733"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 8,
+      "image": "chair5.jpg",
+      "images": [
+        "chair4.jpg",
+        "chair3.jpg",
+        "chair4.jpg",
+        "chair3.jpg",
+        "chair5.jpg"
+      ],
+      "description": "Our Leather Recliner Chair combines comfort and style for the ultimate lounging experience. With its plush cushions and ergonomic design, it's perfect for relaxing after a long day.",
+      "info": "Dimensions: 36\"W x 40\"D x 42\"H. Material: Leather upholstery, metal frame.",
+      "tags": ["chair", "recliner chair", "leather", "furniture"],
+      "reviews": [
+        {
+          "customerName": "Ethan Harris",
+          "review": "I absolutely love this recliner chair! It's incredibly comfortable and provides excellent lumbar support.",
+          "image": "reviewer1.jpeg"
+        },
+        {
+          "customerName": "Ava Martin",
+          "review": "This chair is fantastic. It's well-made, stylish, and the reclining feature is a game-changer.",
+          "image": "reviewer2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "category": "chair",
+      "productName": "Rustic Chair",
+      "price": 129.99,
+      "rating": 4.4,
+      "smallDesc": "Simple yet sturdy design crafted from reclaimed wood.",
+      "colors": ["#8B4513", "#A0522D", "#D2B48C"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 25,
+      "image": "chair3.jpg",
+      "images": [
+        "chair4.jpg",
+        "chair3.jpg",
+        "chair4.jpg",
+        "chair3.jpg",
+        "chair5.jpg"
+      ],
+      "description": "Our Rustic Wooden Chair brings warmth and character to any space. Handcrafted from reclaimed wood, each chair is unique and showcases the natural beauty of the materials.",
+      "info": "Dimensions: 18\"W x 18\"D x 35\"H. Material: Reclaimed wood.",
+      "tags": ["chair", "wooden chair", "rustic", "furniture"],
+      "reviews": [
+        {
+          "customerName": "Emma Thompson",
+          "review": "I love the rustic look of this chair! It's sturdy and well-made, and it adds a charming touch to my dining room.",
+          "image": "reviewer3.jpeg"
+        },
+        {
+          "customerName": "James Anderson",
+          "review": "This chair exceeded my expectations. It's solid, comfortable, and looks fantastic in my kitchen.",
+          "image": "reviewer1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "category": "chair",
+      "productName": "Leather Armchair",
+      "price": 899.99,
+      "rating": 4.7,
+      "smallDesc": "Timeless elegance with supple leather upholstery.",
+      "colors": ["#2F4F4F", "#B0C4DE", "#BC8F8F"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 18,
+      "image": "chair5.jpg",
+      "images": [
+        "chair4.jpg",
+        "chair3.jpg",
+        "chair4.jpg",
+        "chair3.jpg",
+        "chair5.jpg"
+      ],
+      "description": "Our Vintage Leather Armchair evokes classic charm and sophistication. Upholstered in supple leather and featuring elegant detailing, it's the perfect statement piece for any living room or study.",
+      "info": "Dimensions: 38\"W x 36\"D x 35\"H. Material: Leather upholstery, wood frame.",
+      "tags": ["chair", "armchair", "vintage", "leather", "furniture"],
+      "reviews": [
+        {
+          "customerName": "Benjamin Roberts",
+          "review": "This armchair is absolutely stunning! The leather is soft and luxurious, and the craftsmanship is impeccable.",
+          "image": "reviewer1.jpeg"
+        },
+        {
+          "customerName": "Evelyn Clark",
+          "review": "I'm thrilled with this purchase. The armchair is comfortable, elegant, and adds a touch of vintage flair to my living room.",
+          "image": "reviewer3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "category": "chair",
+      "productName": "Lounge-2 Chair",
+      "price": 899.99,
+      "rating": 4.9,
+      "smallDesc": "Iconic and comfortable lounge chair with ottoman.",
+      "colors": ["#FFFFFF", "#000000", "#FF5733"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 8,
+      "image": "chair3.jpg",
+      "images": [
+        "chair4.jpg",
+        "chair3.jpg",
+        "chair4.jpg",
+        "chair3.jpg",
+        "chair5.jpg"
+      ],
+      "description": "The Eames Lounge Chair is a modern classic, known for its timeless design and exceptional comfort. With its leather upholstery and molded plywood shell, it's the perfect piece for relaxation and style.",
+      "info": "Dimensions: 33\"W x 33\"D x 33\"H. Material: Leather, molded plywood.",
+      "tags": ["chair", "lounge chair", "eames", "furniture"],
+      "reviews": [
+        {
+          "customerName": "Alexandra Lee",
+          "review": "This lounge chair is amazing! It's incredibly comfortable and adds a touch of sophistication to my living room.",
+          "image": "reviewer1.jpeg"
+        },
+        {
+          "customerName": "Matthew Davis",
+          "review": "I couldn't be happier with this purchase. The chair is well-made, stylish, and provides excellent support.",
+          "image": "reviewer2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "category": "chair",
+      "productName": "Modern Chair",
+      "price": 249.99,
+      "rating": 4.7,
+      "smallDesc": "Stylish armchair with a mid-century modern design.",
+      "colors": ["#FFFFFF", "#F5F5F5", "#D3D3D3"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 15,
+      "image": "chair4.jpg",
+      "images": [
+        "chair5.jpg",
+        "chair3.jpg",
+        "chair4.jpg",
+        "chair3.jpg",
+        "chair5.jpg"
+      ],
+      "description": "Our Mid-Century Modern Armchair combines style and comfort for the perfect seating solution. With its sleek lines and cushioned seat, it's ideal for lounging and entertaining.",
+      "info": "Dimensions: 30\"W x 30\"D x 33\"H. Material: Fabric upholstery, wood frame.",
+      "tags": ["chair", "armchair", "mid-century modern", "furniture"],
+      "reviews": [
+        {
+          "customerName": "Oliver White",
+          "review": "This armchair is fantastic! It's comfortable, stylish, and fits perfectly in my living room.",
+          "image": "reviewer1.jpeg"
+        },
+        {
+          "customerName": "Emma Taylor",
+          "review": "I love this chair! It's well-made, easy to assemble, and adds a touch of retro charm to my home.",
+          "image": "reviewer3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "category": "chair",
+      "productName": "Accent Chair",
+      "price": 329.99,
+      "rating": 4.8,
+      "smallDesc": "Classic wingback chair with elegant tufted upholstery.",
+      "colors": ["#FFFFFF", "#000000", "#FF5733"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 10,
+      "image": "chair1.jpg",
+      "images": [
+        "chair4.jpg",
+        "chair3.jpg",
+        "chair4.jpg",
+        "chair3.jpg",
+        "chair5.jpg"
+      ],
+      "description": "Our Wingback Accent Chair adds sophistication and style to any room. With its classic design and tufted upholstery, it's perfect for reading nooks, living rooms, and bedrooms.",
+      "info": "Dimensions: 28\"W x 32\"D x 42\"H. Material: Fabric upholstery, wood frame.",
+      "tags": ["chair", "wingback chair", "accent chair", "furniture"],
+      "reviews": [
+        {
+          "customerName": "Sophia Clark",
+          "review": "I'm in love with this chair! It's elegant, comfortable, and adds a touch of luxury to my living room.",
+          "image": "reviewer3.jpeg"
+        },
+        {
+          "customerName": "Lucas Turner",
+          "review": "This chair exceeded my expectations. It's well-made, stylish, and provides excellent support.",
+          "image": "reviewer2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "category": "woodenchair",
+      "productName": "Oakwood Classic",
+      "price": 241.0,
+      "rating": 3.5,
+      "smallDesc": "Enjoy timeless elegance with our Oakwood Classic Chair. Crafted from sturdy oak, this chair boasts a classic design that fits seamlessly into any decor. Perfect for dining rooms or study areas, it offers both comfort and style.",
+      "colors": ["#3B2F2F", "#B22222", "#008000", "#F0E68C", "#00b2ee"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 10,
+      "image": "wodenchair2.jpg",
+      "images": [
+        "wodenchair2.jpg",
+        "wodenchair3.jpg",
+        "wodenchair2.jpg",
+        "wodenchair1.jpg",
+        "wodenchair2.jpg"
+      ],
+      "description": "Our Wingback Accent Chair adds sophistication and style to any room. With its classic design and tufted upholstery, it's perfect for reading nooks, living rooms, and bedrooms.",
+      "info": "Dimensions: 28\"W x 32\"D x 42\"H. Material: Fabric upholstery, wood frame.",
+      "tags": ["chair", "wingback chair", "accent chair", "furniture"],
+      "reviews": [
+        {
+          "customerName": "Andria addison",
+          "review": "i am fasinated with the product of your website",
+          "image": "reviewer3.jpeg"
+        },
+        {
+          "customerName": "Ahmad Barnes",
+          "review": "I'm impressed with the quality of this armchair. It arrived promptly and was well-packaged. Looks even better in person!",
+          "image": "reviewer1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "category": "woodenchair",
+      "productName": "Vintage Walnut Armchair",
+      "price": 279.99,
+      "rating": 4.5,
+      "smallDesc": "Introducing our Vintage Walnut Armchair, a timeless piece that exudes elegance and sophistication. Crafted from premium walnut wood, this chair adds a touch of luxury to any space.",
+      "colors": ["#654321", "#8B4513", "#A0522D", "#CD853F", "#D2691E"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 12,
+      "image": "wodenchair3.jpg",
+      "images": [
+        "wodenchair2.jpg",
+        "wodenchair3.jpg",
+        "wodenchair2.jpg",
+        "wodenchair1.jpg",
+        "wodenchair2.jpg"
+      ],
+      "description": "Elevate your living space with the Vintage Walnut Armchair. Its classic design and rich walnut finish make it a standout piece in any room.",
+      "info": "Designed for both style and comfort, this armchair features a curved backrest and armrests for optimal support. Whether used as a lounge chair or accent piece, it adds sophistication to your home.",
+      "tags": "vintage, walnut, armchair, wooden, furniture",
+      "reviews": [
+        {
+          "customerName": "Sophia Clark",
+          "review": "Absolutely stunning armchair! The walnut wood finish is gorgeous, and it's surprisingly comfortable to sit in.",
+          "image": "reviewer3.jpeg"
+        },
+        {
+          "customerName": "David Wilson",
+          "review": "I'm impressed with the quality of this armchair. It arrived promptly and was well-packaged. Looks even better in person!",
+          "image": "reviewer1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "category": "woodenchair",
+      "productName": "Elegant Chair",
+      "price": 319.99,
+      "rating": 4.8,
+      "smallDesc": "Indulge in luxury with our Elegant Cherry Wood Chair. Crafted from premium cherry wood, this chair showcases exquisite craftsmanship and attention to detail. A true masterpiece for your home.",
+      "colors": ["#8B0000", "#FF0000", "#B22222", "#DC143C", "#CD5C5C"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 8,
+      "image": "wodenchair2.jpg",
+      "images": [
+        "wodenchair2.jpg",
+        "wodenchair3.jpg",
+        "wodenchair2.jpg",
+        "wodenchair1.jpg",
+        "wodenchair2.jpg"
+      ],
+      "description": "Experience the epitome of elegance with our Elegant Cherry Wood Chair. Its rich cherry wood finish and sophisticated design elevate any room's ambiance.",
+      "info": "Handcrafted with precision, this chair features intricately carved details and a refined silhouette. Whether placed in a study or living room, it exudes opulence and style.",
+      "tags": "elegant, cherry wood, chair, wooden, luxury",
+      "reviews": [
+        {
+          "customerName": "Olivia Martinez",
+          "review": "This chair exceeded my expectations! The cherry wood finish is stunning, and it's surprisingly comfortable to sit in for long periods.",
+          "image": "reviewer3.jpeg"
+        },
+        {
+          "customerName": "Daniel White",
+          "review": "I'm thrilled with my purchase. The chair arrived in perfect condition, and the craftsmanship is superb. Highly recommend!",
+          "image": "reviewer2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "category": "woodenchair",
+      "productName": "Vintage Chair",
+      "price": 189.0,
+      "rating": 4.2,
+      "smallDesc": "Experience the charm of the past with our Vintage Birch Chair. Made from solid birch wood, this chair exudes timeless appeal with its elegant design. Whether used as a standalone piece or part of a set, it adds sophistication to any space.",
+      "colors": ["#8B4513", "#CD853F", "#A0522D", "#D2691E", "#B8860B"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 15,
+      "image": "wodenchair1.jpg",
+      "images": [
+        "wodenchair2.jpg",
+        "wodenchair3.jpg",
+        "wodenchair2.jpg",
+        "wodenchair1.jpg",
+        "wodenchair2.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
+      "reviews": [
+        {
+          "customerName": "Emily Johnson",
+          "review": "I absolutely love this chair! It's beautifully crafted and adds a touch of elegance to my dining room.",
+          "image": "reviewer3.jpeg"
+        },
+        {
+          "customerName": "Mark Thompson",
+          "review": "This chair exceeded my expectations. It's sturdy, comfortable, and looks fantastic in my study.",
+          "image": "reviewer1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "category": "woodenchair",
+      "productName": "Mahogany Chair",
+      "price": 279.0,
+      "rating": 4.5,
+      "smallDesc": "Elevate your dining experience with our Mahogany Dining Chair. Constructed from premium mahogany wood, this chair combines elegance with durability. Its timeless design and comfortable seating make it a perfect addition to any dining setting.",
+      "colors": ["#8B4513", "#CD853F", "#A0522D", "#D2691E", "#B8860B"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 18,
+      "image": "wodenchair3.jpg",
+      "images": [
+        "wodenchair2.jpg",
+        "wodenchair3.jpg",
+        "wodenchair2.jpg",
+        "wodenchair1.jpg",
+        "wodenchair2.jpg"
+      ],
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
+      "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
+      "tags": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget semper risus, nec tincidunt nisl. Mauris fringilla sapien non sapien sollicitudin vulputate. Cras scelerisque ex vitae nibh semper, non sollicitudin lacus tempor. Nam consequat nisi vitae justo bibendum venenatis. Mauris posuere leo eget nibh cursus, eget pharetra urna volutpat. Nulla fermentum augue ac quam dignissim, ut consectetur ante viverra. Ut rutrum interdum neque, eget viverra risus rutrum vel. Nam ac gravida nunc, nec sagittis nulla. Pellentesque sodales, lacus vitae dapibus dignissim, lectus lacus pellentesque turpis, ut viverra arcu nulla sed arcu. Curabitur auctor non urna nec iaculis. Curabitur nec suscipit libero. Suspendisse potenti.",
+      "reviews": [
+        {
+          "customerName": "Sophia Brown",
+          "review": "I purchased these chairs for my dining room, and they are absolutely stunning! The quality is exceptional, and they are very comfortable to sit in for long periods.",
+          "image": "reviewer3.jpeg"
+        },
+        {
+          "customerName": "David Wilson",
+          "review": "These chairs are well-made and sturdy. They arrived quickly and were easy to assemble. I'm very pleased with my purchase.",
+          "image": "reviewer2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "category": "table",
+      "productName": "Ergonomic table",
+      "price": 249.99,
+      "rating": 4.7,
+      "smallDesc": "Step up your gaming experience with our Ergonomic Racing Chair. Designed for comfort and performance, this chair features a sleek racing-inspired design and adjustable features for a personalized fit.",
+      "colors": ["#FF0000", "#0000FF", "#00FF00", "#FFFF00", "#FFA500"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 30,
+      "image": "table1.jpeg",
+      "images": ["table1.jpeg", "table2.jpeg", "table2.jpeg", "table1.jpeg"],
+      "description": "The Ergonomic Racing Chair is engineered for long gaming sessions. Its ergonomic design and high-quality materials ensure optimal support and comfort, so you can stay focused on the game.",
+      "info": "Equipped with adjustable armrests, lumbar support, and a reclining feature, this chair offers customizable comfort for every gamer. Whether racing or battling, it provides the ultimate gaming experience.",
+      "tags": "ergonomic, racing, chair, gaming, furniture",
+      "reviews": [
+        {
+          "customerName": "Alex Johnson",
+          "review": "Love this chair! It's super comfortable and looks great in my gaming setup.",
+          "image": "reviewer2.jpeg"
+        },
+        {
+          "customerName": "Jessica Parker",
+          "review": "Best gaming chair I've ever had! The adjustable features are fantastic, and it's very sturdy.",
+          "image": "reviewer3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "category": "table",
+      "productName": "High-Back table",
+      "price": 199.99,
+      "rating": 4.6,
+      "smallDesc": "Experience superior comfort with our High Back Gaming Chair. Designed with gamers in mind, this chair features a high backrest, lumbar support, and adjustable armrests for an ergonomic gaming experience.",
+      "colors": ["#008000", "#FF6347", "#4B0082", "#8A2BE2", "#FF4500"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 25,
+      "image": "table2.jpeg",
+      "images": ["table2.jpeg", "table1.jpeg", "table2.jpeg", "table1.jpeg"],
+      "description": "The High Back Gaming Chair offers unparalleled support and comfort during intense gaming sessions. Its ergonomic design promotes proper posture and reduces fatigue, allowing you to focus on winning.",
+      "info": "With adjustable features and premium padding, this chair adapts to your body for a customized fit. Whether gaming, working, or relaxing, it provides the support you need for long hours of use.",
+      "tags": "high back, gaming, chair, ergonomic, furniture",
+      "reviews": [
+        {
+          "customerName": "Ryan Lee",
+          "review": "Fantastic chair! It's comfortable, sturdy, and looks awesome in my gaming room.",
+          "image": "reviewer1.jpeg"
+        },
+        {
+          "customerName": "Sophie Evans",
+          "review": "Great gaming chair! Love the lumbar support and adjustable armrests. Highly recommend it.",
+          "image": "reviewer1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "category": "table",
+      "productName": "Pro-Series table",
+      "price": 279.99,
+      "rating": 4.8,
+      "smallDesc": "Dominate the competition with our Pro Series Gaming Chair. Engineered for performance and durability, this chair features a sleek design, premium materials, and ergonomic features for a competitive edge.",
+      "colors": ["#4169E1", "#FF1493", "#32CD32", "#FFFF00", "#FFD700"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 20,
+      "image": "table1.jpeg",
+      "images": ["table1.jpeg", "table1.jpeg", "table2.jpeg", "table1.jpeg"],
+      "description": "The Pro Series Gaming Chair is built to withstand even the most intense gaming sessions. Its reinforced frame, high-density foam, and premium upholstery ensure long-lasting comfort and support.",
+      "info": "Designed with esports professionals in mind, this chair offers superior performance and adjustability. Whether streaming, practicing, or competing, it helps you stay focused and comfortable.",
+      "tags": "pro series, gaming, chair, esports, furniture",
+      "reviews": [
+        {
+          "customerName": "Daniel Harris",
+          "review": "Amazing chair! It's incredibly comfortable and supportive, even during long gaming marathons.",
+          "image": "reviewer2.jpeg"
+        },
+        {
+          "customerName": "Megan Cooper",
+          "review": "Absolutely love this chair! It's super stylish and comfortable, and the adjustable features are a game-changer.",
+          "image": "reviewer3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "category": "armedchair",
+      "productName": "Leather Armchair",
+      "price": 349.99,
+      "rating": 4.5,
+      "smallDesc": "Experience luxury with our Vintage Leather Armchair. Crafted from premium leather and sturdy wood, this armchair offers both comfort and sophistication.",
+      "colors": ["#8B4513", "#A0522D", "#CD853F", "#D2691E", "#BC8F8F"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 20,
+      "image": "armed1.jpeg",
+      "images": ["armed1.jpeg", "armed2.jpeg", "armed3.jpeg", "armed2.jpeg"],
+      "description": "Indulge in the classic elegance of our Vintage Leather Armchair. Its timeless design and rich leather upholstery make it a statement piece for any living space.",
+      "info": "Handcrafted with precision, this armchair is built to last. Whether placed in a cozy corner or a formal sitting area, it exudes charm and sophistication.",
+      "tags": "vintage, leather, armchair, luxury, furniture",
+      "reviews": [
+        {
+          "customerName": "Sophia Adams",
+          "review": "Absolutely love this armchair! The leather feels luxurious, and it's so comfortable to sit on. Perfect addition to my living room.",
+          "image": "reviewer3.jpeg"
+        },
+        {
+          "customerName": "David Miller",
+          "review": "High-quality craftsmanship and elegant design. This armchair exceeded my expectations. Highly recommend it to anyone looking for a stylish addition to their home.",
+          "image": "reviewer2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "category": "armedchair",
+      "productName": "Modern Armchair",
+      "price": 279.99,
+      "rating": 4.3,
+      "smallDesc": "Add a touch of modern elegance with our Modern Velvet Armchair. Featuring plush velvet upholstery and sleek metal accents, it's sure to elevate any space.",
+      "colors": ["#483D8B", "#8A2BE2", "#6A5ACD", "#483D8B", "#4B0082"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 15,
+      "image": "armed2.jpeg",
+      "images": ["armed2.jpeg", "armed2.jpeg", "armed3.jpeg", "armed2.jpeg"],
+      "description": "Embrace contemporary style with our Modern Velvet Armchair. Its soft velvet fabric and minimalist design make it a versatile piece for modern interiors.",
+      "info": "Designed for both comfort and style, this armchair is perfect for lounging or reading. The sturdy construction ensures durability without compromising on aesthetics.",
+      "tags": "modern, velvet, armchair, contemporary, furniture",
+      "reviews": [
+        {
+          "customerName": "Olivia Wilson",
+          "review": "This armchair is stunning! The velvet fabric is so soft, and the color is exactly as pictured. It's become my favorite spot in the house.",
+          "image": "reviewer3.jpeg"
+        },
+        {
+          "customerName": "Daniel White",
+          "review": "I'm impressed by the quality and comfort of this armchair. It's a perfect blend of style and functionality. Highly recommended!",
+          "image": "reviewer1.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "category": "armedchair",
+      "productName": "Classic Armchair",
+      "price": 319.99,
+      "rating": 4.4,
+      "smallDesc": "Create a cozy reading nook with our Classic Tufted Armchair. Featuring elegant tufted upholstery and a sturdy wooden frame, it's an inviting addition to any home.",
+      "colors": ["#800000", "#8B0000", "#A52A2A", "#B22222", "#DC143C"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 18,
+      "image": "armed3.jpeg",
+      "images": ["armed3.jpeg", "armed2.jpeg", "armed3.jpeg", "armed1.jpeg"],
+      "description": "Enjoy classic comfort with our Tufted Armchair. Its timeless design and plush cushioning create a cozy spot for relaxation and leisurely reading.",
+      "info": "Crafted with attention to detail, this armchair combines style and durability. Whether placed in a living room or bedroom, it adds a touch of sophistication.",
+      "tags": "classic, tufted, armchair, cozy, furniture",
+      "reviews": [
+        {
+          "customerName": "Sophie Roberts",
+          "review": "Love, love, love this armchair! It's so comfortable and looks beautiful in my reading corner. The tufted design adds a touch of elegance.",
+          "image": "reviewer3.jpeg"
+        },
+        {
+          "customerName": "Matthew Brown",
+          "review": "This armchair exceeded my expectations. The quality is top-notch, and it's incredibly comfortable to sit on. Couldn't be happier with my purchase!",
+          "image": "reviewer2.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "category": "armedchair",
+      "productName": "Mid-Century Armchair",
+      "price": 329.99,
+      "rating": 4.8,
+      "smallDesc": "Add a touch of retro charm with our Mid-Century Modern Armchair. Featuring iconic design elements and premium upholstery, it's a statement piece for any mid-century inspired space.",
+      "colors": ["#DAA520", "#B8860B", "#D2B48C", "#FFD700", "#BDB76B"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 17,
+      "image": "armed1.jpeg",
+      "images": ["armed1.jpeg", "armed2.jpeg", "armed3.jpeg", "armed2.jpeg"],
+      "description": "Step back in time with our Mid-Century Modern Armchair. Its sleek lines and tapered legs capture the essence of mid-century design, while the plush cushioning offers modern comfort.",
+      "info": "Crafted with attention to detail, this armchair is a tribute to the iconic designs of the past. Whether placed in a living room or office, it adds a touch of vintage flair.",
+      "tags": "mid-century, modern, armchair, retro, furniture",
+      "reviews": [
+        {
+          "customerName": "Ethan Harris",
+          "review": "This armchair is a gem! It's beautifully designed and incredibly comfortable. The color is perfect, and it complements my mid-century decor.",
+          "image": "reviewer1.jpeg"
+        },
+        {
+          "customerName": "Ava Martinez",
+          "review": "I'm in love with this armchair! It's stylish, comfortable, and adds a retro vibe to my living room. Couldn't be happier with my purchase.",
+          "image": "reviewer3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "category": "armedchair",
+      "productName": "Scandinavian Armchair",
+      "price": 299.99,
+      "rating": 4.7,
+      "smallDesc": "Bring Nordic charm to your home with our Scandinavian Inspired Armchair. Featuring clean lines and natural materials, it's a timeless addition to any modern interior.",
+      "colors": ["#778899", "#4682B4", "#5F9EA0", "#B0C4DE", "#87CEEB"],
+      "sizes": ["m", "s", "l", "sl", "xl"],
+      "amount": 19,
+      "image": "armed1.jpeg",
+      "images": ["armed1.jpeg", "armed2.jpeg", "armed3.jpeg", "armed2.jpeg"],
+      "description": "Embrace Scandinavian design with our Inspired Armchair. Its minimalist aesthetic and ergonomic shape create a comfortable seating experience that's perfect for relaxation.",
+      "info": "Crafted from sustainable materials, this armchair is as eco-friendly as it is stylish. Whether placed in a living room or reading corner, it adds a touch of Nordic elegance.",
+      "tags": "scandinavian, inspired, armchair, nordic, furniture",
+      "reviews": [
+        {
+          "customerName": "Liam Turner",
+          "review": "I'm impressed by the quality and comfort of this armchair. It's a perfect addition to my Scandinavian-inspired living room. Highly recommend it!",
+          "image": "reviewer2.jpeg"
+        },
+        {
+          "customerName": "Isabella Scott",
+          "review": "Absolutely love this armchair! It's sleek, comfortable, and blends seamlessly with my modern decor. Couldn't be happier with my purchase.",
+          "image": "reviewer3.jpeg"
+        }
+      ]
+    }
+  ],
   "featuredProduct": [
     {
       "id": 21,
@@ -743,7 +724,7 @@
 
   "new-arrivals": [
     {
-      "id":25,
+      "id": 25,
       "image": "1.webp",
       "price": 29.99,
       "productName": "Product 1",
@@ -752,7 +733,7 @@
       "amount": 10
     },
     {
-      "id":26,
+      "id": 26,
       "image": "2.webp",
       "price": 39.99,
       "productName": "Product 2",
@@ -761,7 +742,7 @@
       "amount": 10
     },
     {
-      "id":27,
+      "id": 27,
       "image": "2.webp",
       "price": 49.99,
       "productName": "Product 3",
@@ -770,7 +751,7 @@
       "amount": 10
     },
     {
-      "id":28,
+      "id": 28,
       "image": "2.webp",
       "price": 49.99,
       "productName": "Product 4",
@@ -780,7 +761,7 @@
     },
 
     {
-      "id":29,
+      "id": 29,
       "image": "1.webp",
       "price": 29.99,
       "productName": "Product 1",
@@ -789,7 +770,7 @@
       "amount": 10
     },
     {
-      "id":30,
+      "id": 30,
       "image": "2.webp",
       "price": 39.99,
       "productName": "Product 2",
@@ -798,7 +779,7 @@
       "amount": 10
     },
     {
-      "id":31,
+      "id": 31,
       "image": "2.webp",
       "price": 49.99,
       "productName": "Product 3",
@@ -807,7 +788,7 @@
       "amount": 10
     },
     {
-      "id":32,
+      "id": 32,
       "image": "2.webp",
       "price": 49.99,
       "productName": "Product 4",
@@ -816,9 +797,9 @@
       "amount": 10
     }
   ],
-  "best-seller": [ 
+  "best-seller": [
     {
-      "id":33,
+      "id": 33,
       "image": "1.webp",
       "price": 18.99,
       "productName": "Featured Product",
@@ -827,7 +808,7 @@
       "amount": 10
     },
     {
-      "id":34,
+      "id": 34,
       "image": "2.webp",
       "price": 39.99,
       "productName": "Featured Product",
@@ -836,7 +817,7 @@
       "amount": 10
     },
     {
-      "id":35,
+      "id": 35,
       "image": "1.webp",
       "price": 59.99,
       "productName": "Featured Product",
@@ -845,7 +826,7 @@
       "amount": 10
     },
     {
-      "id":36,
+      "id": 36,
       "image": "2.webp",
       "price": 519.99,
       "productName": "Featured Product",
@@ -853,86 +834,86 @@
       "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
       "amount": 10
     }
-],
-
-"most-view": [ 
-  {
-    "id":37,
-    "image": "1.webp",
-    "price": 29.99,
-    "productName": "Product 1",
-    "type": "Furniture",
-    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-    "amount": 10
-  },
-  {
-    "id":38,
-    "image": "2.webp",
-    "price": 39.99,
-    "productName": "Product 2",
-    "type": "table",
-    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-    "amount": 10
-  },
-  {
-    "id":39,
-    "image": "3.webp",
-    "price": 49.99,
-    "productName": "Product 3",
-    "type": "Furniture",
-    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-    "amount": 10
-  },
-  {
-    "id":40,
-    "image": "1.webp",
-    "price": 49.99,
-    "productName": "Product 4",
-    "type": "table",
-    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-    "amount": 10
-  },
-  {
-    "id":41,
-    "image": "1.webp",
-    "price": 18.99,
-    "productName": "Featured Product",
-    "type": "Furniture",
-    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-    "amount": 10
-  },
-  {
-    "id":42,
-    "image": "2.webp",
-    "price": 39.99,
-    "productName": "Featured Product",
-    "type": "chair",
-    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-    "amount": 10
-  },
-  {
-    "id":43,
-    "image": "1.webp",
-    "price": 59.99,
-    "productName": "Featured Product",
-    "type": "chair",
-    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-    "amount": 10
-  },
-  {
-    "id":44,
-    "image": "2.webp",
-    "price": 519.99,
-    "productName": "Featured Product",
-    "type": "Furniture",
-    "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
-    "amount": 10
-  }
   ],
 
-  "discounts": [ 
+  "most-view": [
     {
-      "id":45,
+      "id": 37,
+      "image": "1.webp",
+      "price": 29.99,
+      "productName": "Product 1",
+      "type": "Furniture",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "amount": 10
+    },
+    {
+      "id": 38,
+      "image": "2.webp",
+      "price": 39.99,
+      "productName": "Product 2",
+      "type": "table",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "amount": 10
+    },
+    {
+      "id": 39,
+      "image": "3.webp",
+      "price": 49.99,
+      "productName": "Product 3",
+      "type": "Furniture",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "amount": 10
+    },
+    {
+      "id": 40,
+      "image": "1.webp",
+      "price": 49.99,
+      "productName": "Product 4",
+      "type": "table",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "amount": 10
+    },
+    {
+      "id": 41,
+      "image": "1.webp",
+      "price": 18.99,
+      "productName": "Featured Product",
+      "type": "Furniture",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "amount": 10
+    },
+    {
+      "id": 42,
+      "image": "2.webp",
+      "price": 39.99,
+      "productName": "Featured Product",
+      "type": "chair",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "amount": 10
+    },
+    {
+      "id": 43,
+      "image": "1.webp",
+      "price": 59.99,
+      "productName": "Featured Product",
+      "type": "chair",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "amount": 10
+    },
+    {
+      "id": 44,
+      "image": "2.webp",
+      "price": 519.99,
+      "productName": "Featured Product",
+      "type": "Furniture",
+      "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum.",
+      "amount": 10
+    }
+  ],
+
+  "discounts": [
+    {
+      "id": 45,
       "image": "1.webp",
       "price": 18.99,
       "productName": "Featured Product",
@@ -940,7 +921,7 @@
       "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
     },
     {
-      "id":46,
+      "id": 46,
       "image": "2.webp",
       "price": 39.99,
       "productName": "Featured Product",
@@ -948,7 +929,7 @@
       "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
     },
     {
-      "id":47,
+      "id": 47,
       "image": "1.webp",
       "price": 59.99,
       "productName": "Featured Product",
@@ -956,7 +937,7 @@
       "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
     },
     {
-      "id":48,
+      "id": 48,
       "image": "2.webp",
       "price": 519.99,
       "productName": "Featured Product",
@@ -964,7 +945,7 @@
       "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
     },
     {
-      "id":49,
+      "id": 49,
       "image": "1.webp",
       "price": 29.99,
       "productName": "Product 1",
@@ -972,7 +953,7 @@
       "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
     },
     {
-      "id":50,
+      "id": 50,
       "image": "2.webp",
       "price": 39.99,
       "productName": "Product 2",
@@ -980,7 +961,7 @@
       "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
     },
     {
-      "id":51,
+      "id": 51,
       "image": "2.webp",
       "price": 49.99,
       "productName": "Product 3",
@@ -988,7 +969,7 @@
       "smallDesc": "There are many variations of passages of Lorem Ipsum available, but the majority have be suffered alteration in some form, by injected humou or randomised words which donot look even slightly believable. If you are going to use a passage of Lorem Ipsum."
     },
     {
-      "id":52,
+      "id": 52,
       "image": "2.webp",
       "price": 49.99,
       "productName": "Product 4",
