@@ -1,14 +1,14 @@
-import { displayBanner } from './banner.js';
-import { initMenu } from './menu.js';
-import { displayNav, initNavbarAnimation } from './navbar.js';
+import { displayBanner } from "./banner.js";
+import { initMenu } from "./menu.js";
+import { displayNav, initNavbarAnimation } from "./navbar.js";
 (function () {
-  'use strict';
+  "use strict";
 
-  window.addEventListener('load', function () {
+  window.addEventListener("load", function () {
     displayNav();
     initNavbarAnimation();
     initMenu();
-    displayBanner('Products');
+    displayBanner("Products");
     main();
   });
 
@@ -24,12 +24,12 @@ import { displayNav, initNavbarAnimation } from './navbar.js';
     // });
 
     // Get the cards container element
-    const cards = document.getElementById('cards');
+    const cards = document.getElementById("cards");
 
     // Function to fetch and render data
     function getData(category, type) {
-      cards.innerHTML = ''; // Clear the cards container
-      fetch('../data/data.json')
+      cards.innerHTML = ""; // Clear the cards container
+      fetch("../data/data.json")
         .then((response) => {
           if (!response.ok) {
             throw new Error("File can't load");
@@ -39,8 +39,8 @@ import { displayNav, initNavbarAnimation } from './navbar.js';
         .then((data) => {
           let products = [];
           switch (type) {
-            case 'products':
-              if (category || category == 'all') {
+            case "products":
+              if (!category || category == "all") {
                 products = data.products;
               } else {
                 products = data.products.filter(
@@ -62,13 +62,13 @@ import { displayNav, initNavbarAnimation } from './navbar.js';
         if (count % 4 === 0) {
           random = Math.random();
           cards.insertAdjacentHTML(
-            'beforeend',
+            "beforeend",
             `<div id="${random}" class="row col-12 justify-content-around mt-5"></div>`
           );
         }
         const div = document.getElementById(random);
         div.insertAdjacentHTML(
-          'beforeend',
+          "beforeend",
           `
           <div class="col-12 col-lg-4 col-xl-4 col-xxl-3 my-3">
     <div class="card border-0 position-relative">
@@ -108,25 +108,25 @@ import { displayNav, initNavbarAnimation } from './navbar.js';
       });
     }
 
-    window.addEventListener('popstate', () => {
+    window.addEventListener("popstate", () => {
       const searchParams = new URLSearchParams(window.location.search);
-      const type = searchParams.get('type');
-      const category = searchParams.get('category');
+      const type = searchParams.get("type");
+      const category = searchParams.get("category");
       getData(category, type);
     });
 
-    let path = window.location.search.split('?')[1];
-    let category = 'all';
+    let path = window.location.search.split("?")[1];
+    let category = "all";
     if (path) {
       let params = new URLSearchParams(path);
-      let categoryUndecoded = params.get('category');
+      let categoryUndecoded = params.get("category");
       category = decodeURIComponent(categoryUndecoded);
 
-      let pageNumber = params.get('page');
+      let pageNumber = params.get("page");
       if (pageNumber) {
         currentPage = decodeURIComponent(pageNumber);
       }
     }
-    getData(category, 'products');
+    getData(category, "products");
   }
 })();
